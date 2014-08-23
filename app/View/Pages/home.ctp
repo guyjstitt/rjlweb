@@ -10,7 +10,7 @@
 <div class='mainContent'>
 
 	
-	<div class='jssorSlider'>
+	<div class='jssorSlider gradient'>
 		<div id="slider1_container" class="gradient" style="position: relative; margin: 0 auto;
         top: 75px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
         <!-- Loading Screen -->
@@ -27,10 +27,10 @@
             <div>
                 <img u="image" src="/rjlweb/app/webroot/images/handsbig.jpg" />
                 <div class="mainSlideContent">
-                    <div class="sliderHeader">BECOME A VOLUNTEER!
+                    <div class="sliderHeader">BECOME A VOLUNTEER
                     </div>
                     <div class="sliderCaption">
-                            Fill out a short form and we'll get back with you
+                            Fill out a short form and we'll get back with you!
                     </div>
                      <div class="addthis_sharing_toolbox shareSlide shareHide"></div>
                 </div> 
@@ -38,10 +38,10 @@
             <div>
                 <img u="image" src="/rjlweb/app/webroot/images/gavel.jpg" />
                  <div class="mainSlideContent">
-                    <div class="sliderHeader">LEARN MORE ABOUT RJL!
+                    <div class="sliderHeader">LEARN MORE ABOUT RJL
                     </div>
                     <div class="sliderCaption">
-                            Transforming Communities by Ending Crime
+                            Transforming Communities by Ending Crime!
                     </div>
                     <div class="addthis_sharing_toolbox shareSlide shareHide"></div>
                 </div> 
@@ -49,10 +49,10 @@
             <div>
                 <img u="image" src="/rjlweb/app/webroot/images/louisville.jpg" />
                  <div class="mainSlideContent"> 
-                    <div class="sliderHeader">GET INVOLVED IN OUR COMMUNITY!
+                    <div class="sliderHeader">GET INVOLVED IN OUR COMMUNITY
                     </div>
                     <div class="sliderCaption">
-                            Learn how you can make a difference in our great city
+                            Learn how you can make a difference in our great city!
                     </div>
                      <div class="addthis_sharing_toolbox shareSlide shareHide"></div>
                 </div>
@@ -218,16 +218,16 @@
 				<h3 class="headerText">Get Involved with Our Organzation</h3>
                 <div class='imageContent'>
                     <div class="row">
-                           <div class="featureImage slide gradient"><img class='img-responsive' src="/rjlweb/app/webroot/images/smallVol.jpg" >
+                           <div class="featureImage slide gradient gradientHover"><img class='img-responsive' src="/rjlweb/app/webroot/images/smallVol.jpg" >
                                 <div class='slideContent'>
-                                    <h4 class="slideHeader">Become a Faciliator!</h4>
+                                    <h4 class="slideHeader">Become a Faciliator</h4>
                                     <p class="slideMessage">Get involved and make a difference in your community!</p>
                                     <div class="addthis_sharing_toolbox hide"></div>
                                 </div>
                             </div>
                               <div class="featureImage slide gradient"><img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
                                 <div class='slideContent2'>
-                                    <h4 class="slideHeader">Donate to RJL!</h4>
+                                    <h4 class="slideHeader">Donate to RJL</h4>
                                     <p class="slideMessage">Donate and help our organiztion grow!</p>
                                     <div class="addthis_sharing_toolbox hide"></div>
                                 </div>
@@ -235,26 +235,35 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class= "col-md-6">
                         <div class='mainVideo'>
-                             <iframe src="//www.youtube.com/embed/X5TvP3dhPTo?rel=0" frameborder="0" width="560" height="315"></iframe>
+                             <iframe src="//www.youtube.com/embed/X5TvP3dhPTo?rel=0" frameborder="0" width="560" height="300"></iframe>
                         </div>
+                    </div>
+                    <div class="featureImage2 slide gradient"><img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
+                        <div class='slideContent3'>
+                            <h4 class="slideHeader">Calendar of Events!</h4>
+                            <p class="slideMessage">Follow and attend RJL fundraisers</p>
+                            <div class="addthis_sharing_toolbox hide"></div>
+                        </div>
+                    </div>
                 </div>
 			</div>
             <div class ="col-md-4 rail">
                 <h3 class='headerText'>Keep Up With Our Newsletters</h3>
                 <ul>
-                    <li class="list"> January <a>Restorative Justice Louisville On The Rise</a></li>
-                    <li class="list"> February<a>Keeping Crime Out of the Street</a></li>
-                    <li class="list"> March<a>Our Spring Newsletter</a></li>
+                    <li class="list"><span>January</span><a>Restorative Justice Louisville On The Rise</a></li>
+                    <li class="list"><span> February</span><a>Keeping Crime Out of the Street</a></li>
+                    <li class="list"><span> March</span><a>Our Spring Newsletter</a></li>
                 </ul>
                 <h3 class='headerText'>Don't Miss</h3>
                  <ul>
-                    <li>September 2013 - The Voice Tribune - <a href="http://www.voice-tribune.com/news/your-voice-news/the-large-cost-of-justice/">http://www.voice-tribune.com/news/your-voice-news/the-large-cost-of-justice/</a></li>
-                    <li>March 2013: Wave3 - <a href="http://www.wave3.com/story/20594232/wave-3-editorial-january-15-2013-restorative-justice">Editorial on Restorative Justice Louisville</a></li>
-                    <li>January 2013: The Courier-Journal - <a href="http://www.courier-journal.com/article/20130108/NEWS10/301080093/Juvenile-defendants-can-meet-victims-settle-charges-outside-court">Defendants can meet victims, settle charges out of court</a></li>
-                    <li>April 2012: Idea Mornings - <a href="http://vimeo.com/41180554">Judge Angela Bisig on Vimeo</a></li>
-                    <li>April 2012: Insider Louisville - <a href="http://insiderlouisville.com/news/2012/04/25/judge-angela-mccormick-bisig-to-speak-on-restorative-justice-project-friday-at-idea-mornings/">Judge Angela Bisig to speak on Restorative Justice project Friday at Idea Mornings</a></li>
-                    <li>November 2010: Insider Louisville - <a href="http://insiderlouisville.com/news/2010/11/18/bar-foundations-restorative-justice-louisville-pilot-project-underway/">Bar foundation’s Restorative Justice Louisville pilot project underway</a></li>
+                    <li><span>September 2013 - The Voice Tribune - </span><a href="http://www.voice-tribune.com/news/your-voice-news/the-large-cost-of-justice/">http://www.voice-tribune.com/news/your-voice-news/the-large-cost-of-justice/</a></li>
+                    <li><span>March 2013: Wave3 - </span><a href="http://www.wave3.com/story/20594232/wave-3-editorial-january-15-2013-restorative-justice">Editorial on Restorative Justice Louisville</a></li>
+                    <li><span>January 2013: The Courier-Journal - </span><a href="http://www.courier-journal.com/article/20130108/NEWS10/301080093/Juvenile-defendants-can-meet-victims-settle-charges-outside-court">Defendants can meet victims, settle charges out of court</a></li>
+                    <li><span>April 2012: Idea Mornings - </span><a href="http://vimeo.com/41180554">Judge Angela Bisig on Vimeo</a></li>
+                    <li><span>April 2012: Insider Louisville - </span><a href="http://insiderlouisville.com/news/2012/04/25/judge-angela-mccormick-bisig-to-speak-on-restorative-justice-project-friday-at-idea-mornings/">Judge Angela Bisig to speak on Restorative Justice project Friday at Idea Mornings</a></li>
+                    <li><span>November 2010: Insider Louisville - </span><a href="http://insiderlouisville.com/news/2010/11/18/bar-foundations-restorative-justice-louisville-pilot-project-underway/">Bar foundation’s Restorative Justice Louisville pilot project underway</a></li>
                 </ul>
 
              </div>
@@ -274,39 +283,27 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 
-$(document).on({
-	mouseenter: function () {
-        
-        $( this ).toggleClass('gradientHover', 1000, 'easeInQuad');
-  		$(this).find('.slideContent').children('.slideText').addClass('flyout');
-  		$(this).find('.slideContent').addClass('slideUp');
-  		$(this).find('.slideContent').children('.fb-share-button').removeClass('hide');
-    },
-    mouseleave: function () {
-      	$(this).find('.slideContent').children('.slideText').removeClass('flyout');
-      	$( this ).toggleClass('gradientHover', 1000, 'easOutQuad' );
-      	$(this).find('.slideContent').removeClass('slideUp');
-      	$(this).find('.slideContent').children('.fb-share-button').addClass('hide');
-    }
-},'.slide');
 
 $(document).on({
     mouseenter: function () {
-        
-        $( this ).toggleClass('gradientHover', 1000, 'easeInQuad');
+        $(this).toggleClass('gradientHover', 1000, 'easeInQuad');
         $(this).find('.slideContent').children('.slideText').addClass('flyout');
         $(this).find('.slideContent').addClass('slideUp');
         $(this).find('.slideContent2').addClass('slideUp');
+        $(this).find('.slideContent3').addClass('slideUpBottom');
         $(this).find('.slideContent').children('.addthis_sharing_toolbox').removeClass('hide');
         $(this).find('.slideContent2').children('.addthis_sharing_toolbox').removeClass('hide');
+        $(this).find('.slideContent3').children('.addthis_sharing_toolbox').removeClass('hide');
     },
     mouseleave: function () {
         $(this).find('.slideContent').children('.slideText').removeClass('flyout');
-        $( this ).toggleClass('gradientHover', 1000, 'easOutQuad' );
+        $(this).toggleClass('gradientHover', 1000, 'easOutQuad');
         $(this).find('.slideContent').removeClass('slideUp');
         $(this).find('.slideContent2').removeClass('slideUp');
+        $(this).find('.slideContent3').removeClass('slideUpBottom');
         $(this).find('.slideContent').children('.addthis_sharing_toolbox').addClass('hide');
         $(this).find('.slideContent2').children('.addthis_sharing_toolbox').addClass('hide');
+        $(this).find('.slideContent3').children('.addthis_sharing_toolbox').addClass('hide');
     }
 },'.slide');
 

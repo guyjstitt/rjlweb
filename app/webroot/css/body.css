@@ -63,6 +63,11 @@
 	color: green;
 }
 
+.rail ul li span{
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
 
 
 .slideText {
@@ -117,8 +122,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	transition: top 0.5s ease;
 }
 
+.slideContent3 {
+	position: absolute;
+	top: 428px;
+	left: 355px;
+	transition: top 0.5s ease;
+}
+
 .slideUp {
 	top: 160px;
+}
+
+.slideUpBottom {
+	top: 388px;
 }
 
 .slideHeader{
@@ -185,9 +201,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .featureImage2{
 	max-width: 312px;
 	height: auto;
-	float: right;
+	float: left;
 	margin-bottom: 20px;
-	margin-left: 5px;
+	margin-left: 1px;
 	box-shadow: 0 0 60px #6E6E6E;
 }
 
@@ -235,11 +251,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 
 .mainVideo {
-	float: left;
-	width: 560px;
-	height: 300px;
-	box-shadow: 0 0 60px #6E6E6E;
-	margin-left: 50px;
+	float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 208px;
+    max-width: 312px;
+    max-height: 208px;
+    margin-left: 5px;
+}
+
+.mainVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .curatedContent {
@@ -263,11 +292,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 		margin-left: 25px;
 	}
 
+	.featureImage2 {
+		margin-left: 10px;
+	}
+
+	.mainVideo {
+		margin-left: 10px;
+	}
+
 	.slideContent {
 	left: 30px;
 	}
 
 	.slideContent2 {
+	left: 370px;
+	}
+	.slideContent3 {
 	left: 370px;
 	}
 
@@ -303,7 +343,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 
 .foot-container {
-	margin-top: 15px;
+	margin-top: 30px;
 }
 
 .shareSlide {
