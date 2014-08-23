@@ -26,26 +26,35 @@
         <div u="slides" class="sliderImages">
             <div>
                 <img u="image" src="/rjlweb/app/webroot/images/handsbig.jpg" />
-                <div class="sliderHeader">BECOME A VOLUNTEER!
-                </div>
-                <div class="sliderCaption">
-                        Fill out a short form and we'll get back with you
-                </div>
+                <div class="mainSlideContent">
+                    <div class="sliderHeader">BECOME A VOLUNTEER!
+                    </div>
+                    <div class="sliderCaption">
+                            Fill out a short form and we'll get back with you
+                    </div>
+                     <div class="addthis_sharing_toolbox shareSlide shareHide"></div>
+                </div> 
             </div>
             <div>
                 <img u="image" src="/rjlweb/app/webroot/images/gavel.jpg" />
-                <div class="sliderHeader">LEARN MORE ABOUT RJL!
-                </div>
-                <div class="sliderCaption">
-                        Transforming Communities by Ending Crime
-                </div>
+                 <div class="mainSlideContent">
+                    <div class="sliderHeader">LEARN MORE ABOUT RJL!
+                    </div>
+                    <div class="sliderCaption">
+                            Transforming Communities by Ending Crime
+                    </div>
+                    <div class="addthis_sharing_toolbox shareSlide shareHide"></div>
+                </div> 
             </div>
             <div>
                 <img u="image" src="/rjlweb/app/webroot/images/louisville.jpg" />
-                <div class="sliderHeader">GET INVOLVED IN OUR COMMUNITY!
-                </div>
-                <div class="sliderCaption">
-                        Learn how you can make a difference in our great city
+                 <div class="mainSlideContent"> 
+                    <div class="sliderHeader">GET INVOLVED IN OUR COMMUNITY!
+                    </div>
+                    <div class="sliderCaption">
+                            Learn how you can make a difference in our great city
+                    </div>
+                     <div class="addthis_sharing_toolbox shareSlide shareHide"></div>
                 </div>
             </div>
             <!-- Example to add fixed static share buttons in slider BEGIN -->
@@ -213,16 +222,14 @@
                                 <div class='slideContent'>
                                     <h4 class="slideHeader">Become a Faciliator!</h4>
                                     <p class="slideMessage">Get involved and make a difference in your community!</p>
-                                    <div class="fb-share-button hide" data-href="http://www.rjlou.org/" data-width="30px"></div>
-                                    <div id="fb-root"></div>
+                                    <div class="addthis_sharing_toolbox hide"></div>
                                 </div>
                             </div>
                               <div class="featureImage slide gradient"><img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
                                 <div class='slideContent2'>
                                     <h4 class="slideHeader">Donate to RJL!</h4>
                                     <p class="slideMessage">Donate and help our organiztion grow!</p>
-                                    <div class="fb-share-button hide" data-href="http://www.rjlou.org/" data-width="30px"></div>
-                                    <div id="fb-root"></div>
+                                    <div class="addthis_sharing_toolbox hide"></div>
                                 </div>
                             </div>
                     </div>
@@ -240,7 +247,7 @@
                     <li class="list"> February<a>Keeping Crime Out of the Street</a></li>
                     <li class="list"> March<a>Our Spring Newsletter</a></li>
                 </ul>
-                <h3 class='headerText'>In the News</h3>
+                <h3 class='headerText'>Don't Miss</h3>
                  <ul>
                     <li>September 2013 - The Voice Tribune - <a href="http://www.voice-tribune.com/news/your-voice-news/the-large-cost-of-justice/">http://www.voice-tribune.com/news/your-voice-news/the-large-cost-of-justice/</a></li>
                     <li>March 2013: Wave3 - <a href="http://www.wave3.com/story/20594232/wave-3-editorial-january-15-2013-restorative-justice">Editorial on Restorative Justice Louisville</a></li>
@@ -248,11 +255,6 @@
                     <li>April 2012: Idea Mornings - <a href="http://vimeo.com/41180554">Judge Angela Bisig on Vimeo</a></li>
                     <li>April 2012: Insider Louisville - <a href="http://insiderlouisville.com/news/2012/04/25/judge-angela-mccormick-bisig-to-speak-on-restorative-justice-project-friday-at-idea-mornings/">Judge Angela Bisig to speak on Restorative Justice project Friday at Idea Mornings</a></li>
                     <li>November 2010: Insider Louisville - <a href="http://insiderlouisville.com/news/2010/11/18/bar-foundations-restorative-justice-louisville-pilot-project-underway/">Bar foundation’s Restorative Justice Louisville pilot project underway</a></li>
-                </ul>
-                <h3 class='headerText'>Resources</h3>
-                <ul>
-                    <li><a href="/wp-content/uploads/2013/03/RJL-Overview-Brochure.pdf">Overview Brochure</a></li>
-                    <li><a href="/wp-content/uploads/2013/03/RJL2013_pledgeform.pdf">Pledge form</a></li>
                 </ul>
 
              </div>
@@ -295,16 +297,16 @@ $(document).on({
         $(this).find('.slideContent').children('.slideText').addClass('flyout');
         $(this).find('.slideContent').addClass('slideUp');
         $(this).find('.slideContent2').addClass('slideUp');
-        $(this).find('.slideContent').children('.fb-share-button').removeClass('hide');
-        $(this).find('.slideContent2').children('.fb-share-button').removeClass('hide');
+        $(this).find('.slideContent').children('.addthis_sharing_toolbox').removeClass('hide');
+        $(this).find('.slideContent2').children('.addthis_sharing_toolbox').removeClass('hide');
     },
     mouseleave: function () {
         $(this).find('.slideContent').children('.slideText').removeClass('flyout');
         $( this ).toggleClass('gradientHover', 1000, 'easOutQuad' );
         $(this).find('.slideContent').removeClass('slideUp');
         $(this).find('.slideContent2').removeClass('slideUp');
-        $(this).find('.slideContent').children('.fb-share-button').addClass('hide');
-        $(this).find('.slideContent2').children('.fb-share-button').addClass('hide');
+        $(this).find('.slideContent').children('.addthis_sharing_toolbox').addClass('hide');
+        $(this).find('.slideContent2').children('.addthis_sharing_toolbox').addClass('hide');
     }
 },'.slide');
 
@@ -313,17 +315,21 @@ $(document).on({
         
         $( this ).toggleClass('gradientHover', 1000, 'easeInQuad');
         $(this).find('.slideContent').children('.slideText').addClass('flyout');
-        $(this).find('.sliderCaption').addClass('slideUpSlider');
-        $(this).find('.sliderHeader').addClass('slideHeaderUp');
-        $(this).find('.slideContent').children('.fb-share-button').removeClass('hide');
+        $(this).find('.mainSlideContent').addClass('mainSlideUp');
+        $(this).find('.shareSlide').addClass('shareSlideUp');
+        $(this).find('.shareSlide').removeClass('shareHide');
     },
     mouseleave: function () {
         $(this).find('.slideContent').children('.slideText').removeClass('flyout');
         $( this ).toggleClass('gradientHover', 1000, 'easOutQuad' );
-        $(this).find('.sliderCaption').removeClass('slideUpSlider');
-        $(this).find('.sliderHeader').removeClass('slideHeaderUp');
-        $(this).find('.slideContent').children('.fb-share-button').addClass('hide');
+        $(this).find('.mainSlideContent').removeClass('mainSlideUp');
+        $(this).find('.shareSlide').removeClass('shareSlideUp');
+        $(this).find('.shareSlide').addClass('shareHide');
     }
 },'#slider1_container');
 
 </script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53f56303144fe2bd"></script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->

@@ -105,20 +105,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .slideContent {
 	position: absolute;
-	top: 215px;
+	top: 200px;
 	left: 25px;
 	transition: top 0.5s ease;
 }
 
 .slideContent2 {
 	position: absolute;
-	top: 215px;
+	top: 200px;
 	left: 355px;
 	transition: top 0.5s ease;
 }
 
 .slideUp {
-	top: 180px;
+	top: 160px;
 }
 
 .slideHeader{
@@ -289,42 +289,50 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	max-width: 700px;
 }
 
-.sliderCaption {
-	position: absolute; 
+
+
+
+.foot-text a {
+	font-size: 16pt;
+	color: #00c453;
+}
+
+.foot-text {
+	width: 750px;
+	margin: 0 auto;
+}
+
+.foot-container {
+	margin-top: 15px;
+}
+
+.shareSlide {
+	
+
+}
+
+.shareSlideUp{
+
+}
+
+.shareHide {
+	display: none;
+}
+
+.mainSlideContent {
+	position: absolute;
+	top: 250px;
+	left: 30px;
 	width: 480px; 
 	height: 120px;
-	top: 350px; 
-	left: 30px; 
-	padding: 5px;
-    text-align: left; 
-    line-height: 36px; 
-    font-size: 30px;
-    color: #FFFFFF;
-    transition: top 0.5s ease;
-
+	transition: top 0.5s ease;
 }
 
-.sliderImages{
-	cursor: move;
-	 position: 
-	 absolute; 
-	 left: 0px; 
-	 top: 0px; 
-	 width: 1300px;
-     height: 500px; 
-     overflow: hidden;
-}
-
-.slideUpSlider {
-	top: 300px;
+.mainSlideUp {
+	top: 200px;
 }
 
 .sliderHeader{
-	position: absolute;
-	 width: 480px; 
-	 height: 120px; 
-	 top: 220px; 
-	 left: 30px; 
 	 padding: 5px;
      text-align: left;
      line-height: 60px; 
@@ -340,16 +348,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	top: 170px;
 }
 
-.foot-text a {
-	font-size: 16pt;
-	color: #00c453;
+.sliderCaption {
+	padding: 5px;
+    text-align: left; 
+    line-height: 36px; 
+    font-size: 30px;
+    color: #FFFFFF;
+    transition: top 0.5s ease;
+
 }
 
-.foot-text {
-	width: 700px;
-	margin: 0 auto;
+
+.slideUpSlider {
+	top: 300px;
 }
 
-.foot-container {
-	margin-top: 15px;
+.sliderImages{
+	cursor: move;
+	 position: 
+	 absolute; 
+	 left: 0px; 
+	 top: 0px; 
+	 width: 1300px;
+     height: 500px; 
+     overflow: hidden;
 }
