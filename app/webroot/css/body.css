@@ -348,8 +348,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 	.imageContainer {
 		width: 340px;
+		padding-left: 5px;
 	}
+	.foot-text {
+		display: none;
+	}
+	.featureImage {
+		margin-left: 20;
+	}
+	.center {
+		padding-left: 1px;
+	}
+}
 
+@media (max-width: 350px) {
+	.headerText {
+		width: 265px;
+	}
 }
 
 .mainContainer .center .col-md-8 {
@@ -365,7 +380,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 
 .foot-text {
-	width: 750px;
+	max-width: 750px;
 	margin: 0 auto;
 }
 
