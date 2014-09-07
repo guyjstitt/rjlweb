@@ -192,6 +192,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .featureImage{
 	max-width: 312px;
+	width: 312px;
 	height: auto;
 	float: left;
 	margin-bottom: 20px;
@@ -200,6 +201,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 .featureImage2{
 	max-width: 312px;
+	width: 312px;
 	height: auto;
 	float: left;
 	margin-bottom: 20px;
@@ -257,10 +259,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 25px;
-    height: 208px;
+    height: 312px;
     max-width: 312px;
     max-height: 208px;
-    margin-left: 5px;
 }
 
 .mainVideo iframe {
@@ -279,6 +280,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .rail {
 	float: left;
+	max-width: 570px;
 }
 
 .imageContent{
@@ -290,14 +292,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 @media (max-width: 1450px) {
 	.featureImage {
 		margin-left: 25px;
+		width: 250px;
 	}
 
 	.featureImage2 {
 		margin-left: 10px;
+		width: 250px;
 	}
 
-	.mainVideo {
-		margin-left: 10px;
+	.imageContainer {
+		width: 570px;
 	}
 
 	.slideContent {
@@ -311,11 +315,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	left: 370px;
 	}
 
+	.mainVideo{
+		height: auto;
+	}
+
 }
 
 @media (max-width: 1615px) {
 	.center {
 		width: 90%;
+	}
+	.logo img {
+		width: 240px;
+		top:10px;
 	}
 }
 
@@ -323,6 +335,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	.center {
 		width: 100%;
 	}
+	.imageContainer {
+		width: 570px;
+	}
+	.logo img {
+		width: 200px;
+		top: 19px;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.imageContainer {
+		width: 340px;
+	}
+
 }
 
 .mainContainer .center .col-md-8 {
@@ -412,4 +439,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	 width: 1300px;
      height: 500px; 
      overflow: hidden;
+}
+
+.imageGallery {
+	list-style: none;
+	float: left;
+}
+
+.imageGallery li {
+	float: left;
 }

@@ -213,12 +213,13 @@
 
 	</div>
 	<div class="row mainContainer">
+
 		<div class="col-md-8 center">	
 			<div class ="col-md-8 imageContainer">
 				<h3 class="headerText">Get Involved with Our Organzation</h3>
                 <div class='imageContent'>
                     <div class="row">
-                           <div class="featureImage slide gradient gradientHover"><img class='img-responsive' src="/rjlweb/app/webroot/images/smallVol.jpg" >
+                           <div class="featureImage slide gradient"><img class='img-responsive' src="/rjlweb/app/webroot/images/smallVol.jpg" >
                                 <div class='slideContent'>
                                     <h4 class="slideHeader">Become a Faciliator</h4>
                                     <p class="slideMessage">Get involved and make a difference in your community!</p>
@@ -234,17 +235,19 @@
                             </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class= "col-md-6">
-                        <div class='mainVideo'>
-                             <iframe src="//www.youtube.com/embed/X5TvP3dhPTo?rel=0" frameborder="0" width="560" height="300"></iframe>
+                <div class='imageContent'>
+                    <div class="row">
+                        <div class= "featureImage">
+                            <div class='mainVideo'>
+                                 <iframe src="//www.youtube.com/embed/X5TvP3dhPTo?rel=0" frameborder="0" width="560" height="300"></iframe>
+                            </div>
                         </div>
-                    </div>
-                    <div class="featureImage2 slide gradient"><img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
-                        <div class='slideContent3'>
-                            <h4 class="slideHeader">Calendar of Events!</h4>
-                            <p class="slideMessage">Follow and attend RJL fundraisers</p>
-                            <div class="addthis_sharing_toolbox hide"></div>
+                        <div class="featureImage slide gradient"><img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
+                            <div class='slideContent3'>
+                                <h4 class="slideHeader">Calendar of Events!</h4>
+                                <p class="slideMessage">Follow and attend RJL fundraisers</p>
+                                <div class="addthis_sharing_toolbox hide"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
