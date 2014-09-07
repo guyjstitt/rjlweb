@@ -449,3 +449,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .imageGallery li {
 	float: left;
 }
+
+body {
+	overflow-x: hidden;
+}
