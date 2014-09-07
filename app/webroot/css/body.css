@@ -359,11 +359,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	.center {
 		padding-left: 1px;
 	}
+
+	.slideContent {
+		display: none;
+	}
+	.slideContent2  {
+		display: none;
+	}
+	.slideContent3 {
+		display: none;
+	}
 }
 
-@media (max-width: 350px) {
+@media (max-width: 370px) {
 	.headerText {
 		width: 265px;
+	}
+
+	.imageContainer{
+		width: 310px;
 	}
 }
 
@@ -465,6 +479,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	float: left;
 }
 
-body {
-	overflow-x: hidden;
-}
