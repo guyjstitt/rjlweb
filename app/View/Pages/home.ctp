@@ -10,8 +10,8 @@
 <div class='mainContent'>
 
 	
-	<div class='jssorSlider gradient'>
-		<div id="slider1_container" class="gradient" style="position: relative; margin: 0 auto;
+	<div class='jssorSlider '>
+		<div id="slider1_container"  style="position: relative; margin: 0 auto;
         top: 75px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
         <!-- Loading Screen -->
         <div u="loading" style="position: absolute; top: 0px; left: 0px;">
@@ -219,7 +219,7 @@
 				<h3 class="headerText">Get Involved with Our Organzation</h3>
                 <div class='imageContent'>
                     <div class="row">
-                           <div class="featureImage slide gradient"><img class='img-responsive' src="/rjlweb/app/webroot/images/smallVol.jpg" >
+                           <div class="featureImage slide gradient"><img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
                                 <div class='slideContent'>
                                     <h4 class="slideHeader">Become a Faciliator</h4>
                                     <p class="slideMessage">Get involved and make a difference in your community!</p>

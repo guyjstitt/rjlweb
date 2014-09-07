@@ -371,13 +371,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	}
 }
 
-@media (max-width: 370px) {
+@media (max-width: 500px) {
 	.headerText {
-		width: 265px;
+		width: auto;
 	}
 
 	.imageContainer{
-		width: 310px;
+		width: auto;
 	}
 }
 
@@ -468,6 +468,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	 width: 1300px;
      height: 500px; 
      overflow: hidden;
+     z-index: -1;
 }
 
 .imageGallery {
@@ -479,3 +480,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	float: left;
 }
 
+img {
+	z-index: -1;
+}
