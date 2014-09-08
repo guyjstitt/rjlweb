@@ -219,19 +219,28 @@
 				<h3 class="headerText">Get Involved with Our Organzation</h3>
                 <div class='imageContent'>
                     <div class="row">
-                           <div class="featureImage slide gradient"><img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
-                                <div class='slideContent'>
-                                    <h4 class="slideHeader">Become a Faciliator</h4>
-                                    <p class="slideMessage">Get involved and make a difference in your community!</p>
-                                    <div class="addthis_sharing_toolbox hide"></div>
+                           <div class="featureImage slide">
+                                <div class="relative">
+                                    <div class="gradient">
+                                        <div class='slideContent'>
+                                            <h4 class="slideHeader">Become a Faciliator</h4>
+                                            <p class="slideMessage">Get involved and make a difference in your community!</p>
+                                            <div class="addthis_sharing_toolbox hide"></div>
+                                        </div>
+                                    </div>
+                                    <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
                                 </div>
                             </div>
-                              <div class="featureImage slide gradient"><img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
-                                <div class='slideContent2'>
+                              <div class="featureImage slide ">
+                                <div class="relative"> 
+                                   <div class="gradient"> <div class='slideContent'>
                                     <h4 class="slideHeader">Donate to RJL</h4>
                                     <p class="slideMessage">Donate and help our organiztion grow!</p>
                                     <div class="addthis_sharing_toolbox hide"></div>
+                                </div></div>
+                                    <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
                                 </div>
+                               
                             </div>
                     </div>
                 </div>
@@ -242,12 +251,16 @@
                                  <iframe src="//www.youtube.com/embed/X5TvP3dhPTo?rel=0" frameborder="0" width="560" height="300"></iframe>
                             </div>
                         </div>
-                        <div class="featureImage slide gradient"><img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
-                            <div class='slideContent3'>
+                        <div class="featureImage slide">
+                            <div class="relative"> 
+                                <div class="gradient"> <div class='slideContent'>
                                 <h4 class="slideHeader">Calendar of Events!</h4>
                                 <p class="slideMessage">Follow and attend RJL fundraisers</p>
                                 <div class="addthis_sharing_toolbox hide"></div>
+                            </div></div>
+                                <img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
                             </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -291,19 +304,15 @@ $(document).on({
     mouseenter: function () {
         $(this).toggleClass('gradientHover', 1000, 'easeInQuad');
         $(this).find('.slideContent').children('.slideText').addClass('flyout');
-        $(this).find('.slideContent').addClass('slideUp');
-        $(this).find('.slideContent2').addClass('slideUp');
-        $(this).find('.slideContent3').addClass('slideUpBottom');
         $(this).find('.slideContent').children('.addthis_sharing_toolbox').removeClass('hide');
         $(this).find('.slideContent2').children('.addthis_sharing_toolbox').removeClass('hide');
         $(this).find('.slideContent3').children('.addthis_sharing_toolbox').removeClass('hide');
+        $(this).find('.slideContent').addClass('slideUp');
     },
     mouseleave: function () {
         $(this).find('.slideContent').children('.slideText').removeClass('flyout');
         $(this).toggleClass('gradientHover', 1000, 'easOutQuad');
-        $(this).find('.slideContent').removeClass('slideUp');
-        $(this).find('.slideContent2').removeClass('slideUp');
-        $(this).find('.slideContent3').removeClass('slideUpBottom');
+         $(this).find('.slideContent').removeClass('slideUp');
         $(this).find('.slideContent').children('.addthis_sharing_toolbox').addClass('hide');
         $(this).find('.slideContent2').children('.addthis_sharing_toolbox').addClass('hide');
         $(this).find('.slideContent3').children('.addthis_sharing_toolbox').addClass('hide');
@@ -313,7 +322,7 @@ $(document).on({
 $(document).on({
     mouseenter: function () {
         
-        $( this ).toggleClass('gradientHover', 1000, 'easeInQuad');
+        $( this ).toggleClass('gradientHover', 300000, 30000, 'easeInQuad');
         $(this).find('.slideContent').children('.slideText').addClass('flyout');
         $(this).find('.mainSlideContent').addClass('mainSlideUp');
         $(this).find('.shareSlide').addClass('shareSlideUp');
@@ -321,7 +330,7 @@ $(document).on({
     },
     mouseleave: function () {
         $(this).find('.slideContent').children('.slideText').removeClass('flyout');
-        $( this ).toggleClass('gradientHover', 1000, 'easOutQuad' );
+        $( this ).toggleClass('gradientHover', 0, 'easOutQuad' );
         $(this).find('.mainSlideContent').removeClass('mainSlideUp');
         $(this).find('.shareSlide').removeClass('shareSlideUp');
         $(this).find('.shareSlide').addClass('shareHide');

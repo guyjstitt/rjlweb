@@ -44,7 +44,7 @@
 	?>
 </head>
 <body>
-
+<div class= "wrapper">
 	<div id="navHeader" class="navbar  navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -75,7 +75,7 @@
     </div>
     <?php echo $this->fetch('content'); ?>
     <!-- Begin page content -->
-
+</div>
     <div class="footer">
       <div class="foot-container">
         <div class="foot-text">
@@ -88,7 +88,7 @@
           <a href="http://rjlou.org/rjl/users/login">Log In</a> 
       </div>
     </div>
-</div>
+
 
 </body>
 </html>
