@@ -58,8 +58,8 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About Us</a></li>
+            <li class="active"><a href="/rjlweb/">Home</a></li>
+            <li><a href="/rjlweb/About/index">About Us</a></li>
             <li><a href="#impact">Our Impact</a></li>
             <li><a href="#contact">Get Involved</a></li>
             <li><a href="#contact">Resources</a></li>

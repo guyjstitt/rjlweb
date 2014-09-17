@@ -28,8 +28,6 @@
 }
 
 .headerText:after{
-	content: ' /';
-	color: black;
 }
 
 .social {
@@ -336,6 +334,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 		width: 200px;
 		top: 19px;
 	}
+	.contentContainer {
+		width: 1100px;
+	}
 }
 
 @media (max-width: 600px) {
@@ -486,4 +487,219 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .wrapper {
 	min-height: 100%;
+}
+
+.playButton {
+	z-index: 10;
+	position:absolute;
+	display: block;
+	left: 40%;
+	top:30%;
+	width: 50px;
+	height: 50px;
+	background-image: url(http://houstonparalegals.org/z_common/images/icon_play_button_overlay.png);
+	border-radius: 50%;
+	transition: all 0.2s;
+}
+
+.playButton:hover{
+	background-color: black;
+
+}
+
+@media (max-width: 991px) {	
+	.contentContainer {
+		width: 600px;
+	}
+}
+
+.page {
+	margin-top: 120px;
+}
+
+.pageImage {
+	position: relative;
+	width: 330px;
+	float: right;
+}
+
+.subHeader{
+	font-size: 16pt;
+}
+
+.pageText {
+	font-size: 12pt;
+}
+
+facebook {
+float: left;
+text-indent: -9999px;
+display: inline-block;
+height: 84px;
+width: 84px;
+background: url(social-sprites.png);
+background-repeat:no-repeat;
+border: 1px solid #eee;
+background-color: rgba(55, 55, 55, 0.1);
+margin-right: 5px;
+margin-bottom: 5px;
+}
+
+.facebook:hover, .logo:focus{
+background-position: 0 -84px;
+}
+
+.linkedin {
+float: left;
+text-indent: -9999px;
+display: inline-block;
+height: 84px;
+width: 84px;
+background: url(social-sprites.png) -336px 0px;
+background-repeat:no-repeat;
+border: 1px solid #eee;
+background-color: rgba(55, 55, 55, 0.1);
+margin-right: 5px;
+margin-bottom: 15px;
+margin-bottom: 5px;
+}
+
+.linkedin:hover, .logo:focus{
+background-position: -336px -84px;
+}
+
+.twitter {
+float: left;
+text-indent: -9999px;
+display: inline-block;
+height: 84px;
+width: 84px;
+background: url(social-sprites.png) -672px 0px;
+background-repeat:no-repeat;
+border: 1px solid #eee;
+background-color: rgba(55, 55, 55, 0.1);
+margin-right: 5px;
+margin-bottom: 5px;
+}
+
+.twitter:hover, .logo:focus{
+background-position: -672px -84px;
+}
+
+.google {
+float: left;
+text-indent: -9999px;
+display: inline-block;
+height: 84px;
+width: 84px;
+background: url(social-sprites.png) -252px 0px;
+background-repeat:no-repeat;
+border: 1px solid #eee;
+background-color: rgba(55, 55, 55, 0.1);
+margin-right: 5px;
+margin-bottom: 10px;
+}
+
+.google:hover, .logo:focus{
+background-position: -252px -84px;
+}
+
+
+
+
+ul.social {
+    list-style-type: none;
+}
+
+.socialSlide1{
+    position: relative;
+    -webkit-animation: socialSlideIn 1.2s ease-in;
+    -moz-animation: socialSlideIn 1.8s ease-in;
+    animation: socialSlideIn 1.8s ease-in;
+}
+
+.socialSlide2{
+    position: relative;
+    -webkit-animation: socialSlideIn 1.4s ease-in;
+    -moz-animation: socialSlideIn 1.8s ease-in;
+    animation: socialSlideIn 1.8s ease-in;
+}
+
+.socialSlide3{
+    position: relative;
+    -webkit-animation: socialSlideIn 1.6s ease-in;
+    -moz-animation: socialSlideIn 1.8s ease-in;
+    animation: socialSlideIn 1.8s ease-in;
+}
+
+.socialSlide4{
+    position: relative;
+    -webkit-animation: socialSlideIn 1.8s ease-in;
+    -moz-animation: socialSlideIn 1.8s ease-in;
+    animation: socialSlideIn 1.8s ease-in;
+}
+
+@-moz-keyframes slideRight {
+    from { right: 700px;}
+    to { right: -15px;},
+    from { right: -15px;}
+    to { right: 0-15px;}
+}
+
+@-webkit-keyframes slideRight {
+    from { right: 700px;}
+    to { right: -15px;},
+    from { right: -15px;}
+    to { right: 0-15px;}
+}
+
+@-moz-keyframes slideRight {
+    from { right: 700px;}
+    to { right: 0;}
+}
+
+
+@-moz-keyframes slideLeft{
+    from {left: 900px;}
+    to { left: 0;}
+}
+
+@-webkit-keyframes slideLeft{
+    from {left: 900px;}
+    to { left: 0;}
+}
+
+@keyframes slideLeft{
+    from {left: 900px;}
+    to { left: 0;}
+}
+
+
+@-webkit-keyframes slideUp {
+    from { top: 700px;}
+    to{ top: 0;}
+}
+
+@keyframes slideUp {
+    from { top: 700px;}
+    to{ top: 0;}
+}
+
+@keyframes slideUp {
+    from { top: 700px;}
+    to{ top: 0;}
+}
+
+@-webkit-keyframes socialSlideIn {
+    from { top: 500px;}
+    to { top: 0;}
+}
+
+.shareBar {
+	margin-bottom: 40px;
+}
+
+.headerMain {
+	font-family: Jubliat;
+	font-weight: 900;
 }

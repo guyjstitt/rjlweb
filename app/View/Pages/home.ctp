@@ -214,7 +214,7 @@
 	</div>
 	<div class="row mainContainer">
 
-		<div class="col-md-8 center">	
+		<div class="col-md-8 contentContainer center">	
 			<div class ="col-md-8 imageContainer">
 				<h3 class="headerText">Get Involved with Our Organzation</h3>
                 <div class='imageContent'>
@@ -248,6 +248,7 @@
                     <div class="row">
                         <div class= "featureImage">
                             <div class='mainVideo'>
+                                <div class="playButton"></div>
                                  <iframe src="//www.youtube.com/embed/X5TvP3dhPTo?rel=0" frameborder="0" width="560" height="300"></iframe>
                             </div>
                         </div>
@@ -260,7 +261,6 @@
                             </div></div>
                                 <img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
                             </div>
-                           
                         </div>
                     </div>
                 </div>
