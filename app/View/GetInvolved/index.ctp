@@ -2,8 +2,8 @@
 <div class="row mainContainer page"> 
 	<div class = "col-md-8 contentContainer center">
 		<div class="col-md-8">
-			<h1 class="headerMain">LEARN MORE ABOUT RJL</h1>
-			<p class="subHeader">Restorative Justice Louisville (RJL) began in February of 2011 and is the first nonprofit in Kentucky to provide an alternative to our criminal justice system. </p>
+			<h1 class="headerMain">GET INVOLVED</h1>
+			<p class="subHeader">Restorative Justice Louisville is only able to make an impact because of the involvement and support of our community. Below are some simple ways to get involved: </p>
 			<!-- Go to www.addthis.com/dashboard to generate a new set of buttons -->
 			<div class="shareBarHolder headerText">	
 				<div class="shareBar">	
@@ -27,18 +27,20 @@
 				</div>
 			</div>
 			<img class = "pageImage" src="/rjlweb/app/webroot/images/handsbig.jpg" />
-			<p class ="pageText">
-				The RJL pilot program began in the Louisville Metro Police Department 2nd Division and has expanded to the 1st and 4th Divisions. Modern restorative justice practices widely emerged in the 1980’s, but these practices actually represent ancient ways of implementing justice. To date, there are more than 1,000 restorative justice programs in North America with 30 states in the U.S. having developed restorative justice legislation.
-			</p>	
-				<h3 class="subHead">How The Process Works</h3>
+			<h3 class="subHead">Benefits To Our Community</h3>
+			<ul>
+				<li>Make a Donation</li>
+				<li>Give Local Louisville</li>
+				<li>Like us on Facebook</li>
+				<li>Become a Volunteer</li>
+				<li>Become a Facilitiator</li>
+				<li>Join our Mailing List</li>
+				<li>Raise Awareness in You Community</li>
+				<li>And Many Others</li>
+			</ul>
+			<h3 class="subHead">Learn More</h3>
 			<p class="pageText">
-				The restorative justice process is dramatically different from the traditional criminal justice system. The traditional criminal justice system asks what laws have been broken and what punishment is deserved by the offender. Restorative justice asks what harm has been done, who is responsible for repairing that harm, and how can that harm be repaired?
-				<br>
-				</br>
-				RJL uses the Family Group Conference model, as adapted from The Little Book of Family Group Conferences: New Zealand Style by Allen MacRae and Howard Zehr. The Family Group Conference is a decision-making meeting led by trained facilitators involving a face-to-face meeting for victims (or a victim representative) and offenders along with supporters from both sides.
-				<br>
-				</br>
-				Participation in restorative justice programs is voluntary for victims, as well as offenders. The offender must be willing to accept responsibility for their actions and the harm caused. The victim and their support group must be willing to meet with the offender and their support group to discuss how the offense impacted them and what needs to be done to repair the harm. This facilitated process is centered on making things right for all parties involved while enabling creative solutions not used within the traditional justice system.
+				Follow these links or contact RJL at info@rjlou.org to learn more about how you and your community can support the restorative justice movement in Louisville.
 			</p>
 		</div>
 		<div class ="col-md-4 rail">
@@ -66,4 +68,3 @@
 </div>
 
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53f56303144fe2bd"></script>
-

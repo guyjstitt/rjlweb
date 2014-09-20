@@ -354,6 +354,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	.center {
 		padding-left: 1px;
 	}
+	.rail {
+		width: auto;
+	}
 
 }
 
@@ -362,9 +365,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 		width: auto;
 	}
 
-	.imageContainer{
-		width: auto;
-	}
 }
 
 .mainContainer .center .col-md-8 {
@@ -525,10 +525,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .subHeader{
 	font-size: 16pt;
+	font-family: serif;
 }
 
 .pageText {
 	font-size: 12pt;
+	font-family: sans-serif;
 }
 
 facebook {
@@ -695,11 +697,48 @@ ul.social {
     to { top: 0;}
 }
 
+.shareBarHolder{
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+
+}
 .shareBar {
 	margin-bottom: 40px;
+	position: absolute;
+
 }
 
 .headerMain {
 	font-family: Jubliat;
 	font-weight: 900;
+	font-size: 45px;
+	color: #00c453;
+}
+
+.shareBar ul li {
+	position: relative;
+	list-style: none;
+	width: 55px;
+	height: 55px;
+	float: left;
+}
+
+.fb-icon img {
+	width: 30px;
+	height:	30px;
+	position: relative;
+	border-radius: 100%;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+.fb-icon img:hover{
+	width: 40px;
+	height: 40px;
+	margin: -4px 0 0 -4px;
+}
+
+.subHead {
+	font-weight: 700;
+	color: #00c453;
 }
