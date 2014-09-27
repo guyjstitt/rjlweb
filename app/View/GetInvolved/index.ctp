@@ -44,26 +44,22 @@
 			</p>
 		</div>
 		<div class ="col-md-4 rail">
-				<!-- Go to www.addthis.com/dashboard to customize your tools -->
                 <h3 class='headerText'>Keep Up With Our Newsletters</h3>
                 <ul>
                     <li class="list"><span>January</span><a>Restorative Justice Louisville On The Rise</a></li>
                     <li class="list"><span> February</span><a>Keeping Crime Out of the Street</a></li>
                     <li class="list"><span> March</span><a>Our Spring Newsletter</a></li>
                 </ul>
-                
-                <h3 class='headerText'>Don't Miss</h3>
+                <h3 class='headerText'>Announcements</h3>
                  <ul>
-                    <li><span>September 2013 - The Voice Tribune - </span><a href="http://www.voice-tribune.com/news/your-voice-news/the-large-cost-of-justice/">http://www.voice-tribune.com/news/your-voice-news/the-large-cost-of-justice/</a></li>
-                    <li><span>March 2013: Wave3 - </span><a href="http://www.wave3.com/story/20594232/wave-3-editorial-january-15-2013-restorative-justice">Editorial on Restorative Justice Louisville</a></li>
-                    <li><span>January 2013: The Courier-Journal - </span><a href="http://www.courier-journal.com/article/20130108/NEWS10/301080093/Juvenile-defendants-can-meet-victims-settle-charges-outside-court">Defendants can meet victims, settle charges out of court</a></li>
-                    <li><span>April 2012: Idea Mornings - </span><a href="http://vimeo.com/41180554">Judge Angela Bisig on Vimeo</a></li>
-                    <li><span>April 2012: Insider Louisville - </span><a href="http://insiderlouisville.com/news/2012/04/25/judge-angela-mccormick-bisig-to-speak-on-restorative-justice-project-friday-at-idea-mornings/">Judge Angela Bisig to speak on Restorative Justice project Friday at Idea Mornings</a></li>
-                    <li><span>November 2010: Insider Louisville - </span><a href="http://insiderlouisville.com/news/2010/11/18/bar-foundations-restorative-justice-louisville-pilot-project-underway/">Bar foundation’s Restorative Justice Louisville pilot project underway</a></li>
+                    <li><span>Facilitator Training</span><p>We are holding open sessions for volunteers to become Facilitators</p></li>
+                    <li><span>Volunteer Submission Form</span><p>Become a Volunteer for free in a few easy steps</p></li>
+                    <li><span>Our First Event</span><p>We are hosting our first event at Cross Country Golf Club</p></li>
+                    <li><span>Donation to RJL</span><p>Donate online and help us grow</p></li>
+                    <li><span>Watch Our Video</span><p>Learn about us through watching our video</p></li>
                 </ul>
 
              </div>
-	</div>
 	<div class ="col-md-4 footerPad"></div>
 </div>
 
