@@ -425,8 +425,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .mainSlideContent {
 	position: absolute;
-	top: 115px;
-	right: 140px;
+	top: 137px;
+	left: 283px;
 	width: 480px; 
 	height: 120px;
 }

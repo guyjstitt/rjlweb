@@ -1,17 +1,35 @@
+#debug-kit-toolbar {
+	display: none;
+}
 #navHeader {
 	background-color: #00c453;
 	margin: 35px 0 20px 0;
-	position: absolute;
+	position: fixed;
+	z-index: 11;
+}
+.shareBarHeader {
+	position: relative;
+	left: 50%;
+	top: 7px;
+	float: left;
+	width: 300px;
 }
 
+.fb-like {
+	margin-left: 0 !important;
+	top: -5px !important;
+}
+.twitter-follow {
+	float: left;
+}
 a {
 	color: white;
 }
 
 .logo img{
-	position: absolute;
+	position: fixed;
 	top: 3px;
-	left: 25px;
+	right: 65%;
 	z-index: 999999;
 	max-height: 120px;
 	height: auto;
@@ -29,13 +47,26 @@ a {
 }
 
 .container {
-	float: right;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	width: 700px;
+	position: relative;
+	left: 35%;
 }
 
 .navbar-header, .navbar-nav {
-	float: right;
+	float: left;
 }
 
 .navbar-nav li a {
 	font-family: Proxima-Nova,Helvetica,Arial,sans-serif;
+}
+
+.navTop {
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	background-color: white;
+	top: 0;
 }
