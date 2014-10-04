@@ -9,7 +9,7 @@
 }
 .shareBarHeader {
 	position: relative;
-	left: 50%;
+	left: 65%;
 	top: 7px;
 	float: left;
 	width: 300px;
@@ -29,7 +29,7 @@ a {
 .logo img{
 	position: fixed;
 	top: 3px;
-	right: 65%;
+	left: 0;
 	z-index: 999999;
 	max-height: 120px;
 	height: auto;
@@ -51,7 +51,7 @@ a {
 	margin-left: 0 !important;
 	width: 700px;
 	position: relative;
-	left: 35%;
+	float: right;
 }
 
 .navbar-header, .navbar-nav {

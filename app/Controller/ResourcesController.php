@@ -3,14 +3,14 @@
 App::uses('AppController', 'Controller');
 
 /**
- * GetInvolved controller
+ * Resources controller
  *
- * Display the GetInvolved page
+ * Display the Resource page
  *
  * @package       app.Controller
  * @link http://book.cakephp.org/2.0/en/controllers/pages-controller.html
  */
-class GetInvolvedController extends AppController {
+class ResourcesController extends AppController {
 /**
  * This controller does not use a model
  *
@@ -29,11 +29,6 @@ class GetInvolvedController extends AppController {
 	public function index() {
 		
 	}
-
-	public function volunteer() {
-		
-	}
-
 
 }
 

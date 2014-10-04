@@ -23,8 +23,10 @@
             </div>
         </div>
         <!-- Slides Container -->
+       
         <div u="slides" class="sliderImages">
             <div>
+                 <a class="overlay" href ='/rjlweb/GetInvolved/volunteer'></a>
                 <img u="image" src="/rjlweb/app/webroot/images/handsbig.jpg" />
                 <div class="mainSlideContent">
                     <div class="sliderHeader">BECOME A VOLUNTEER
@@ -32,10 +34,13 @@
                     <div class="sliderCaption">
                             Fill out a short form and we'll get back with you!
                     </div>
-                     <div class="addthis_sharing_toolbox shareSlide shareHide"></div>
+                     <div class="addthis_sharing_toolbox shareSlide"></div>
+
                 </div> 
+                 <div class="gradientCarousel"></div>
             </div>
             <div>
+                 <a class="overlay" href ='/rjlweb/About/index'></a>
                 <img u="image" src="/rjlweb/app/webroot/images/gavel.jpg" />
                  <div class="mainSlideContent">
                     <div class="sliderHeader">LEARN MORE ABOUT RJL
@@ -43,23 +48,27 @@
                     <div class="sliderCaption">
                             Transforming Communities by Ending Crime!
                     </div>
-                    <div class="addthis_sharing_toolbox shareSlide shareHide"></div>
+                    <div class="addthis_sharing_toolbox shareSlide"></div>
                 </div> 
+                <div class="gradientCarousel"></div>
             </div>
             <div>
-                <img u="image" src="/rjlweb/app/webroot/images/louisville.jpg" />
+                <a class="overlay" href ='/rjlweb/GetInvolved/index'></a>
+                <img href ='/rjlweb/GetInvolved/index' u="image" src="/rjlweb/app/webroot/images/louisville.jpg" />
                  <div class="mainSlideContent"> 
                     <div class="sliderHeader">GET INVOLVED IN OUR COMMUNITY
                     </div>
                     <div class="sliderCaption">
                             Learn how you can make a difference in our great city!
                     </div>
-                     <div class="addthis_sharing_toolbox shareSlide shareHide"></div>
+                     <div class="addthis_sharing_toolbox shareSlide"></div>
                 </div>
+                    <div class="gradientCarousel"></div>
             </div>
             <!-- Example to add fixed static share buttons in slider BEGIN -->
             <!-- Remove it if no need -->
             <!-- Share Button Styles -->
+
             <style>
                 .share-icon {
                     display: inline-block;
@@ -202,10 +211,10 @@
             .jssora21rdn { background-position: -303px -33px; }
         </style>
         <!-- Arrow Left -->
-        <span u="arrowleft" class="jssora21l" style="width: 55px; height: 55px; top: 123px; left: 8px;">
+        <span u="arrowleft" class="jssora21l" style="width: 55px; height: 55px; top: 123px; left: 8px; z-index: 2">
         </span>
         <!-- Arrow Right -->
-        <span u="arrowright" class="jssora21r" style="width: 55px; height: 55px; top: 123px; right: 8px">
+        <span u="arrowright" class="jssora21r" style="width: 55px; height: 55px; top: 123px; right: 8px; z-index: 2;">
         </span>
         <!-- Arrow Navigator Skin End -->
         <a style="display: none" href="http://www.jssor.com">slideshow</a>
@@ -230,6 +239,7 @@
                                             <div class="addthis_sharing_toolbox hide"></div>
                                         </div>
                                     </div>
+                                     
                                     <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
                                 </div>
                             </div>
@@ -240,7 +250,9 @@
                                     <p class="slideMessage">Donate and help our organiztion grow!</p>
                                     <div class="addthis_sharing_toolbox hide"></div>
                                 </div></div>
+                                 
                                     <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
+
                                 </div>
                                
                             </div>
@@ -261,6 +273,7 @@
                                 <p class="slideMessage">Follow and attend RJL fundraisers</p>
                                 <div class="addthis_sharing_toolbox hide"></div>
                             </div></div>
+            
                                 <img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
                             </div>
                         </div>
@@ -327,14 +340,14 @@ $(document).on({
         $(this).find('.slideContent').children('.slideText').addClass('flyout');
         $(this).find('.mainSlideContent').addClass('mainSlideUp');
         $(this).find('.shareSlide').addClass('shareSlideUp');
-        $(this).find('.shareSlide').removeClass('shareHide');
+        
     },
     mouseleave: function () {
         $(this).find('.slideContent').children('.slideText').removeClass('flyout');
         $( this ).toggleClass('gradientHover', 0, 'easOutQuad' );
         $(this).find('.mainSlideContent').removeClass('mainSlideUp');
         $(this).find('.shareSlide').removeClass('shareSlideUp');
-        $(this).find('.shareSlide').addClass('shareHide');
+       
     }
 },'#slider1_container');
 

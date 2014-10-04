@@ -80,8 +80,8 @@
             <li><a href="/rjlweb/About/index">About Us</a></li>
             <li><a href="/rjlweb/Impact/index">Our Impact</a></li>
             <li><a href="/rjlweb/GetInvolved/index">Get Involved</a></li>
-            <li><a href="#contact">Resources</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="/rjlweb/Resources/index">Resources</a></li>
+            <li><a href="/rjlweb/Contact/index">Contact Us</a></li>
             <li><a href="#contact">Log in</a></li>
           </ul>
         </div><!--/.nav-collapse -->

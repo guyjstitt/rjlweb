@@ -2,10 +2,10 @@
 <div class="row mainContainer page"> 
 	<div class = "col-md-8 contentContainer center">
 		<div class="col-md-8">
-			<h1 class="headerMain">LEARN MORE ABOUT RJL</h1>
-			<p class="subHeader">Restorative Justice Louisville (RJL) began in February of 2011 and is the first nonprofit in Kentucky to provide an alternative to our criminal justice system. </p>
+			<h1 class="headerMain">Resources</h1>
+			<p class="subHeader">Welcome to our Resource page! Below you find resources such as news, materials, and our annual report.</p>
 			<!-- Go to www.addthis.com/dashboard to generate a new set of buttons -->
-			<div class="shareBarHolder">	
+			<div class="shareBarHolder headerText">	
 				<div class="shareBar">	
 					<ul>
 						<li>	
@@ -26,20 +26,29 @@
 					</ul>
 				</div>
 			</div>
-			<img class = "pageImage" src="/rjlweb/app/webroot/images/handsbig.jpg" />
-			<p class ="pageText">
-				The RJL pilot program began in the Louisville Metro Police Department 2nd Division and has expanded to the 1st and 4th Divisions. Modern restorative justice practices widely emerged in the 1980’s, but these practices actually represent ancient ways of implementing justice. To date, there are more than 1,000 restorative justice programs in North America with 30 states in the U.S. having developed restorative justice legislation.
-			</p>	
-				<h3 class="subHead">How The Process Works</h3>
-			<p class="pageText">
-				The restorative justice process is dramatically different from the traditional criminal justice system. The traditional criminal justice system asks what laws have been broken and what punishment is deserved by the offender. Restorative justice asks what harm has been done, who is responsible for repairing that harm, and how can that harm be repaired?
-				<br>
-				</br>
-				RJL uses the Family Group Conference model, as adapted from The Little Book of Family Group Conferences: New Zealand Style by Allen MacRae and Howard Zehr. The Family Group Conference is a decision-making meeting led by trained facilitators involving a face-to-face meeting for victims (or a victim representative) and offenders along with supporters from both sides.
-				<br>
-				</br>
-				Participation in restorative justice programs is voluntary for victims, as well as offenders. The offender must be willing to accept responsibility for their actions and the harm caused. The victim and their support group must be willing to meet with the offender and their support group to discuss how the offense impacted them and what needs to be done to repair the harm. This facilitated process is centered on making things right for all parties involved while enabling creative solutions not used within the traditional justice system.
-			</p>
+			<div class="pageContent">
+				<h3 class="subHead">In the News</h3>
+				<p class="pageText">Check out all the great things being said about RJL throughout the Louisville community.<p>
+				<ul>
+					<li>September 2013 - The Voice Tribune - <a href="http://www.voice-tribune.com/news/your-voice-news/the-large-cost-of-justice/">http://www.voice-tribune.com/news/your-voice-news/the-large-cost-of-justice/</a></li>
+					<li>March 2013: Wave3 - <a href="http://www.wave3.com/story/20594232/wave-3-editorial-january-15-2013-restorative-justice">Editorial on Restorative Justice Louisville</a></li>
+					<li>January 2013: The Courier-Journal - <a href="http://www.courier-journal.com/article/20130108/NEWS10/301080093/Juvenile-defendants-can-meet-victims-settle-charges-outside-court">Defendants can meet victims, settle charges out of court</a></li>
+					<li>April 2012: Idea Mornings - <a href="http://vimeo.com/41180554">Judge Angela Bisig on Vimeo</a></li>
+					<li>April 2012: Insider Louisville - <a href="http://insiderlouisville.com/news/2012/04/25/judge-angela-mccormick-bisig-to-speak-on-restorative-justice-project-friday-at-idea-mornings/">Judge Angela Bisig to speak on Restorative Justice project Friday at Idea Mornings</a></li>
+					<li>November 2010: Insider Louisville - <a href="http://insiderlouisville.com/news/2010/11/18/bar-foundations-restorative-justice-louisville-pilot-project-underway/">Bar foundation’s Restorative Justice Louisville pilot project underway</a></li>
+				</ul>
+				<h3 class="subHead">Materials</h3>
+				<img class = "pageImage" src="/rjlweb/app/webroot/images/handsbig.jpg" />
+				<p class="pageText">Need resources about RJL to help spread the word about our work? Download the below materials to use when out in the community.</p>
+					<ul>
+					    <li><a href="/wp-content/uploads/2013/03/RJL-Overview-Brochure.pdf">Overview Brochure</a></li>
+						<li><a href="/wp-content/uploads/2013/03/RJL2013_pledgeform.pdf">Pledge form</a></li>
+					</ul>
+				<h3 class="subHead">Reports</h3>
+				<ul> 
+	       			<li><a href="/wp-content/uploads/2013/03/RJL-2013-AR.pdf">Annual Report 2013</a></li>
+				</ul>
+			</div>
 		</div>
 		<div class ="col-md-4 rail">
                 <h3 class='headerText'>Keep Up With Our Newsletters</h3>
@@ -62,4 +71,9 @@
 </div>
 
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53f56303144fe2bd"></script>
+
+
+
+
+
 

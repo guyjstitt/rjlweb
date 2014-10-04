@@ -67,7 +67,7 @@
                     <li><span>Donation to RJL</span><p>Donate online and help us grow</p></li>
                     <li><span>Watch Our Video</span><p>Learn about us through watching our video</p></li>
                 </ul>
-
+                <button class="donateButton"><span>Donate</span></button>
              </div>
 	<div class ="col-md-4 footerPad"></div>
 </div>
