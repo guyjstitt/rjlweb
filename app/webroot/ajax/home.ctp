@@ -26,7 +26,7 @@
        
         <div u="slides" class="sliderImages">
             <div>
-                 <a class="overlay" data-page-name = "volunteer"></a>
+                 <a class="overlay" href ='/rjlweb/GetInvolved/volunteer'></a>
                 <img u="image" src="/rjlweb/app/webroot/images/handsbig.jpg" />
                 <div class="mainSlideContent">
                     <div class="sliderHeader">BECOME A VOLUNTEER

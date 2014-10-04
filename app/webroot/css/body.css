@@ -918,3 +918,8 @@ textarea {
 	color: #00c453;
 	font-weight: bold;
 }
+
+.nav li a, .sliderImages div a {
+	cursor: pointer;
+}
+

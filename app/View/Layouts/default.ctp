@@ -37,10 +37,11 @@
 		echo $this->Html->script('jquery-1.11.1.min');
 		echo $this->Html->script('bootstrap.min');
     echo $this->Html->script('jquery-1.9.1.min');
+      echo $this->Html->script('ajax');
     echo $this->Html->script('jssor.core');
     echo $this->Html->script('jssor.utils');
     echo $this->Html->script('jssor.slider');
-     echo $this->Html->script('jssorSlider');
+    echo $this->Html->script('jssorSlider');
 	?>
 </head>
 <body>
@@ -77,12 +78,12 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="/rjlweb/">Home</a></li>
-            <li><a href="/rjlweb/About/index">About Us</a></li>
-            <li><a href="/rjlweb/Impact/index">Our Impact</a></li>
-            <li><a href="/rjlweb/GetInvolved/index">Get Involved</a></li>
-            <li><a href="/rjlweb/Resources/index">Resources</a></li>
-            <li><a href="/rjlweb/Contact/index">Contact Us</a></li>
-            <li><a href="#contact">Log in</a></li>
+            <li><a data-page-name = "about">About Us</a></li>
+            <li><a data-page-name = "impact">Our Impact</a></li>
+            <li><a data-page-name = "involved">Get Involved</a></li>
+            <li><a data-page-name = "resources">Resources</a></li>
+            <li><a data-page-name = "contact">Contact Us</a></li>
+            <li><a href="/rjl">Log in</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -91,8 +92,10 @@
     <div class="logo">
     	<img src="http://www.rjlou.org/wp-content/uploads/2014/04/RJL-logo.png" width="643" height="274" alt="RJ Louisville">
     </div>
+    <div class="mainContent">
     <?php echo $this->fetch('content'); ?>
     <!-- Begin page content -->
+    </div>
 </div>
     <div class="footer">
       <div class="foot-container">
