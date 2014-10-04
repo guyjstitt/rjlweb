@@ -811,6 +811,11 @@ ul.social {
  .contentContainer {
   	width: 570px;
   }
+
+  .textContent, .rail {
+  	width: 100%;
+  }
+
   .divider {
   	width: 570px;
   }
@@ -835,7 +840,7 @@ ul.social {
 @media (max-width: 800px) {
 
 	.imageContainer {
-		width: 340px;
+		width: 100%;
 		padding-left: 5px;
 	}
 	.foot-text {
@@ -849,7 +854,8 @@ ul.social {
 		padding-left: 1px;
 	}
 	.rail {
-		width: auto;
+		width: 100%;
+		max-width: none;
 	}
 	.contentContainer {
 		width: auto;
