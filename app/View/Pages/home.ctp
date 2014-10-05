@@ -269,8 +269,9 @@
                                         <img class='img-responsive ' src="/rjlweb/app/webroot/images/calSmall.png" >
                                     </div>
                                 </li>
-                                <li class="col-6 slide">
+                                <li class="col-6 slide" data-page-name="video" data-url="/rjlweb/GetInvolved/video">
                                     <div class="relative">
+                                        <div class="playButton"></div>
                                         <div class="gradient">
                                             <div class='slideContent'>
                                                 <h4 class="slideHeader">Watch Our Video</h4>

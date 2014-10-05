@@ -279,9 +279,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 25px;
-    height: 312px;
-    max-width: 312px;
-    max-height: 208px;
+ 
 }
 
 .mainVideo iframe {
@@ -496,21 +494,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .wrapper {
 	min-height: 100%;
 }
-/*
+
 .playButton {
-	z-index: 10;
-	display: none;
+	z-index: 99999999999999;
 	position:absolute;
-	
 	left: 40%;
-	top:30%;
+	top:38%;
 	width: 50px;
 	height: 50px;
 	background-image: url(http://houstonparalegals.org/z_common/images/icon_play_button_overlay.png);
 	border-radius: 50%;
 	transition: all 0.2s;
 }
-*/
+
 .playButton:hover{
 	background-color: black;
 
