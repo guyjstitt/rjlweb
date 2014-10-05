@@ -226,77 +226,81 @@
 
 		<div class="col-md-8 contentContainer center">	
             <div class="divider"><h1>Transforming Communities By Ending Crime</h1></div>
-			<div class ="col-md-8 imageContainer">
-				<h3 class="headerText">Get Involved with Our Organzation</h3>
-                <div class='imageContent'>
-                    <div class="row">
-                           <div class="featureImage slide">
-                                <div class="relative">
-                                    <div class="gradient">
-                                        <div class='slideContent'>
-                                            <h4 class="slideHeader">Become a Faciliator</h4>
-                                            <p class="slideMessage">Get involved and make a difference in your community!</p>
-                                            <div class="addthis_sharing_toolbox hide"></div>
+    			<div class="contentWrapper"> 
+                    <div class="col-md-8">
+                        <h3 class="headerText">Get Involved with Our Organzation</h3>
+                        <div class="module">
+                            <ul class="imageItems">
+                                <li class="col-6 slide">
+                                    <div class="relative">
+                                        <div class="gradient">
+                                            <div class='slideContent'>
+                                                <h4 class="slideHeader">Become a Faciliator</h4>
+                                                <p class="slideMessage">Get involved and make a difference in your community!</p>
+                                                <div class="addthis_sharing_toolbox hide"></div>
+                                            </div>
                                         </div>
+                                         <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
                                     </div>
-                                     
-                                    <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
-                                </div>
-                            </div>
-                              <div class="featureImage slide ">
-                                <div class="relative"> 
-                                   <div class="gradient"> <div class='slideContent'>
-                                    <h4 class="slideHeader">Donate to RJL</h4>
-                                    <p class="slideMessage">Donate and help our organiztion grow!</p>
-                                    <div class="addthis_sharing_toolbox hide"></div>
-                                </div></div>
-                                 
-                                    <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
-
-                                </div>
-                               
-                            </div>
-                    </div>
-                </div>
-                <div class='imageContent'>
-                    <div class="row">
-                        <div class= "featureImage">
-                            <div class='mainVideo'>
-                                <div class="playButton"></div>
-                                 <iframe src="//www.youtube.com/embed/X5TvP3dhPTo?rel=0" frameborder="0" width="560" height="300"></iframe>
-                            </div>
+                                </li>
+                                <li class="col-6 slide">
+                                    <div class="relative">
+                                        <div class="gradient">
+                                            <div class='slideContent'>
+                                                <h4 class="slideHeader">Become a Faciliator</h4>
+                                                <p class="slideMessage">Get involved and make a difference in your community!</p>
+                                                <div class="addthis_sharing_toolbox hide"></div>
+                                            </div>
+                                        </div>
+                                        <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="imageItems">
+                                <li class="col-6 slide">
+                                    <div class="relative">
+                                        <div class="gradient">
+                                            <div class='slideContent'>
+                                                <h4 class="slideHeader">Become a Faciliator</h4>
+                                                <p class="slideMessage">Get involved and make a difference in your community!</p>
+                                                <div class="addthis_sharing_toolbox hide"></div>
+                                            </div>
+                                        </div>
+                                        <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
+                                    </div>
+                                </li>
+                                <li class="col-6 slide">
+                                    <div class="relative">
+                                        <div class="gradient">
+                                            <div class='slideContent'>
+                                                <h4 class="slideHeader">Become a Faciliator</h4>
+                                                <p class="slideMessage">Get involved and make a difference in your community!</p>
+                                                <div class="addthis_sharing_toolbox hide"></div>
+                                            </div>
+                                        </div>
+                                        <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="featureImage slide">
-                            <div class="relative"> 
-                                <div class="gradient"> <div class='slideContent'>
-                                <h4 class="slideHeader">Calendar of Events!</h4>
-                                <p class="slideMessage">Follow and attend RJL fundraisers</p>
-                                <div class="addthis_sharing_toolbox hide"></div>
-                            </div></div>
-            
-                                <img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
-                            </div>
-                        </div>
                     </div>
-                </div>
-			</div>
-            <div class ="col-md-4 rail">
-                <h3 class='headerText'>Keep Up With Our Newsletters</h3>
-                <ul>
-                    <li class="list"><span>January</span><a>Restorative Justice Louisville On The Rise</a></li>
-                    <li class="list"><span> February</span><a>Keeping Crime Out of the Street</a></li>
-                    <li class="list"><span> March</span><a>Our Spring Newsletter</a></li>
-                </ul>
-                <h3 class='headerText'>Announcements</h3>
-                 <ul>
-                    <li><span>Facilitator Training</span><p>We are holding open sessions for volunteers to become Facilitators</p></li>
-                    <li><span>Volunteer Submission Form</span><p>Become a Volunteer for free in a few easy steps</p></li>
-                    <li><span>Our First Event</span><p>We are hosting our first event at Cross Country Golf Club</p></li>
-                    <li><span>Donation to RJL</span><p>Donate online and help us grow</p></li>
-                    <li><span>Watch Our Video</span><p>Learn about us through watching our video</p></li>
-                </ul>
-
-             </div>
+                    <div class ="col-md-4 rail">
+                        <h3 class='headerText'>Keep Up With Our Newsletters</h3>
+                        <ul>
+                            <li class="list"><span>January</span><a>Restorative Justice Louisville On The Rise</a></li>
+                            <li class="list"><span> February</span><a>Keeping Crime Out of the Street</a></li>
+                            <li class="list"><span> March</span><a>Our Spring Newsletter</a></li>
+                        </ul>
+                        <h3 class='headerText'>Announcements</h3>
+                         <ul>
+                            <li><span>Facilitator Training</span><p>We are holding open sessions for volunteers to become Facilitators</p></li>
+                            <li><span>Volunteer Submission Form</span><p>Become a Volunteer for free in a few easy steps</p></li>
+                            <li><span>Our First Event</span><p>We are hosting our first event at Cross Country Golf Club</p></li>
+                            <li><span>Donation to RJL</span><p>Donate online and help us grow</p></li>
+                            <li><span>Watch Our Video</span><p>Learn about us through watching our video</p></li>
+                        </ul>
+                     </div>
+                </div>  
 			<div class ="col-md-4 footerPad"></div>
 		</div>
 	</div>
@@ -316,16 +320,12 @@
 
 $(document).on({
     mouseenter: function () {
-        $(this).toggleClass('gradientHover', 1000, 'easeInQuad');
         $(this).find('.slideContent').children('.slideText').addClass('flyout');
         $(this).find('.slideContent').children('.addthis_sharing_toolbox').removeClass('hide');
-        $(this).find('.slideContent2').children('.addthis_sharing_toolbox').removeClass('hide');
-        $(this).find('.slideContent3').children('.addthis_sharing_toolbox').removeClass('hide');
         $(this).find('.slideContent').addClass('slideUp');
     },
     mouseleave: function () {
         $(this).find('.slideContent').children('.slideText').removeClass('flyout');
-        $(this).toggleClass('gradientHover', 1000, 'easOutQuad');
          $(this).find('.slideContent').removeClass('slideUp');
         $(this).find('.slideContent').children('.addthis_sharing_toolbox').addClass('hide');
         $(this).find('.slideContent2').children('.addthis_sharing_toolbox').addClass('hide');
@@ -336,7 +336,6 @@ $(document).on({
 $(document).on({
     mouseenter: function () {
         
-        $( this ).toggleClass('gradientHover', 300000, 30000, 'easeInQuad');
         $(this).find('.slideContent').children('.slideText').addClass('flyout');
         $(this).find('.mainSlideContent').addClass('mainSlideUp');
         $(this).find('.shareSlide').addClass('shareSlideUp');
@@ -344,7 +343,6 @@ $(document).on({
     },
     mouseleave: function () {
         $(this).find('.slideContent').children('.slideText').removeClass('flyout');
-        $( this ).toggleClass('gradientHover', 0, 'easOutQuad' );
         $(this).find('.mainSlideContent').removeClass('mainSlideUp');
         $(this).find('.shareSlide').removeClass('shareSlideUp');
        

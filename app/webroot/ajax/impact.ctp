@@ -51,7 +51,23 @@
 				</br>
 				Jess vandalized a business causing more than $1,500 in damages. Keith Bruner, the owner of the vandalized business, did not ask Jess to pay him for the damages. Instead, Keith requested that Jess get a job and put $50 each month into a savings account until it reaches $1,500. When Jess turns 18, he will then be able to use the money to attend college. If he does not attend college the funds will return to Keith. Another part of their agreement requires that Jess give back to his community. Keith felt it was important for Jess to experience what is possible if he does not begin to think about his future and what he needs to do to have a chance at a good future – also to learn to care about others who have less.
 			</p>
+			<div class="module">
+				<ul class="imageItems">
+					<li class="col-md-2">
+						<img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
+						<p>Become a Facilitator<p>
+					</li>
+					<li class="col-md-2">
+						<img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
+						<p>Donate to RJL<p>
+					</li>
+					<li class="col-md-2">
+						<img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
+						<p>Calendar of Events!<p>
+					</li>
+			</div>
 		</div>
+
 	<div class ="col-md-4 rail">
                 <h3 class='headerText'>Keep Up With Our Newsletters</h3>
                 <ul>

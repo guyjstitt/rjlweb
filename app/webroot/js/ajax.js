@@ -8,6 +8,9 @@ $(document).ready(function() {
 	            $('.mainContent').html(response).append();
 	        }
 	    }); 
+	    var url = $(this).data("url");
+	    var stateObj = { obj: url };
+		history.pushState(stateObj, "",url);
 	});
 
 	$('.sliderImages div').on('click','a', function() {
@@ -21,7 +24,5 @@ $(document).ready(function() {
 	    }); 
 	});
 
-	$( ".nav li " ).on( "click", "a", function( event ) {
-    console.log( $( this ).text() );
-	});
+
 });

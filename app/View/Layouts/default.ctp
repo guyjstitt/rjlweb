@@ -78,11 +78,11 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="/rjlweb/">Home</a></li>
-            <li><a data-page-name = "about">About Us</a></li>
-            <li><a data-page-name = "impact">Our Impact</a></li>
-            <li><a data-page-name = "involved">Get Involved</a></li>
-            <li><a data-page-name = "resources">Resources</a></li>
-            <li><a data-page-name = "contact">Contact Us</a></li>
+            <li><a data-page-name = "about" data-url="/rjlweb/About/index">About Us</a></li>
+            <li><a data-page-name = "impact" data-url="/rjlweb/Impact/index">Our Impact</a></li>
+            <li><a data-page-name = "involved" data-url="/rjlweb/GetInvolved/index">Get Involved</a></li>
+            <li><a data-page-name = "resources" data-url="/rjlweb/Resources/index">Resources</a></li>
+            <li><a data-page-name = "contact" data-url="/rjlweb/Contact/index">Contact Us</a></li>
             <li><a href="/rjl">Log in</a></li>
           </ul>
         </div><!--/.nav-collapse -->

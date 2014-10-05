@@ -38,7 +38,6 @@
 					<li>November 2010: Insider Louisville - <a href="http://insiderlouisville.com/news/2010/11/18/bar-foundations-restorative-justice-louisville-pilot-project-underway/">Bar foundation’s Restorative Justice Louisville pilot project underway</a></li>
 				</ul>
 				<h3 class="subHead">Materials</h3>
-				<img class = "pageImage" src="/rjlweb/app/webroot/images/handsbig.jpg" />
 				<p class="pageText">Need resources about RJL to help spread the word about our work? Download the below materials to use when out in the community.</p>
 					<ul>
 					    <li><a href="/wp-content/uploads/2013/03/RJL-Overview-Brochure.pdf">Overview Brochure</a></li>
@@ -48,6 +47,21 @@
 				<ul> 
 	       			<li><a href="/wp-content/uploads/2013/03/RJL-2013-AR.pdf">Annual Report 2013</a></li>
 				</ul>
+			</div>
+			<div class="module">
+				<ul class="imageItems">
+					<li class="col-md-2">
+						<img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
+						<p>Become a Facilitator<p>
+					</li>
+					<li class="col-md-2">
+						<img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
+						<p>Donate to RJL<p>
+					</li>
+					<li class="col-md-2">
+						<img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
+						<p>Calendar of Events!<p>
+					</li>
 			</div>
 		</div>
 		<div class ="col-md-4 rail">
