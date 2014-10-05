@@ -247,8 +247,8 @@
                                     <div class="relative">
                                         <div class="gradient">
                                             <div class='slideContent'>
-                                                <h4 class="slideHeader">Become a Faciliator</h4>
-                                                <p class="slideMessage">Get involved and make a difference in your community!</p>
+                                                <h4 class="slideHeader">Donate to RJL</h4>
+                                                <p class="slideMessage">Donate online and us reach our goals!</p>
                                                 <div class="addthis_sharing_toolbox hide"></div>
                                             </div>
                                         </div>
@@ -261,24 +261,24 @@
                                     <div class="relative">
                                         <div class="gradient">
                                             <div class='slideContent'>
-                                                <h4 class="slideHeader">Become a Faciliator</h4>
-                                                <p class="slideMessage">Get involved and make a difference in your community!</p>
+                                                <h4 class="slideHeader">Calendar of Events</h4>
+                                                <p class="slideMessage">Don't miss our next event!</p>
                                                 <div class="addthis_sharing_toolbox hide"></div>
                                             </div>
                                         </div>
-                                        <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
+                                        <img class='img-responsive ' src="/rjlweb/app/webroot/images/calSmall.png" >
                                     </div>
                                 </li>
                                 <li class="col-6 slide">
                                     <div class="relative">
                                         <div class="gradient">
                                             <div class='slideContent'>
-                                                <h4 class="slideHeader">Become a Faciliator</h4>
-                                                <p class="slideMessage">Get involved and make a difference in your community!</p>
+                                                <h4 class="slideHeader">Watch Our Video</h4>
+                                                <p class="slideMessage">See what real victims have to say about the program!</p>
                                                 <div class="addthis_sharing_toolbox hide"></div>
                                             </div>
                                         </div>
-                                        <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
+                                        <img class='img-responsive'src="/rjlweb/app/webroot/images/rjlvid.jpg" >
                                     </div>
                                 </li>
                             </ul>
