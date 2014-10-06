@@ -34,7 +34,12 @@
                     <div class="sliderCaption">
                             Fill out a short form and we'll get back with you!
                     </div>
-                     <div class="addthis_sharing_toolbox shareSlide"></div>
+                     <ul class="soc shareThis">
+                        <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
+                        <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
+                        <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
+                        <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
+                    </ul>
 
                 </div> 
                  <div class="gradientCarousel"></div>
@@ -48,7 +53,12 @@
                     <div class="sliderCaption">
                             Transforming Communities by Ending Crime!
                     </div>
-                    <div class="addthis_sharing_toolbox shareSlide"></div>
+                    <ul class="soc shareThis">
+                        <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
+                        <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
+                        <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
+                        <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
+                    </ul>
                 </div> 
                 <div class="gradientCarousel"></div>
             </div>
@@ -61,7 +71,12 @@
                     <div class="sliderCaption">
                             Learn how you can make a difference in our great city!
                     </div>
-                     <div class="addthis_sharing_toolbox shareSlide"></div>
+                    <ul class="soc shareThis">
+                        <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
+                        <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
+                        <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
+                        <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
+                    </ul>
                 </div>
                     <div class="gradientCarousel"></div>
             </div>
@@ -237,7 +252,12 @@
                                             <div class='slideContent'>
                                                 <h4 class="slideHeader">Become a Faciliator</h4>
                                                 <p class="slideMessage">Get involved and make a difference in your community!</p>
-                                                <div class="addthis_sharing_toolbox hide"></div>
+                                                <ul class="soc shareThis shareHide">
+                                                    <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
+                                                    <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
+                                                    <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
+                                                    <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
+                                                </ul>
                                             </div>
                                         </div>
                                          <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
@@ -249,7 +269,12 @@
                                             <div class='slideContent'>
                                                 <h4 class="slideHeader">Donate to RJL</h4>
                                                 <p class="slideMessage">Donate online and us reach our goals!</p>
-                                                <div class="addthis_sharing_toolbox hide"></div>
+                                                <ul class="soc shareThis shareHide">
+                                                    <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
+                                                    <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
+                                                    <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
+                                                    <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
+                                                </ul>
                                             </div>
                                         </div>
                                         <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
@@ -263,7 +288,12 @@
                                             <div class='slideContent'>
                                                 <h4 class="slideHeader">Calendar of Events</h4>
                                                 <p class="slideMessage">Don't miss our next event!</p>
-                                                <div class="addthis_sharing_toolbox hide"></div>
+                                                <ul class="soc shareThis shareHide">
+                                                    <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
+                                                    <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
+                                                    <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
+                                                    <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
+                                                </ul>
                                             </div>
                                         </div>
                                         <img class='img-responsive ' src="/rjlweb/app/webroot/images/calSmall.png" >
@@ -276,7 +306,12 @@
                                             <div class='slideContent'>
                                                 <h4 class="slideHeader">Watch Our Video</h4>
                                                 <p class="slideMessage">See what real victims have to say about the program!</p>
-                                                <div class="addthis_sharing_toolbox hide"></div>
+                                                <ul class="soc shareThis shareHide">
+                                                    <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
+                                                    <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
+                                                    <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
+                                                    <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
+                                                </ul>
                                             </div>
                                         </div>
                                         <img class='img-responsive'src="/rjlweb/app/webroot/images/rjlvid.jpg" >
@@ -322,13 +357,13 @@
 $(document).on({
     mouseenter: function () {
         $(this).find('.slideContent').children('.slideText').addClass('flyout');
-        $(this).find('.slideContent').children('.addthis_sharing_toolbox').removeClass('hide');
+        $(this).find('.slideContent').children('.shareThis').removeClass('shareHide');
         $(this).find('.slideContent').addClass('slideUp');
     },
     mouseleave: function () {
         $(this).find('.slideContent').children('.slideText').removeClass('flyout');
          $(this).find('.slideContent').removeClass('slideUp');
-        $(this).find('.slideContent').children('.addthis_sharing_toolbox').addClass('hide');
+        $(this).find('.slideContent').children('.shareThis').addClass('shareHide');
         $(this).find('.slideContent2').children('.addthis_sharing_toolbox').addClass('hide');
         $(this).find('.slideContent3').children('.addthis_sharing_toolbox').addClass('hide');
     }
@@ -350,7 +385,5 @@ $(document).on({
     }
 },'#slider1_container');
 
+
 </script>
-
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53f56303144fe2bd"></script>
-

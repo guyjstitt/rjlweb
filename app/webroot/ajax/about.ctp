@@ -7,23 +7,12 @@
 			<!-- Go to www.addthis.com/dashboard to generate a new set of buttons -->
 			<div class="shareBarHolder">	
 				<div class="shareBar">	
-					<ul>
-						<li>	
-							<a class="fb-icon" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=Http%3A%2F%2Fwww.rjlou.org%2FAbout%2Findex&pubid=ra-53f56303144fe2bd&ct=1&title=Learn%20More%20About%20RJL&pco=tbxnj-1.0" target="_blank"><img src="https://cache.addthiscdn.com/icons/v2/thumbs/32x32/facebook.png" border="0" alt="Facebook"/></a>
-						</li>
-						<li>
-							<a class="fb-icon" href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=Http%3A%2F%2Fwww.rjlou.org%2FAbout%2Findex&pubid=ra-53f56303144fe2bd&ct=1&title=Learn%20More%20About%20RJL&pco=tbxnj-1.0" target="_blank"><img src="https://cache.addthiscdn.com/icons/v2/thumbs/32x32/twitter.png" border="0" alt="Twitter"/></a>
-						</li>
-						<li>
-							<a class="fb-icon" href="https://api.addthis.com/oexchange/0.8/forward/google_plusone_share/offer?url=Http%3A%2F%2Fwww.rjlou.org%2FAbout%2Findex&pubid=ra-53f56303144fe2bd&ct=1&title=Learn%20More%20About%20RJL&pco=tbxnj-1.0" target="_blank"><img src="https://cache.addthiscdn.com/icons/v2/thumbs/32x32/google_plusone_share.png" border="0" alt="Google+"/></a>
-						</li>
-						<li>
-							<a class="fb-icon" href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=Http%3A%2F%2Fwww.rjlou.org%2FAbout%2Findex&pubid=ra-53f56303144fe2bd&ct=1&title=Learn%20More%20About%20RJL&pco=tbxnj-1.0" target="_blank"><img src="https://cache.addthiscdn.com/icons/v2/thumbs/32x32/email.png" border="0" alt="Email"/></a>
-						</li>
-						<li>
-							<a class="fb-icon" href="https://www.addthis.com/bookmark.php?source=tbx32nj-1.0&v=300&url=Http%3A%2F%2Fwww.rjlou.org%2FAbout%2Findex&pubid=ra-53f56303144fe2bd&ct=1&title=Learn%20More%20About%20RJL&pco=tbxnj-1.0" target="_blank"><img src="https://cache.addthiscdn.com/icons/v2/thumbs/32x32/addthis.png" border="0" alt="Addthis"/></a>
-						</li>
-					</ul>
+					<ul class="soc shareThis">
+                        <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
+                        <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
+                        <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
+                        <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
+                    </ul>
 				</div>
 			</div>
 			<img class = "pageImage" src="/rjlweb/app/webroot/images/handsbig.jpg" />
@@ -60,6 +49,4 @@
              </div>
 	<div class ="col-md-4 footerPad"></div>
 </div>
-
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53f56303144fe2bd"></script>
 

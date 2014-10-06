@@ -5,6 +5,16 @@
 			<h1 class="headerMain">Volunteer</h1>
 			<p class="subHeader">Interested in volunteering? Fill out the information below, and give us a brief description of why you would like to volunteer! Your information will be sent to RJL and we will be in contact with you.</p>
 			<p>* denotes a required field</p><br>
+			<div class="shareBarHolder">	
+				<div class="shareBar">	
+					<ul class="soc shareThis">
+                        <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
+                        <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
+                        <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
+                        <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
+                    </ul>
+				</div>
+			</div>
 			        
 			<form id="volForm" action="volunteer.php" method="post">
 				<ul>

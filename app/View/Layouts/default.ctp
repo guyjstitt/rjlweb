@@ -33,11 +33,12 @@
 		echo $this->Html->css('sticky.footer');
 		echo $this->Html->css('header');
 		echo $this->Html->css('body');
-    echo $this->Html->css('social');
+    echo $this->Html->css('socialIcons');
 		echo $this->Html->script('jquery-1.11.1.min');
 		echo $this->Html->script('bootstrap.min');
     echo $this->Html->script('jquery-1.9.1.min');
-      echo $this->Html->script('ajax');
+    echo $this->Html->script('share');
+    echo $this->Html->script('ajax');
     echo $this->Html->script('jssor.core');
     echo $this->Html->script('jssor.utils');
     echo $this->Html->script('jssor.slider');
@@ -45,22 +46,23 @@
 	?>
 </head>
 <body>
-
-<div id="fb-root"></div>
+<!--<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));</script> -->
 
 <div class= "wrapper">
   <div class="navTop">
     <div class="shareBarHeader">
+      <!--
       <div class="fb-like" data-href="https://www.facebook.com/rjlouisville" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+ 
       <a href="https://twitter.com/RJLouisville" class="twitter-follow-button" data-show-count="false">Follow @GuyjStitt</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> -->
       </div>
     </div>
   </div>

@@ -414,7 +414,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	left: 70px;
 	width: 480px; 
 	height: 120px;
-	z-index: 2;
+	z-index: 11;
 }
 
 
@@ -699,21 +699,21 @@ ul.social {
 }
 
 .shareBarHolder{
-	padding-bottom: 40px;
-	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 	margin-bottom: 20px;
 	border-bottom: 1px solid #eee;
 	border-top: 3px solid #eee;
 	font-family: Proxima-Nova,Helvetica,Arial,sans-serif;
 	color: #00c453;
 	font-size: 14pt;
-	text-transform: uppercase;
 	font-weight: bold;
 
 }
 .shareBar {
-	margin-bottom: 40px;
-	position: absolute;
+	
+	position: relative;
+	margin-left: 10px;
 
 }
 
@@ -724,14 +724,14 @@ ul.social {
 	color: #00c453;
 }
 
-.shareBar ul li {
+/*.shareBar ul li {
 	position: relative;
 	list-style: none;
 	width: 55px;
 	height: 55px;
 	float: left;
 }
-
+*/
 .fb-icon img {
 	width: 30px;
 	height:	30px;
