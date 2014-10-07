@@ -2,10 +2,16 @@
 	display: none;
 }
 #navHeader {
+
+}
+.navHeader{
 	background-color: #00c453;
 	margin: 35px 0 20px 0;
-	position: fixed;
-	z-index: 11;
+
+	z-index: 999999999999999;
+}
+.navHeader-fixed {
+	margin:0 0 20px 0;
 }
 .shareBarHeader {
 	position: relative;
@@ -25,17 +31,17 @@
 a {
 	color: white;
 }
-
+/*
 .logo img{
 	position: fixed;
 	top: 3px;
 	left: 0;
-	z-index: 999999;
+	z-index: 99999999999999999999;
 	max-height: 120px;
 	height: auto;
 	max-width: 260px;
 }
-
+*/
 
 .mainBody {
 	float: left;
@@ -69,4 +75,28 @@ a {
 	z-index: 10;
 	background-color: white;
 	top: 0;
+}
+
+.anchor {
+	position: absolute;
+	top: 35px;
+}
+
+.logoImage {
+	 /*background-image: url('/rjlweb/app/webroot/images/rjl-logo-highres.png');*/
+	 position: fixed;
+	 top: 3px;
+	 left:  17px;
+	 z-index: 99999999999999999999999999999999999;
+	 max-width: 85px;
+	 height: auto;
+}
+
+.logoText {
+	position: fixed;
+	top: -10px;
+	left: 81px;
+	z-index: 99999999999999999999999999999999999;
+	max-width: 218px;
+	height: auto;
 }

@@ -27,7 +27,8 @@ class AboutController extends AppController {
  *	or MissingViewException in debug mode.
  */
 	public function index() {
-		
+		$url = "http://rjlou.org/About/index";
+		$this->set('url', $url);
 	}
 
 }

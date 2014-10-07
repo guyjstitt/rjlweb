@@ -19,7 +19,7 @@
 <html>
 <head>
 	<?php echo $this->Html->charset(); ?>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php echo $this->fetch('head') ?>
 	<title>
 		RJL
 	</title>
@@ -38,7 +38,6 @@
 		echo $this->Html->script('bootstrap.min');
     echo $this->Html->script('jquery-1.9.1.min');
     echo $this->Html->script('share');
-    echo $this->Html->script('ajax');
     echo $this->Html->script('jssor.core');
     echo $this->Html->script('jssor.utils');
     echo $this->Html->script('jssor.slider');
@@ -66,7 +65,7 @@
       </div>
     </div>
   </div>
-	<div id="navHeader" class="navbar  navbar-fixed-top" role="navigation">
+	<div  class="navbar navHeader navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -80,19 +79,20 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="/rjlweb/">Home</a></li>
-            <li><a data-page-name = "about" data-url="/rjlweb/About/index">About Us</a></li>
-            <li><a data-page-name = "impact" data-url="/rjlweb/Impact/index">Our Impact</a></li>
-            <li><a data-page-name = "involved" data-url="/rjlweb/GetInvolved/index">Get Involved</a></li>
-            <li><a data-page-name = "resources" data-url="/rjlweb/Resources/index">Resources</a></li>
-            <li><a data-page-name = "contact" data-url="/rjlweb/Contact/index">Contact Us</a></li>
+            <li><a href="/rjlweb/About/index" data-page-name = "about" data-url="/rjlweb/About/index">About Us</a></li>
+            <li><a href="/rjlweb/Impact/index" data-page-name = "impact" data-url="/rjlweb/Impact/index">Our Impact</a></li>
+            <li><a href="/rjlweb/GetInvolved/index" data-page-name = "involved" data-url="/rjlweb/GetInvolved/index">Get Involved</a></li>
+            <li><a href="/rjlweb/Resources/index" data-page-name = "resources" data-url="/rjlweb/Resources/index">Resources</a></li>
+            <li><a href="/rjlweb/Contact/index" data-page-name = "contact" data-url="/rjlweb/Contact/index">Contact Us</a></li>
             <li><a href="/rjl">Log in</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
+    <div class='anchor'></div>
     <div class="logo">
-    	<img src="http://www.rjlou.org/wp-content/uploads/2014/04/RJL-logo.png" width="643" height="274" alt="RJ Louisville">
+    	<img class="logoImage" src="/rjlweb/app/webroot/images/rjl-logo-highres.png" width="643" height="274" alt="RJ Louisville">
+      <img class="logoText" src="/rjlweb/app/webroot/images/rjl-highres.png" width="643" height="274" alt="RJ Louisville">
     </div>
     <div class="mainContent">
     <?php echo $this->fetch('content'); ?>
@@ -116,3 +116,34 @@
 </body>
 </html>
 
+<script type="text/javascript">
+/*
+var anchor = $('.anchor');
+var position = anchor.position();
+
+var nav = $('#navHeader');
+var navPosition = nav.position();
+
+$(window).scroll(function() {
+  if($(document).scrollTop() >= position.top) {
+    $('#navHeader').addClass('navbar-fixed-top')
+  }
+});
+*/
+
+/*
+var  mn = $(".navHeader");
+    mns = "navbar-fixed-top";
+     mn2 = "navHeader-fixed";
+    hdr = $('#navHeader').height();
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > hdr ) {
+    mn.addClass(mns);
+    mn.addClass(mn2);
+  } else {
+    mn.removeClass(mn2);
+  }
+});
+*/
+</script>

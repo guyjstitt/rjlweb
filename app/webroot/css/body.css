@@ -1,10 +1,10 @@
 .divider {
 	margin: 0 auto;
-	width: 1045px;
+	width: 100%;
 }
 .divider h1 {
 	text-transform: uppercase;
-	font-family: sans-serif;
+	font-family: serif;
 	font-weight: bold;
 	color: #6E6E6E;
 	font-size: 41px;
@@ -429,6 +429,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
      color: #FFFFFF;
      transition: top 0.5s ease;
      z-index: 2;
+     font-family: serif;
 }
 
 .slideHeaderUp{
@@ -443,7 +444,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     font-size: 30px;
     color: #FFFFFF;
     transition: top 0.5s ease;
-
+    font-family: serif;
 }
 
 

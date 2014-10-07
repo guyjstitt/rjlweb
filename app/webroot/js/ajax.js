@@ -44,7 +44,6 @@ $(document).ready(function() {
 			                if (e.preventDefault) e.preventDefault();
 			                e.returnValue = false;
 			            }
-			            console.log('what the fuck');
 			            return !!popup;
 
 			        }

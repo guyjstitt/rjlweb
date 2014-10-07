@@ -34,7 +34,9 @@ class GetInvolvedController extends AppController {
 		
 	}
 
+	public function video() {
 
+	}
 }
 
 ?>

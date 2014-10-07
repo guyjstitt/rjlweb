@@ -7,10 +7,25 @@
 
 
 ?>
+<?php 
+$this->start('head'); 
+?>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <meta name="description" content="Restorative Justice Louisville - Bringing together the victim, offender and community to make things right. At RJL, we transform communities by ending crime."/>
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Restorative Justice Louisville Court system kentucky community rjl get involved events"/>
+  <meta property="og:title" content="Restorative Justice Louisville - Lousiville KY"/>
+  <meta name="title" content="Restorative Justice Louisville - Lousiville, Kentucky"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content=<?php echo $url ?>/>
+  <meta property="og:site_name" content="restorativejustivelouisville rjlou restorative justice louisville"/>
+<?php 
+$this->end(); ?>
 <div class='mainContent'>
 
 	
-	<div class='jssorSlider '>
+	<div class='jssorSlider'>
 		<div id="slider1_container"  style="position: relative; margin: 0 auto;
         top: 75px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
         <!-- Loading Screen -->
@@ -26,7 +41,7 @@
        
         <div u="slides" class="sliderImages">
             <div>
-                 <a class="overlay" data-page-name = "volunteer"></a>
+                 <a class="overlay" href="/rjlweb/GetInvolved/volunteer" data-page-name = "volunteer"></a>
                 <img u="image" src="/rjlweb/app/webroot/images/handsbig.jpg" />
                 <div class="mainSlideContent">
                     <div class="sliderHeader">BECOME A VOLUNTEER
@@ -34,7 +49,7 @@
                     <div class="sliderCaption">
                             Fill out a short form and we'll get back with you!
                     </div>
-                     <ul class="soc shareThis">
+                     <ul class="soc shareThis sliderShare">
                         <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
                         <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
                         <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
@@ -53,7 +68,7 @@
                     <div class="sliderCaption">
                             Transforming Communities by Ending Crime!
                     </div>
-                    <ul class="soc shareThis">
+                    <ul class="soc shareThis sliderShare">
                         <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
                         <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
                         <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
@@ -71,7 +86,7 @@
                     <div class="sliderCaption">
                             Learn how you can make a difference in our great city!
                     </div>
-                    <ul class="soc shareThis">
+                    <ul class="soc shareThis sliderShare">
                         <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
                         <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
                         <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
@@ -299,8 +314,9 @@
                                         <img class='img-responsive ' src="/rjlweb/app/webroot/images/calSmall.png" >
                                     </div>
                                 </li>
-                                <li class="col-6 slide" data-page-name="video" data-url="/rjlweb/GetInvolved/video">
+                                <li class="col-6 slide" data-page-name="video" data-url="/rjlweb/GetInvolved/video" >
                                     <div class="relative">
+                                        <a class="overlay" href="/rjlweb/GetInvolved/video/"></a>
                                         <div class="playButton"></div>
                                         <div class="gradient">
                                             <div class='slideContent'>
@@ -385,5 +401,12 @@ $(document).on({
     }
 },'#slider1_container');
 
+
+$(document).on ({
+    mouseenter: function() {
+        $(this).find('li').children('a').css('display', '');
+    }
+
+}, '.sliderShare');
 
 </script>

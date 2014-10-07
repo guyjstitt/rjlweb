@@ -1,4 +1,19 @@
-	
+<?php
+$this->start('head'); 
+?>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <meta name="description" content="Restorative Justice Louisville - Bringing together the victim, offender and community to make things right. At RJL, we transform communities by ending crime."/>
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Restorative Justice Louisville Court system kentucky community rjl get involved events"/>
+  <meta property="og:title" content="Restorative Justice Louisville - Lousiville KY"/>
+  <meta name="title" content="Restorative Justice Louisville - Lousiville, Kentucky"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="http://rjlou.org/GetInvolved/volunteer"/>
+  <meta property="og:site_name" content="restorativejustivelouisville rjlou restorative justice louisville"/>
+<?php 
+$this->end(); ?>	
+
 <div class="row mainContainer page"> 
 	<div class = "col-md-8 contentContainer center">
 		<div class="col-md-8">

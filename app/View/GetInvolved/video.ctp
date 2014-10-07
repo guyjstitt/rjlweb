@@ -9,42 +9,31 @@ $this->start('head');
   <meta property="og:title" content="Restorative Justice Louisville - Lousiville KY"/>
   <meta name="title" content="Restorative Justice Louisville - Lousiville, Kentucky"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="http://rjlou.org/GetInvolved/index"/>
+  <meta property="og:url" content="http://rjlou.org/GetInvolved/video"/>
   <meta property="og:site_name" content="restorativejustivelouisville rjlou restorative justice louisville"/>
 <?php 
-$this->end(); ?>	
+$this->end(); ?>    
+
 <div class="row mainContainer page"> 
 	<div class = "col-md-8 contentContainer center">
 		<div class="col-md-8">
-			<h1 class="headerMain">GET INVOLVED</h1>
-			<p class="subHeader">Restorative Justice Louisville is only able to make an impact because of the involvement and support of our community. Below are some simple ways to get involved: </p>
-			<!-- Go to www.addthis.com/dashboard to generate a new set of buttons -->
+			<h1 class="headerMain">Our Video</h1>
+			<p class="subHeader">Learn more about RJL and hear from real victims who have been involved in our program</p>
 			<div class="shareBarHolder">	
 				<div class="shareBar">	
 					<ul class="soc shareThis">
-                        <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
-                        <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
-                        <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
-                        <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
+                        <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org/GetInvolved/video"></a></li>
+                        <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org/GetInvolved/video"></a></li>
+                        <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org/GetInvolved/video"></a></li>
+                        <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org/GetInvolved/video"></a></li>
                     </ul>
 				</div>
 			</div>
-			<img class = "pageImage" src="/rjlweb/app/webroot/images/handsbig.jpg" />
-			<h3 class="subHead">Benefits To Our Community</h3>
-			<ul>
-				<li>Make a Donation</li>
-				<li>Give Local Louisville</li>
-				<li>Like us on Facebook</li>
-				<li>Become a Volunteer</li>
-				<li>Become a Facilitiator</li>
-				<li>Join our Mailing List</li>
-				<li>Raise Awareness in You Community</li>
-				<li>And Many Others</li>
-			</ul>
-			<h3 class="subHead">Learn More</h3>
-			<p class="pageText">
-				Follow these links or contact RJL at info@rjlou.org to learn more about how you and your community can support the restorative justice movement in Louisville.
-			</p>
+			<div class= "">
+                <div class='mainVideo'>
+                     <iframe src="//www.youtube.com/embed/X5TvP3dhPTo?rel=0" frameborder="0" width="560" height="300"></iframe>
+                </div>
+            </div>
 		</div>
 		<div class ="col-md-4 rail">
                 <h3 class='headerText'>Keep Up With Our Newsletters</h3>
@@ -67,3 +56,10 @@ $this->end(); ?>
 </div>
 
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53f56303144fe2bd"></script>
+
+
+
+
+
+
+
