@@ -91,7 +91,7 @@
     </div>
     <div class='anchor'></div>
     <div class="logo">
-    	<img class="logoImage" src="/rjlweb/app/webroot/images/rjl-logo-highres.png" width="643" height="274" alt="RJ Louisville">
+    	<img class="logoImage" src="/rjlweb/app/webroot/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
       <img class="logoText" src="/rjlweb/app/webroot/images/rjl-highres.png" width="643" height="274" alt="RJ Louisville">
     </div>
     <div class="mainContent">
