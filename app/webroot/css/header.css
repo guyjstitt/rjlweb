@@ -7,7 +7,6 @@
 .navHeader{
 	background-color: #00c453;
 	margin: 35px 0 20px 0;
-
 	z-index: 999999999999999;
 }
 .navHeader-fixed {
@@ -83,7 +82,6 @@ a {
 }
 
 .logoImage {
-	 /*background-image: url('/rjlweb/app/webroot/images/rjl-logo-highres.png');*/
 	 position: fixed;
 	 top: 3px;
 	 left:  17px;
@@ -99,4 +97,13 @@ a {
 	z-index: 99999999999999999999999999999999999;
 	max-width: 218px;
 	height: auto;
+}
+
+.logoImageScroll {
+	display: none;
+}
+
+.logoTextScroll {
+	left: 17px;
+	top: -45px;
 }

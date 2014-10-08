@@ -117,33 +117,29 @@
 </html>
 
 <script type="text/javascript">
-/*
-var anchor = $('.anchor');
-var position = anchor.position();
 
-var nav = $('#navHeader');
-var navPosition = nav.position();
 
-$(window).scroll(function() {
-  if($(document).scrollTop() >= position.top) {
-    $('#navHeader').addClass('navbar-fixed-top')
-  }
-});
-*/
-
-/*
 var  mn = $(".navHeader");
     mns = "navbar-fixed-top";
      mn2 = "navHeader-fixed";
-    hdr = $('#navHeader').height();
+     li = $(".logo .logoImage");
+     lt = $(".logo .logoText");
+     logoImage = "logoImageScroll";
+     logoText = "logoTextScroll";
+    hdr = $('.navHeader').height();
 
 $(window).scroll(function() {
   if( $(this).scrollTop() > hdr ) {
     mn.addClass(mns);
     mn.addClass(mn2);
+    mn.addClass(mn2);
+    li.addClass(logoImage);
+    lt.addClass(logoText);
   } else {
     mn.removeClass(mn2);
+    li.removeClass(logoImage);
+    lt.removeClass(logoText);
   }
 });
-*/
+
 </script>
