@@ -101,18 +101,54 @@
 </div>
     <div class="footer">
       <div class="foot-container">
-        <div class="foot-text">
-          <a href="http://rjlou.org">Home</a> | 
-          <a href="http://rjlou.org/?page_id=102">About Us</a> |
-          <a href="http://rjlou.org/?page_id=103">Our Impact</a> |
-          <a href="http://rjlou.org/?page_id=16">Get Involved</a> |
-          <a href="http://rjlou.org/?page_id=18">Resources</a> |
-          <a href="http://rjlou.org/?page_id=20">Contact Us</a> |
-          <a href="http://rjlou.org/rjl/users/login">Log In</a> 
+        <div class="foot-text ">
+            <div class="col-md-3">
+              <div> 
+                <img class="logoImageFooter" src="/rjlweb/app/webroot/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
+              </div>
+            </div>
+            <div class="row"> 
+                <div class="col-md-3">
+                  <div>
+                    <h3>About</h3>
+                    <ul class="footLinks">
+                      <li>link</li>
+                    </ul>
+                    <h3>About</h3>
+                    <ul class="footLinks">
+                      <li>link</li>
+                    </ul>
+                  </div> 
+                </div>
+                <div class="col-md-3">
+                  <div>
+                    <h3>About</h3>
+                    <ul class="footLinks">
+                      <li>link</li>
+                    </ul>
+                    <h3>About</h3>
+                    <ul class="footLinks">
+                      <li>link</li>
+                    </ul>
+                  </div> 
+                </div>
+                <div class="col-md-3">
+                  <div>
+                    <h3>About</h3>
+                    <ul class="footLinks">
+                      <li>link</li>
+                    </ul>
+                    <h3>About</h3>
+                    <ul class="footLinks">
+                      <li>link</li>
+                    </ul>
+                  </div> 
+                </div>
+            </div>
       </div>
     </div>
-
-
+  </div>
+  
 </body>
 </html>
 
@@ -143,3 +179,13 @@ $(window).scroll(function() {
 });
 
 </script>
+
+<!--
+          <a href="http://rjlou.org">Home</a> | 
+          <a href="http://rjlou.org/?page_id=102">About Us</a> |
+          <a href="http://rjlou.org/?page_id=103">Our Impact</a> |
+          <a href="http://rjlou.org/?page_id=16">Get Involved</a> |
+          <a href="http://rjlou.org/?page_id=18">Resources</a> |
+          <a href="http://rjlou.org/?page_id=20">Contact Us</a> |
+          <a href="http://rjlou.org/rjl/users/login">Log In</a> 
+          -->
