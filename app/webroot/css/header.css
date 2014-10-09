@@ -6,11 +6,21 @@
 }
 .navHeader{
 	background-color: #00c453;
-	margin: 35px 0 20px 0;
+	top: 35px;
 	z-index: 999999999999999;
 }
-.navHeader-fixed {
-	margin:0 0 20px 0;
+
+.navbar {
+	position: absolute;
+	width: 100%;
+}
+.navHeader-absolute {
+	position: absolute;
+}
+
+.navbar-fixed-top {
+	top:0;
+	position: fixed;
 }
 .shareBarHeader {
 	position: relative;
@@ -54,7 +64,7 @@ a {
 .container {
 	margin-right: 0 !important;
 	margin-left: 0 !important;
-	width: 700px;
+	width: 845px;
 	position: relative;
 	float: right;
 }
@@ -82,7 +92,7 @@ a {
 }
 
 .logoImage {
-	 position: fixed;
+	 position: absolute;
 	 top: 3px;
 	 left:  17px;
 	 z-index: 99999999999999999999999999999999999;
@@ -91,13 +101,15 @@ a {
 }
 
 .logoText {
-	position: fixed;
+	position: absolute;
 	top: -10px;
 	left: 81px;
 	z-index: 99999999999999999999999999999999999;
 	max-width: 218px;
 	height: auto;
 }
+
+
 
 .logoImageScroll {
 	display: none;
@@ -106,4 +118,15 @@ a {
 .logoTextScroll {
 	left: 17px;
 	top: -45px;
+	position: fixed;
+}
+
+.nav li a, .sliderImages div a {
+	cursor: pointer;
+}
+
+.nav li a  {
+	font-size: 18px;
+	font-weight: 600;
+	color:white;
 }

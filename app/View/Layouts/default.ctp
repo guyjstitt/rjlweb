@@ -65,7 +65,7 @@
       </div>
     </div>
   </div>
-	<div  class="navbar navHeader navbar-fixed-top" role="navigation">
+	<div  class="navbar navHeader navbar-absolute" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -157,7 +157,7 @@
 
 var  mn = $(".navHeader");
     mns = "navbar-fixed-top";
-     mn2 = "navHeader-fixed";
+     mn2 = "navHeader-absolute";
      li = $(".logo .logoImage");
      lt = $(".logo .logoText");
      logoImage = "logoImageScroll";
@@ -165,14 +165,12 @@ var  mn = $(".navHeader");
     hdr = $('.navHeader').height();
 
 $(window).scroll(function() {
-  if( $(this).scrollTop() > hdr ) {
+  if( $(this).scrollTop() > 35 ) {
     mn.addClass(mns);
-    mn.addClass(mn2);
-    mn.addClass(mn2);
     li.addClass(logoImage);
     lt.addClass(logoText);
   } else {
-    mn.removeClass(mn2);
+    mn.removeClass(mns);
     li.removeClass(logoImage);
     lt.removeClass(logoText);
   }
