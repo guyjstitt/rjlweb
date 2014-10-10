@@ -91,8 +91,9 @@
     </div>
     <div class='anchor'></div>
     <div class="logo">
+      <div class="logoShadow"></div>
     	<img class="logoImage" src="/rjlweb/app/webroot/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
-      <img class="logoText" src="/rjlweb/app/webroot/images/rjl-highres.png" width="643" height="274" alt="RJ Louisville">
+      <img class="logoText" src="/rjlweb/app/webroot/images/rjl-text2.png" width="643" height="274" alt="RJ Louisville">
     </div>
     <div class="mainContent">
     <?php echo $this->fetch('content'); ?>
@@ -160,8 +161,10 @@ var  mn = $(".navHeader");
      mn2 = "navHeader-absolute";
      li = $(".logo .logoImage");
      lt = $(".logo .logoText");
+     ls = $(".logoShadow")
      logoImage = "logoImageScroll";
      logoText = "logoTextScroll";
+     logoShadow = "logoShadow";
     hdr = $('.navHeader').height();
 
 $(window).scroll(function() {
@@ -169,7 +172,9 @@ $(window).scroll(function() {
     mn.addClass(mns);
     li.addClass(logoImage);
     lt.addClass(logoText);
+    ls.removeClass(logoShadow);
   } else {
+    ls.addClass(logoShadow);
     mn.removeClass(mns);
     li.removeClass(logoImage);
     lt.removeClass(logoText);

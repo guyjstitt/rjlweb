@@ -1,5 +1,5 @@
 #debug-kit-toolbar {
-	display: none;
+	z-index: 999999999999999999999999999999999999999999999999999999999999 !important;
 }
 #navHeader {
 
@@ -13,6 +13,7 @@
 .navbar {
 	position: absolute;
 	width: 100%;
+	border: none !important;
 }
 .navHeader-absolute {
 	position: absolute;
@@ -37,9 +38,7 @@
 .twitter-follow {
 	float: left;
 }
-a {
-	color: white;
-}
+
 /*
 .logo img{
 	position: fixed;
@@ -64,7 +63,7 @@ a {
 .container {
 	margin-right: 0 !important;
 	margin-left: 0 !important;
-	width: 845px;
+	width: 900px;
 	position: relative;
 	float: right;
 }
@@ -126,7 +125,44 @@ a {
 }
 
 .nav li a  {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 600;
 	color:white;
+}
+
+.nav li a:hover  {
+	background-color: #6E6E6E!important;
+	box-shadow:  inset 6px 0 4px -4px #222 , inset -6px 0 4px -4px #222;
+}
+
+li.active {
+	background-color: #6E6E6E !important;
+	box-shadow:  inset 6px 0 4px -4px #222 , inset -6px 0 4px -4px #222;
+}
+
+li.active a {
+	color: white !important;
+}
+
+.logoShadow {
+	padding: 25px 19px;
+	position: absolute;
+	/* max-width: 85px; */
+	top: 36px;
+	left: 41px;
+	box-shadow: inset 6px 0 9px -5px #5E5C54, inset -9px 0 6px -5px #5E5C54,15px 0 14px -5px #5E5C54, -18px 0 11px -3px #5E5C54;
+	/* height: 52px; */
+	z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+
+.navbar-collapse {
+	float: right;
+	padding-left: 0 !important;
+	padding-right:  0 !important;
+}
+
+@media (max-width: 995px) {
+	.container {
+		display: none;
+	}
 }

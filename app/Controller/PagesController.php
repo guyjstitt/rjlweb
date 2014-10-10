@@ -45,10 +45,17 @@ class PagesController extends AppController {
  * @throws NotFoundException When the view file could not be found
  *	or MissingViewException in debug mode.
  */
+	
+
 	public function display() {
 		$url = "http://rjlou.org/";
 		$this->set('url', $url);
 		$path = func_get_args();
+
+		//load news component
+		$this->loadModel('News');
+		$news = $this->News->find('all');
+		$this->set('news',$news);
 
 		$count = count($path);
 		if (!$count) {
@@ -75,9 +82,17 @@ class PagesController extends AppController {
 			}
 			throw new NotFoundException();
 		}
+
+
 	}
 
 	public function GetInvolved() {
 
+	}
+
+	public function getNews() {
+		$this->loadModel('News');
+		$news = $this->News->find('all');
+		$this->set('news',$news);
 	}
 }
