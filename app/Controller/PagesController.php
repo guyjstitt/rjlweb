@@ -53,9 +53,9 @@ class PagesController extends AppController {
 		$path = func_get_args();
 
 		//load news component
-		$this->loadModel('News');
-		$news = $this->News->find('all');
-		$this->set('news',$news);
+		//$this->loadModel('News');
+		//$news = $this->News->find('all');
+		//$this->set('news',$news);
 
 		$count = count($path);
 		if (!$count) {
@@ -91,8 +91,8 @@ class PagesController extends AppController {
 	}
 
 	public function getNews() {
-		$this->loadModel('News');
-		$news = $this->News->find('all');
-		$this->set('news',$news);
+		//$this->loadModel('News');
+		//$news = $this->News->find('all');
+		//$this->set('news',$news);
 	}
 }
