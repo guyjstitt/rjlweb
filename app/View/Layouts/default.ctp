@@ -172,7 +172,7 @@ var  mn = $(".navHeader");
     
 
 $(window).scroll(function() {
-  if( $(this).scrollTop() > hdr.top  ) {
+  if( $(this).scrollTop() > hdr.top ) {
     mn.addClass(mns);
     li.addClass(logoImage);
     lt.addClass(logoText);
