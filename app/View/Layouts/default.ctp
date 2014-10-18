@@ -102,46 +102,45 @@
 </div>
     <div class="footer">
       <div class="foot-container">
-        <div class="foot-text ">
+        <div class="foot-text col-sm-8">
             <div class="col-md-3">
               <div> 
                 <img class="logoImageFooter" src="/rjlweb/app/webroot/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
               </div>
             </div>
             <div class="row"> 
-                <div class="col-md-3">
+                <div class="col-md-3 footContent">
                   <div>
-                    <h3>About</h3>
+                    <h3>About us</h3>
                     <ul class="footLinks">
-                      <li>link</li>
+                      <li></li>
                     </ul>
-                    <h3>About</h3>
+                    <h3>Get Involved</h3>
                     <ul class="footLinks">
-                      <li>link</li>
                     </ul>
                   </div> 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 footContent">
                   <div>
-                    <h3>About</h3>
+                    <h3>Our Impact</h3>
                     <ul class="footLinks">
-                      <li>link</li>
+                      <li></li>
                     </ul>
-                    <h3>About</h3>
+                    <h3>Resources</h3>
                     <ul class="footLinks">
-                      <li>link</li>
+                      <li></li>
                     </ul>
                   </div> 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 footContent">
                   <div>
-                    <h3>About</h3>
+                    <h3>Contact Us</h3>
                     <ul class="footLinks">
-                      <li>link</li>
+                      <li></li>
                     </ul>
-                    <h3>About</h3>
+                    <h3>Log In</h3>
                     <ul class="footLinks">
-                      <li>link</li>
+                      <li></li>
                     </ul>
                   </div> 
                 </div>

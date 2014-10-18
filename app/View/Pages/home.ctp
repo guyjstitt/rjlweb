@@ -320,6 +320,7 @@ $this->end(); ?>
                                         <div class="playButton"></div>
                                         <div class="gradient">
                                             <div class='slideContent'>
+
                                                 <h4 class="slideHeader">Watch Our Video</h4>
                                                 <p class="slideMessage">See what real victims have to say about the program!</p>
                                                 <ul class="soc shareThis shareHide">
@@ -328,6 +329,7 @@ $this->end(); ?>
                                                     <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
                                                     <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
                                                 </ul>
+                                                <a class="overlay" href="/rjlweb/GetInvolved/video/"></a>
                                             </div>
                                         </div>
                                         <img class='img-responsive'src="/rjlweb/app/webroot/images/rjlvid.jpg" >
@@ -375,6 +377,7 @@ $(document).on({
         $(this).find('.slideContent').children('.slideText').addClass('flyout');
         $(this).find('.slideContent').children('.shareThis').removeClass('shareHide');
         $(this).find('.slideContent').addClass('slideUp');
+        $(this).find('.gradient').addClass('gradient-hover');
     },
     mouseleave: function () {
         $(this).find('.slideContent').children('.slideText').removeClass('flyout');
@@ -382,6 +385,7 @@ $(document).on({
         $(this).find('.slideContent').children('.shareThis').addClass('shareHide');
         $(this).find('.slideContent2').children('.addthis_sharing_toolbox').addClass('hide');
         $(this).find('.slideContent3').children('.addthis_sharing_toolbox').addClass('hide');
+        $(this).find('.gradient').removeClass('gradient-hover');
     }
 },'.slide');
 

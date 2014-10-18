@@ -23,6 +23,7 @@
     list-style:none;
     padding-top: 2px;
     padding-left: 3px;
+    z-index: 10;
 }
 
 .soc li {

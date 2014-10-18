@@ -50,13 +50,14 @@ code {
   top:0;
   left: 0;
   height: auto;
-  width: 130px;
+  width: 50%;
+  margin-top: 20px;
 }
 
 .foot-text {
+  padding: 20px 0;
   float: none;
   text-align: center;
-  width: 66.666666%;
   margin: 0 auto;
 }
 
@@ -64,4 +65,18 @@ ul.footLinks {
   list-style:  none;
   padding-left: 0;
   text-align: center;
+}
+
+.footContent h3 {
+  font-size: 1.43em;
+
+}
+
+.footContent {
+ 
+  height: 100%;
+}
+
+div .footContent:first-of-type {
+  
 }
