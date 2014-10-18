@@ -168,10 +168,11 @@ var  mn = $(".navHeader");
      logoImage = "logoImageScroll";
      logoText = "logoTextScroll";
      logoShadow = "logoShadow";
-    hdr = $('.navHeader').height();
+    hdr = $('.navHeader').position();
+    
 
 $(window).scroll(function() {
-  if( $(this).scrollTop() > 35 ) {
+  if( $(this).scrollTop() > hdr.top  ) {
     mn.addClass(mns);
     li.addClass(logoImage);
     lt.addClass(logoText);
