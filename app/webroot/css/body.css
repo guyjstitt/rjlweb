@@ -99,7 +99,7 @@
 }
 
 .gradient {
-	z-index: 10;
+
 	 position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
 	background: -moz-linear-gradient(top, rgba(0,0,0,0) 13%, rgba(0,0,0,0) 53%, rgba(0,0,0,0.65) 78%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
@@ -149,9 +149,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 
 
-.slide{
-	cursor: pointer;
-}
 
 .slideContent {
 	position: absolute;
@@ -163,7 +160,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .slideUp {
 	bottom: 25px;
-	z-index: 9999999;
+
 }
 
 .slideUpBottom {
@@ -493,7 +490,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 
 .playButton {
-	z-index: 99999999999999;
 	position:absolute;
 	left: 40%;
 	top:38%;
@@ -792,12 +788,7 @@ ul.social {
 
 
 @media (max-width: 1200px) {
-  .slideHeader {
-  	font-size: 10pt;
-  }
-  .slideMessage {
-  	font-size: 9pt;
-  }
+
 
 }
 
@@ -978,3 +969,22 @@ textarea {
 }
 
 */
+
+.shareItems {
+	position: relative;
+	z-index: 11;
+}
+
+.slide{
+	cursor: pointer;
+	position: relative;
+	
+
+}
+
+  .slideHeader {
+  	font-size: 1.5em;
+  }
+  .slideMessage {
+  	font-size: 1em;
+  }

@@ -263,10 +263,13 @@ $this->end(); ?>
                             <ul class="imageItems">
                                 <li class="col-6 slide">
                                     <div class="relative">
-                                        <div class="gradient">
-                                            <div class='slideContent'>
-                                                <h4 class="slideHeader">Become a Faciliator</h4>
-                                                <p class="slideMessage">Get involved and make a difference in your community!</p>
+                                        <div class="gradient"></div>
+                                        <a class="overlay" href="/rjlweb/GetInvolved/"></a>
+                                        <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
+                                        <div class='slideContent'>
+                                            <h4 class="slideHeader">Become a Faciliator</h4>
+                                            <p class="slideMessage">Get involved and make a difference in your community!</p>
+                                            <div class ="shareItems">
                                                 <ul class="soc shareThis shareHide">
                                                     <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
                                                     <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
@@ -275,15 +278,17 @@ $this->end(); ?>
                                                 </ul>
                                             </div>
                                         </div>
-                                         <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
-                                    </div>
+                                    </div>  
                                 </li>
                                 <li class="col-6 slide">
                                     <div class="relative">
-                                        <div class="gradient">
-                                            <div class='slideContent'>
-                                                <h4 class="slideHeader">Donate to RJL</h4>
-                                                <p class="slideMessage">Donate online and us reach our goals!</p>
+                                        <div class="gradient"></div>
+                                        <a class="overlay" href="/rjlweb/GetInvolved/"></a>
+                                        <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg">
+                                        <div class='slideContent'>
+                                            <h4 class="slideHeader">Donate to RJL</h4>
+                                            <p class="slideMessage">Donate online and help us reach our goals!</p>
+                                            <div class ="shareItems">
                                                 <ul class="soc shareThis shareHide">
                                                     <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
                                                     <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
@@ -292,17 +297,19 @@ $this->end(); ?>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
-                                    </div>
+                                    </div>  
                                 </li>
                             </ul>
                             <ul class="imageItems">
                                 <li class="col-6 slide">
                                     <div class="relative">
-                                        <div class="gradient">
-                                            <div class='slideContent'>
-                                                <h4 class="slideHeader">Calendar of Events</h4>
-                                                <p class="slideMessage">Don't miss our next event!</p>
+                                        <div class="gradient"></div>
+                                        <a class="overlay" href="/rjlweb/GetInvolved/"></a>
+                                        <img class='img-responsive ' src="/rjlweb/app/webroot/images/calSmall.png">
+                                        <div class='slideContent'>
+                                            <h4 class="slideHeader">Calendar of Events</h4>
+                                            <p class="slideMessage">Don't miss our next event!</p>
+                                            <div class ="shareItems">
                                                 <ul class="soc shareThis shareHide">
                                                     <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
                                                     <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
@@ -311,29 +318,27 @@ $this->end(); ?>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <img class='img-responsive ' src="/rjlweb/app/webroot/images/calSmall.png" >
-                                    </div>
+                                    </div>   
                                 </li>
-                                <li class="col-6 slide" data-page-name="video" data-url="/rjlweb/GetInvolved/video" >
+                                <li class="col-6 slide" data-page-name="video" data-url="/rjlweb/GetInvolved/video">
                                     <div class="relative">
+                                        <div class="gradient"></div>
                                         <a class="overlay" href="/rjlweb/GetInvolved/video/"></a>
+                                        <img class='img-responsive'src="/rjlweb/app/webroot/images/rjlvid.jpg">
                                         <div class="playButton"></div>
-                                        <div class="gradient">
-                                            <div class='slideContent'>
-
-                                                <h4 class="slideHeader">Watch Our Video</h4>
-                                                <p class="slideMessage">See what real victims have to say about the program!</p>
+                                        <div class='slideContent'>
+                                            <h4 class="slideHeader">Watch Our Video</h4>
+                                            <p class="slideMessage">See what real victims have to say about the program!</p>
+                                            <div class ="shareItems">
                                                 <ul class="soc shareThis shareHide">
                                                     <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
                                                     <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
                                                     <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
                                                     <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
                                                 </ul>
-                                                <a class="overlay" href="/rjlweb/GetInvolved/video/"></a>
                                             </div>
                                         </div>
-                                        <img class='img-responsive'src="/rjlweb/app/webroot/images/rjlvid.jpg" >
-                                    </div>
+                                    </div>   
                                 </li>
                             </ul>
                         </div>
@@ -375,14 +380,14 @@ $this->end(); ?>
 $(document).on({
     mouseenter: function () {
         $(this).find('.slideContent').children('.slideText').addClass('flyout');
-        $(this).find('.slideContent').children('.shareThis').removeClass('shareHide');
+        $(this).find('.shareItems').children('.shareThis').removeClass('shareHide');
         $(this).find('.slideContent').addClass('slideUp');
         $(this).find('.gradient').addClass('gradient-hover');
     },
     mouseleave: function () {
         $(this).find('.slideContent').children('.slideText').removeClass('flyout');
          $(this).find('.slideContent').removeClass('slideUp');
-        $(this).find('.slideContent').children('.shareThis').addClass('shareHide');
+        $(this).find('.shareItems').children('.shareThis').addClass('shareHide');
         $(this).find('.slideContent2').children('.addthis_sharing_toolbox').addClass('hide');
         $(this).find('.slideContent3').children('.addthis_sharing_toolbox').addClass('hide');
         $(this).find('.gradient').removeClass('gradient-hover');

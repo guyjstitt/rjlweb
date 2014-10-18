@@ -103,20 +103,24 @@
     <div class="footer">
       <div class="foot-container">
         <div class="foot-text col-sm-8">
-            <div class="col-md-3">
+            <div class="col-md-3 footContentFirst">
               <div> 
                 <img class="logoImageFooter" src="/rjlweb/app/webroot/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
               </div>
             </div>
-            <div class="row"> 
+            <div class="row mainFootContent"> 
                 <div class="col-md-3 footContent">
                   <div>
                     <h3>About us</h3>
                     <ul class="footLinks">
-                      <li></li>
+                      <li><a></a></li>
                     </ul>
                     <h3>Get Involved</h3>
                     <ul class="footLinks">
+                    </ul>
+                    <h3>Contact Us</h3>
+                    <ul class="footLinks">
+                      <li></li>
                     </ul>
                   </div> 
                 </div>
@@ -130,15 +134,15 @@
                     <ul class="footLinks">
                       <li></li>
                     </ul>
-                  </div> 
-                </div>
-                <div class="col-md-3 footContent">
-                  <div>
-                    <h3>Contact Us</h3>
+                    <h3>Log In</h3>
                     <ul class="footLinks">
                       <li></li>
                     </ul>
-                    <h3>Log In</h3>
+                  </div> 
+                </div>
+                <div class="col-md-3 footContentLast">
+                  <div>
+                    <h3>Follow Us</h3>
                     <ul class="footLinks">
                       <li></li>
                     </ul>
