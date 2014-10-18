@@ -107,3 +107,11 @@ div .footContent:first-of-type {
   }
 }
 
+@media(max-width: 800px) {
+  .mainFootContent {
+    width: 100%;
+  }
+  .col-md-3{
+    width: 23%;
+  }
+}
