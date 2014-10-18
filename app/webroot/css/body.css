@@ -1,6 +1,5 @@
 .divider {
 	margin: 0 auto;
-	width: 100%;
 }
 .divider h1 {
 	text-transform: uppercase;
@@ -892,6 +891,10 @@ textarea {
 	.contentWrapper {
 		max-width: 700px;
 		margin: 0 auto;
+	}
+	.divider {
+		max-width: 700px;
+		text-align: center;
 	}
 }
 

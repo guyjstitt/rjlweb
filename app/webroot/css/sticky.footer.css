@@ -68,8 +68,8 @@ ul.footLinks {
   text-align: center;
 }
 
-.footContent h3 {
-  font-size: 1.43em;
+.footContent h3, .footContentLast h3 {
+  font-size: 1.25em;
 
 }
 
@@ -99,3 +99,11 @@ ul.footLinks {
 div .footContent:first-of-type {
   
 }
+
+@media (max-width: 450px) {
+  .footContent h3, .footContentLast h3 {
+    font-size: .80em;
+    text-align: left;
+  }
+}
+

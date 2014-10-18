@@ -7,7 +7,7 @@
 .navHeader{
 	background-color: #00c453;
 	top: 35px;
-	z-index: 999999999999999;
+	z-index: 20;
 }
 
 .navbar {
@@ -94,7 +94,7 @@
 	 position: absolute;
 	 top: 3px;
 	 left:  17px;
-	 z-index: 99999999999999999999999999999999999;
+	 z-index: 21;
 	 max-width: 85px;
 	 height: auto;
 }
@@ -103,30 +103,22 @@
 	position: absolute;
 	top: -10px;
 	left: 81px;
-	z-index: 99999999999999999999999999999999999;
+	z-index: 21;
 	max-width: 218px;
 	height: auto;
 }
 
 
 
-.logoImageScroll {
-	display: none;
-}
 
-.logoTextScroll {
-	left: 17px;
-	top: -45px;
-	position: fixed;
-}
 
 .nav li a, .sliderImages div a {
 	cursor: pointer;
 }
 
 .nav li a  {
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 1.2em;
+
 	color:white;
 }
 
@@ -152,17 +144,94 @@ li.active a {
 	left: 41px;
 	box-shadow: inset 6px 0 9px -5px #5E5C54, inset -9px 0 6px -5px #5E5C54,15px 0 14px -5px #5E5C54, -18px 0 11px -3px #5E5C54;
 	/* height: 52px; */
-	z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+	z-index: 20;
 }
 
 .navbar-collapse {
 	float: right;
-	padding-left: 0 !important;
-	padding-right:  0 !important;
 }
 
-@media (max-width: 995px) {
+@media (max-width: 1050px) {
 	.container {
+		
+	}
+	.nav > li > a {
+		padding: 15px 8px;
+		font-size: .90em;
+	}
+	.logoImage {
 		display: none;
+	}
+	.logoShadow {
+		display: none;
+	}
+
+	.logoText {
+		left: 17px;
+	}
+
+
+}
+
+.logoImageScroll {
+	display: none;
+}
+
+.logoTextScroll {
+	left: 17px;
+	top: -45px;
+	position: fixed;
+	display: block;
+}
+
+
+@media (max-width: 450px) {
+
+  .jssorSlider {
+    display: none;
+  }
+
+  .mainContent {
+    margin-top: 80px;
+  }
+
+  .logoText, .logoTextScroll {
+    left: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+	.container {
+		float: none:left;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.navbar-header {
+		position: relative;
+		right: 0;
+		float: none;
+	}
+
+	.navbar-toggle {
+		background-color: black;
+	}
+
+	.navbar-collapse {
+		float: left;
+		max-height: 370px !important; 
+		width: 100%;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.nav {
+		width: 100%;
+		margin: 7px 0 !important;
 	}
 }

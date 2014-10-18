@@ -252,10 +252,10 @@ $this->end(); ?>
 
 	</div>
 	<div class="row mainContainer">
+        
 
-
-		<div class="col-md-8 contentContainer center">	
-            <div class="divider"><h1>Transforming Communities By Ending Crime</h1></div>
+		<div class="col-md-8 contentContainer center">
+                <div class="divider center"><h1>Transforming Communities By Ending Crime</h1></div>
     			<div class="contentWrapper"> 
                     <div class="col-md-8">
                         <h3 class="headerText">Get Involved with Our Organzation</h3>
