@@ -41,7 +41,6 @@ code {
 
 
 .col-md-3 {
-  width: 24%;
   float: left;
 }
 
@@ -102,16 +101,8 @@ div .footContent:first-of-type {
 
 @media (max-width: 450px) {
   .footContent h3, .footContentLast h3 {
-    font-size: .80em;
+    font-size: .90em;
     text-align: left;
   }
 }
 
-@media(max-width: 800px) {
-  .mainFootContent {
-    width: 100%;
-  }
-  .col-md-3{
-    width: 23%;
-  }
-}
