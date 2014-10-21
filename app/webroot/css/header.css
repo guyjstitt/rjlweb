@@ -149,6 +149,8 @@ li.active a {
 
 .navbar-collapse {
 	float: right;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
 @media (max-width: 1050px) {
