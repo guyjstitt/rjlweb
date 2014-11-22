@@ -39,18 +39,18 @@ class GetInvolvedController extends AppController {
 			*/
 
 			 // Database Variables (edit with your own server information)
-			 /* live db
+			 // live db
 			 $server = 'mysql.rjlou.org';
 			 $user = 'rjlcms';
 			 $pass = '#cmsRjsystem1';
 			 $db = 'rjldb';
-			 */
-
+			 
+			 /*
 			 $server = 'localhost';
 			 $user = 'root';
 			 $pass = 'linux1234';
 			 $db = 'rjldb';
-			 
+			 */
 			 // Connect to Database
 			 $connection = mysql_connect($server, $user, $pass) 
 			 or die ("Could not connect to server ... \n" . mysql_error ());
