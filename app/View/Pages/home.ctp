@@ -12,6 +12,7 @@
 
 $this->start('head'); 
 ?>
+
  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
   <meta name="description" content="Restorative Justice Louisville - Bringing together the victim, offender and community to make things right. At RJL, we transform communities by ending crime."/>
@@ -22,6 +23,8 @@ $this->start('head');
   <meta property="og:type" content="website"/>
   <meta property="og:url" content=<?php echo $url ?>/>
   <meta property="og:site_name" content="restorativejustivelouisville rjlou restorative justice louisville"/>
+   <?php echo $this->Html->script('jquery-1.9.1.min'); ?>
+
 <?php 
 $this->end(); ?>
 <div class='mainContent'>

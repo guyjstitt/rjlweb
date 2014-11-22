@@ -34,17 +34,29 @@
 		echo $this->Html->css('header');
 		echo $this->Html->css('body');
     echo $this->Html->css('socialIcons');
+    echo $this->Html->css('volunteerForm');
+    echo $this->Html->css('jquery-ui.min');
+    echo $this->Html->css('jquery-ui.structure.min');
+    echo $this->Html->css('jquery-ui.theme.min');
 		echo $this->Html->script('jquery-1.11.1.min');
+    echo $this->Html->script('jquery-ui');
 		echo $this->Html->script('bootstrap.min');
-    echo $this->Html->script('jquery-1.9.1.min');
     echo $this->Html->script('share');
-    echo $this->Html->script('nav');
+    echo $this->Html->script('lib/jquery.form');
+    //echo $this->Html->script('lib/jquery');
+    echo $this->Html->script('lib/jquery.mockjax');
+    echo $this->Html->script('lib/jquery.simulate');
+    echo $this->Html->script('lib/jquery.validate.min');
+    echo $this->Html->script('lib/additional-methods.min');
+    echo $this->Html->script('lib/require');
+    echo $this->Html->script('volunteer-submission');
     echo $this->Html->script('jssor.core');
     echo $this->Html->script('jssor.utils');
     echo $this->Html->script('jssor.slider');
     echo $this->Html->script('jssorSlider');
     
 	?>
+
 </head>
 <body>
 <!--<div id="fb-root"></div>
@@ -146,7 +158,7 @@
                   <div>
                     <h3>Follow Us</h3>
                     <ul class="footLinks">
-                      <li><a class="fbFollow"href="http://www.facebook.com"><img src="/rjlweb/app/webroot/images/facebook.PNG"></a></li>
+                      <!--<li><a class="fbFollow"href="http://www.facebook.com"><img src="/rjlweb/app/webroot/images/facebook.PNG"></a></li>-->
                     </ul>
                   </div> 
                 </div>
