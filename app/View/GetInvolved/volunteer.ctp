@@ -31,7 +31,7 @@ $this->end(); ?>
 				</div>
 			</div>
 			        
-			<form id="volForm" action="volunteer.php" method="post">
+			<form id="volForm" action="/rjlweb/GetInvolved/volunteer" method="post">
 				<ul>
 					<li>
 						<label for="inputFirstName">*First Name: </label>

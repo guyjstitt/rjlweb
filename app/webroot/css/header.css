@@ -123,13 +123,13 @@
 }
 
 .nav li a:hover  {
-	background-color: #6E6E6E!important;
-	box-shadow:  inset 6px 0 4px -4px #222 , inset -6px 0 4px -4px #222;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: inset 6px 0 4px -6px #222 , inset -6px 0 4px -6px #222;
 }
 
 li.active {
-	background-color: #6E6E6E !important;
-	box-shadow:  inset 6px 0 4px -4px #222 , inset -6px 0 4px -4px #222;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: inset 6px 0 4px -6px #222 , inset -6px 0 4px -6px #222;
 }
 
 li.active a {
@@ -142,15 +142,14 @@ li.active a {
 	/* max-width: 85px; */
 	top: 36px;
 	left: 41px;
-	box-shadow: inset 6px 0 9px -5px #5E5C54, inset -9px 0 6px -5px #5E5C54,15px 0 14px -5px #5E5C54, -18px 0 11px -3px #5E5C54;
+	box-shadow: inset 6px 0 9px -5px rgba(0,0,0,0.7), inset -9px 0 6px -5px rgba(0,0,0,0.7),15px 0 14px -5px rgba(0,0,0,0.7), -18px 0 11px -3px rgba(0,0,0,0.7);
 	/* height: 52px; */
 	z-index: 20;
 }
 
 .navbar-collapse {
 	float: right;
-	padding-left: 0 !important;
-	padding-right: 0 !important;
+	padding: 0;
 }
 
 @media (max-width: 1050px) {
@@ -242,4 +241,29 @@ li.active a {
 	.icon-bar{
 		background-color: white !important;
 	}
+}
+
+.carousel-inner {
+}
+
+.carousel-inner .item {
+	top: 25%;
+	position: relative;
+	height: 800px;
+}
+
+.carousel-inner .item img {
+	top: 25%;
+	position: relative;
+	max-height: 800px;
+}
+
+.c1 {
+	position: relative;
+	height: 100%;
+	background: url("/rjlweb/app/webroot/images/handsbig.jpg");
+	background-repeat: no-repeat;
+	background-position: 0px 25%;
+	width: 100%;
+	background-size: cover;
 }

@@ -132,3 +132,19 @@
 
 transform: perspective(50000px);
 }
+
+.fbFollow {
+    width: 100%;
+}
+
+.fbFollow img {
+    width: 100px;
+    height: auto;
+}
+
+.shareMe {
+    z-index: 12;
+    bottom: 35px;
+    left: 70px;
+    position: absolute;
+}

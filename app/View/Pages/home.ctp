@@ -8,6 +8,8 @@
 
 ?>
 <?php 
+
+
 $this->start('head'); 
 ?>
  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,9 +26,9 @@ $this->start('head');
 $this->end(); ?>
 <div class='mainContent'>
 
-	
-	<div class='jssorSlider'>
-		<div id="slider1_container"  style="position: relative; margin: 0 auto;
+        
+    <div class='jssorSlider'>
+        <div id="slider1_container"  style="position: relative; margin: 0 auto;
         top: 75px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
         <!-- Loading Screen -->
         <div u="loading" style="position: absolute; top: 0px; left: 0px;">
@@ -42,26 +44,27 @@ $this->end(); ?>
         <div u="slides" class="sliderImages">
             <div>
                  <a class="overlay" href="/rjlweb/GetInvolved/volunteer" data-page-name = "volunteer"></a>
-                <img u="image" src="/rjlweb/app/webroot/images/handsbig.jpg" />
+                <img u="image" src="/rjlweb/app/webroot/images/handsnew.jpg" />
                 <div class="mainSlideContent">
                     <div class="sliderHeader">BECOME A VOLUNTEER
                     </div>
                     <div class="sliderCaption">
                             Fill out a short form and we'll get back with you!
                     </div>
+                </div> 
+                <div class="shareMe">
                      <ul class="soc shareThis sliderShare">
                         <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
                         <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
                         <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
                         <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
                     </ul>
-
-                </div> 
+                </div>
                  <div class="gradientCarousel"></div>
             </div>
             <div>
                  <a class="overlay" href ='/rjlweb/About/index'></a>
-                <img u="image" src="/rjlweb/app/webroot/images/gavel.jpg" />
+                <img u="image" src="/rjlweb/app/webroot/images/gavelnew.jpg" />
                  <div class="mainSlideContent">
                     <div class="sliderHeader">LEARN MORE ABOUT RJL
                     </div>
@@ -79,7 +82,7 @@ $this->end(); ?>
             </div>
             <div>
                 <a class="overlay" href ='/rjlweb/GetInvolved/index'></a>
-                <img href ='/rjlweb/GetInvolved/index' u="image" src="/rjlweb/app/webroot/images/louisville.jpg" />
+                <img href ='/rjlweb/GetInvolved/index' u="image" src="/rjlweb/app/webroot/images/louisvillenew.jpg" />
                  <div class="mainSlideContent"> 
                     <div class="sliderHeader">GET INVOLVED IN OUR COMMUNITY
                     </div>
@@ -227,9 +230,9 @@ $this->end(); ?>
             */
             .jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn
             {
-            	position: absolute;
-            	cursor: pointer;
-            	display: block;
+                position: absolute;
+                cursor: pointer;
+                display: block;
                 background: url(/rjlweb/app/webroot/images/a21.png) center center no-repeat;
                 overflow: hidden;
             }
@@ -250,7 +253,7 @@ $this->end(); ?>
         <a style="display: none" href="http://www.jssor.com">slideshow</a>
     </div>
 
-	</div>
+    </div>
 	<div class="row mainContainer">
         
 
@@ -264,7 +267,7 @@ $this->end(); ?>
                                 <li class="col-6 slide">
                                     <div class="relative">
                                         <div class="gradient"></div>
-                                        <a class="overlay" href="/rjlweb/GetInvolved/"></a>
+                                        <a class="overlay" href="/rjlweb/GetInvolved/facilitator"></a>
                                         <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
                                         <div class='slideContent'>
                                             <h4 class="slideHeader">Become a Faciliator</h4>
@@ -304,7 +307,7 @@ $this->end(); ?>
                                 <li class="col-6 slide">
                                     <div class="relative">
                                         <div class="gradient"></div>
-                                        <a class="overlay" href="/rjlweb/GetInvolved/"></a>
+                                        <a class="overlay" href="/rjlweb/GetInvolved/events"></a>
                                         <img class='img-responsive ' src="/rjlweb/app/webroot/images/calSmall.png">
                                         <div class='slideContent'>
                                             <h4 class="slideHeader">Calendar of Events</h4>
@@ -343,22 +346,7 @@ $this->end(); ?>
                             </ul>
                         </div>
                     </div>
-                    <div class ="col-md-4 rail">
-                        <h3 class='headerText'>Keep Up With Our Newsletters</h3>
-                        <ul>
-                            <li class="list"><span>January</span><a>Restorative Justice Louisville On The Rise</a></li>
-                            <li class="list"><span> February</span><a>Keeping Crime Out of the Street</a></li>
-                            <li class="list"><span> March</span><a>Our Spring Newsletter</a></li>
-                        </ul>
-                        <h3 class='headerText'>Announcements</h3>
-                         <ul>
-                            <li><span>Facilitator Training</span><p>We are holding open sessions for volunteers to become Facilitators</p></li>
-                            <li><span>Volunteer Submission Form</span><p>Become a Volunteer for free in a few easy steps</p></li>
-                            <li><span>Our First Event</span><p>We are hosting our first event at Cross Country Golf Club</p></li>
-                            <li><span>Donation to RJL</span><p>Donate online and help us grow</p></li>
-                            <li><span>Watch Our Video</span><p>Learn about us through watching our video</p></li>
-                        </ul>
-                     </div>
+                    <?php echo $this->element('rail'); ?>
                 </div>  
 			<div class ="col-md-4 footerPad"></div>
 		</div>
@@ -417,5 +405,7 @@ $(document).on ({
     }
 
 }, '.sliderShare');
+
+
 
 </script>

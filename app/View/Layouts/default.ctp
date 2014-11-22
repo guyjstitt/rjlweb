@@ -38,10 +38,12 @@
 		echo $this->Html->script('bootstrap.min');
     echo $this->Html->script('jquery-1.9.1.min');
     echo $this->Html->script('share');
+    echo $this->Html->script('nav');
     echo $this->Html->script('jssor.core');
     echo $this->Html->script('jssor.utils');
     echo $this->Html->script('jssor.slider');
     echo $this->Html->script('jssorSlider');
+    
 	?>
 </head>
 <body>
@@ -78,12 +80,12 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/rjlweb/">Home</a></li>
-            <li><a href="/rjlweb/About/index" data-page-name = "about" data-url="/rjlweb/About/index">About Us</a></li>
-            <li><a href="/rjlweb/Impact/index" data-page-name = "impact" data-url="/rjlweb/Impact/index">Our Impact</a></li>
-            <li><a href="/rjlweb/GetInvolved/index" data-page-name = "involved" data-url="/rjlweb/GetInvolved/index">Get Involved</a></li>
-            <li><a href="/rjlweb/Resources/index" data-page-name = "resources" data-url="/rjlweb/Resources/index">Resources</a></li>
-            <li><a href="/rjlweb/Contact/index" data-page-name = "contact" data-url="/rjlweb/Contact/index">Contact Us</a></li>
+            <li <?php if($this->params['controller'] == 'pages'){echo 'class="active"';}?>><a href="/rjlweb/">Home</a></li>
+            <li <?php if($this->params['controller'] == 'About'){echo 'class="active"';}?>><a href="/rjlweb/About/index" data-page-name = "about" data-url="/rjlweb/About/index">About Us</a></li>
+            <li <?php if($this->params['controller'] == 'Impact'){echo 'class="active"';}?>><a href="/rjlweb/Impact/index" data-page-name = "impact" data-url="/rjlweb/Impact/index">Our Impact</a></li>
+            <li <?php if($this->params['controller'] == 'GetInvolved'){echo 'class="active"';}?>><a href="/rjlweb/GetInvolved/index" data-page-name = "involved" data-url="/rjlweb/GetInvolved/index">Get Involved</a></li>
+            <li <?php if($this->params['controller'] == 'Resources'){echo 'class="active"';}?>><a href="/rjlweb/Resources/index" data-page-name = "resources" data-url="/rjlweb/Resources/index">Resources</a></li>
+            <li <?php if($this->params['controller'] == 'Contact'){echo 'class="active"';}?>><a href="/rjlweb/Contact/index" data-page-name = "contact" data-url="/rjlweb/Contact/index">Contact Us</a></li>
             <li><a href="/rjl">Log in</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -144,7 +146,7 @@
                   <div>
                     <h3>Follow Us</h3>
                     <ul class="footLinks">
-                      <li></li>
+                      <li><a class="fbFollow"href="http://www.facebook.com"><img src="/rjlweb/app/webroot/images/facebook.PNG"></a></li>
                     </ul>
                   </div> 
                 </div>
