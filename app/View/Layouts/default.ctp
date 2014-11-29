@@ -56,8 +56,6 @@
     echo $this->Html->script('jssorSlider');
     
 	?>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 <body>
 <!--<div id="fb-root"></div>
@@ -113,7 +111,6 @@
     <?php echo $this->fetch('content'); ?>
     <!-- Begin page content -->
     </div>
-  </div>
     <div class="footer">
       <div class="foot-container">
         <div class="foot-text col-sm-8">
@@ -166,7 +163,7 @@
       </div>
     </div>
   </div>
-  </div>
+</div>
 </body>
 </html>
 
