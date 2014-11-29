@@ -18,6 +18,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, height=device-height">
 	<?php echo $this->Html->charset(); ?>
   <?php echo $this->fetch('head') ?>
 	<title>
