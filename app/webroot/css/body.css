@@ -1,4 +1,8 @@
 body {
+}
+
+.wrapper {
+	min-height: 100%;
 	overflow-x: hidden; 
 }
 
@@ -478,9 +482,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	position: relative;
 }
 
-.wrapper {
-	min-height: 100%;
-}
+
 
 .playButton {
 	position:absolute;

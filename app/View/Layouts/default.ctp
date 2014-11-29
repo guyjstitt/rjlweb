@@ -77,7 +77,6 @@
  
       <a href="https://twitter.com/RJLouisville" class="twitter-follow-button" data-show-count="false">Follow @GuyjStitt</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> -->
-      </div>
     </div>
   </div>
 	<div  class="navbar navHeader navbar-absolute" role="navigation">
@@ -114,7 +113,7 @@
     <?php echo $this->fetch('content'); ?>
     <!-- Begin page content -->
     </div>
-</div>
+  </div>
     <div class="footer">
       <div class="foot-container">
         <div class="foot-text col-sm-8">
@@ -167,7 +166,7 @@
       </div>
     </div>
   </div>
-  
+  </div>
 </body>
 </html>
 
