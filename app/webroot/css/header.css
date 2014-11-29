@@ -365,8 +365,7 @@ a.control_prevSlide {
 	display: block;
 	background: url(/rjlweb/app/webroot/images/a13.png) center center no-repeat;
 	overflow: hidden;
-	background-position: -6px -33px;
-	transform: scale(1.4);
+	background-position: -10px -33px;
 
 }
 
@@ -380,9 +379,7 @@ a.control_nextSlide {
 	display: block;
 	background: url(/rjlweb/app/webroot/images/a13.png) center center no-repeat;
 	overflow: hidden;
-	background-position: -63px -33px;
-	transform: scale(1.4);
-
+	background-position: -55px -33px;
 }
 /*
 a.control_nextSlide {
