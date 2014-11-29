@@ -20,7 +20,6 @@ $this->end(); ?>
 		<div class="col-md-8 textContent">
 			<h1 class="headerMain">LEARN MORE ABOUT RJL</h1>
 			<p class="subHeader">Restorative Justice Louisville (RJL) began in February of 2011 and is the first nonprofit in Kentucky to provide an alternative to our criminal justice system. </p>
-			<!-- Go to www.addthis.com/dashboard to generate a new set of buttons -->
 			<div class="shareBarHolder">	
 				<div class="shareBar">	
 					<ul class="soc shareThis">
@@ -66,5 +65,4 @@ $this->end(); ?>
 	<div class ="col-md-4 footerPad"></div>
 </div>
 
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53f56303144fe2bd"></script>
 

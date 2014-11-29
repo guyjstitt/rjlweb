@@ -27,37 +27,18 @@
 		echo $this->Html->meta('icon');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
-		echo $this->Html->css('jquery.bxslider');
-		echo $this->Html->css('bootstrap');
-		echo $this->Html->css('bootstrap-theme');
+		echo $this->Html->css('bootstrap.min');
 		echo $this->Html->css('sticky.footer');
 		echo $this->Html->css('header');
 		echo $this->Html->css('body');
     echo $this->Html->css('socialIcons');
-    echo $this->Html->css('volunteerForm');
-    echo $this->Html->css('jquery-ui.min');
-    echo $this->Html->css('jquery-ui.structure.min');
-    echo $this->Html->css('jquery-ui.theme.min');
 	?>
 </head>
 <body>
-<!--<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script> -->
 
 <div class= "wrapper">
   <div class="navTop">
     <div class="shareBarHeader">
-      <!--
-      <div class="fb-like" data-href="https://www.facebook.com/rjlouisville" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
- 
-      <a href="https://twitter.com/RJLouisville" class="twitter-follow-button" data-show-count="false">Follow @GuyjStitt</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> -->
     </div>
   </div>
 	<div  class="navbar navHeader navbar-absolute" role="navigation">
@@ -151,17 +132,10 @@
 <?php
 
     echo $this->Html->script('jquery-1.11.1.min');
-    echo $this->Html->script('jquery-ui');
+    echo $this->Html->script('jquery-ui.min');
     echo $this->Html->script('bootstrap.min');
     echo $this->Html->script('share');
-    echo $this->Html->script('lib/jquery.form');
-    //echo $this->Html->script('lib/jquery');
-    echo $this->Html->script('lib/jquery.mockjax');
-    echo $this->Html->script('lib/jquery.simulate');
-    echo $this->Html->script('lib/jquery.validate.min');
-    echo $this->Html->script('lib/additional-methods.min');
-    echo $this->Html->script('lib/require');
-    echo $this->Html->script('volunteer-submission');
+    echo $this->Html->script('mainSlider');
 ?>
 </body>
 </html>

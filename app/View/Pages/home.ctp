@@ -23,7 +23,6 @@ $this->start('head');
   <meta property="og:type" content="website"/>
   <meta property="og:url" content=<?php echo $url ?>/>
   <meta property="og:site_name" content="restorativejustivelouisville rjlou restorative justice louisville"/>
-   <?php echo $this->Html->script('jquery-1.9.1.min'); ?>
 
 <?php 
 $this->end(); ?>
@@ -186,60 +185,3 @@ $this->end(); ?>
 		</div>
 	</div>
 </div>
-
-<script>
- 
-
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-
-
-$(document).on({
-    mouseenter: function () {
-        $(this).find('.slideContent').children('.slideText').addClass('flyout');
-        $(this).find('.shareItems').children('.shareThis').removeClass('shareHide');
-        $(this).find('.slideContent').addClass('slideUp');
-        $(this).find('.gradient').addClass('gradient-hover');
-    },
-    mouseleave: function () {
-        $(this).find('.slideContent').children('.slideText').removeClass('flyout');
-         $(this).find('.slideContent').removeClass('slideUp');
-        $(this).find('.shareItems').children('.shareThis').addClass('shareHide');
-        $(this).find('.slideContent2').children('.addthis_sharing_toolbox').addClass('hide');
-        $(this).find('.slideContent3').children('.addthis_sharing_toolbox').addClass('hide');
-        $(this).find('.gradient').removeClass('gradient-hover');
-    }
-},'.slide');
-
-$(document).on({
-    mouseenter: function () {
-        
-        $(this).find('.slideContent').children('.slideText').addClass('flyout');
-        $(this).find('.mainSlideContent').addClass('mainSlideUp');
-        $(this).find('.shareSlide').addClass('shareSlideUp');
-        
-    },
-    mouseleave: function () {
-        $(this).find('.slideContent').children('.slideText').removeClass('flyout');
-        $(this).find('.mainSlideContent').removeClass('mainSlideUp');
-        $(this).find('.shareSlide').removeClass('shareSlideUp');
-       
-    }
-},'#slider1_container');
-
-
-$(document).on ({
-    mouseenter: function() {
-        $(this).find('li').children('a').css('display', '');
-    }
-
-}, '.sliderShare');
-
-
-
-</script>
