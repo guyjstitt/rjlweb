@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden; 
+}
+
 .divider {
 	margin: 0 auto;
 }
@@ -399,16 +403,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .shareHide {
 	display: none;
 }
-
-.mainSlideContent {
-	position: absolute;
-	top: 200px;
-	left: 70px;
-	width: 480px; 
-	height: 120px;
-	z-index: 5;
-}
-
 
 
 .sliderHeader{

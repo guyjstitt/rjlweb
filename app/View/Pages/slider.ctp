@@ -1,5 +1,4 @@
-    
-    <div class='jssorSlider'>
+<div class='jssorSlider'>
         <div id="slider1_container"  style="position: relative; margin: 0 auto;
         top: 75px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
         <!-- Loading Screen -->
@@ -16,7 +15,7 @@
         <div u="slides" class="sliderImages">
             <div>
                  <a class="overlay" href="/rjlweb/GetInvolved/volunteer" data-page-name = "volunteer"></a>
-                <img u="image" src="/rjlweb/app/webroot/images/handsbig.jpg" />
+                <img u="image" src="/rjlweb/app/webroot/images/handsnew.jpg" />
                 <div class="mainSlideContent">
                     <div class="sliderHeader">BECOME A VOLUNTEER
                     </div>
@@ -36,7 +35,7 @@
             </div>
             <div>
                  <a class="overlay" href ='/rjlweb/About/index'></a>
-                <img u="image" src="/rjlweb/app/webroot/images/gavel.jpg" />
+                <img u="image" src="/rjlweb/app/webroot/images/gavelnew.jpg" />
                  <div class="mainSlideContent">
                     <div class="sliderHeader">LEARN MORE ABOUT RJL
                     </div>
@@ -54,7 +53,7 @@
             </div>
             <div>
                 <a class="overlay" href ='/rjlweb/GetInvolved/index'></a>
-                <img href ='/rjlweb/GetInvolved/index' u="image" src="/rjlweb/app/webroot/images/louisville.jpg" />
+                <img href ='/rjlweb/GetInvolved/index' u="image" src="/rjlweb/app/webroot/images/louisvillenew.jpg" />
                  <div class="mainSlideContent"> 
                     <div class="sliderHeader">GET INVOLVED IN OUR COMMUNITY
                     </div>
@@ -224,5 +223,4 @@
         <!-- Arrow Navigator Skin End -->
         <a style="display: none" href="http://www.jssor.com">slideshow</a>
     </div>
-
-    </div>
+</div>
