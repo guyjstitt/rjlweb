@@ -41,6 +41,7 @@
     <div class="shareBarHeader">
     </div>
   </div>
+  <a class="waypoint"></a>
 	<div  class="navbar navHeader navbar-absolute" role="navigation">
       <div class="container">
         <div class="navbar-header">

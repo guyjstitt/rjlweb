@@ -33,6 +33,9 @@ $(document).ready(function() {
             nextSlide.fadeIn('slow');
             nextSlide.addClass('show');
         }
+    },{offset:function(){
+            return 35;
+        }
     });
 
     $('a.control_prevSlide').on('click', function() {
