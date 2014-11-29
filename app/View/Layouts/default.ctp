@@ -18,7 +18,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, height=device-height">
 	<?php echo $this->Html->charset(); ?>
   <?php echo $this->fetch('head') ?>
 	<title>
@@ -57,6 +56,7 @@
     echo $this->Html->script('jssorSlider');
     
 	?>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
