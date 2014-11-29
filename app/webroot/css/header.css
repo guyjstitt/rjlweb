@@ -439,7 +439,7 @@ a.control_nextSlide {
 
 @media(max-width: 768px) {
 	.mainSlideContent {
-		left: 15%;
+		left: 12.5%;
 		max-width: 75%;
 		bottom: 10px;
 	}
@@ -455,8 +455,8 @@ a.control_nextSlide {
 
 @media(max-width: 375px) {
 	.mainSlideContent {
-		left: 20%;
-		max-width: 60%;
+		left: 15%;
+		max-width: 70%;
 		bottom: 10px;
 	}
 

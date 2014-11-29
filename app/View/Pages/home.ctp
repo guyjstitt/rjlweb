@@ -101,7 +101,7 @@ $this->end(); ?>
                                     <div class="relative">
                                         <div class="gradient"></div>
                                         <a class="overlay" href="/rjlweb/GetInvolved/facilitator"></a>
-                                        <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
+                                        <img class='img-responsive ' src="/rjlweb/app/webroot/images/facilitatorNew.jpg" >
                                         <div class='slideContent'>
                                             <h4 class="slideHeader">Become a Faciliator</h4>
                                             <p class="slideMessage">Get involved and make a difference in your community!</p>
@@ -119,7 +119,7 @@ $this->end(); ?>
                                 <li class="col-6 slide">
                                     <div class="relative">
                                         <div class="gradient"></div>
-                                        <a class="overlay" href="/rjlweb/GetInvolved/"></a>
+                                        <a class="overlay" href="http://www.razoo.com/story/Restorative-Justice-Louisville"></a>
                                         <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg">
                                         <div class='slideContent'>
                                             <h4 class="slideHeader">Donate to RJL</h4>
@@ -141,9 +141,9 @@ $this->end(); ?>
                                     <div class="relative">
                                         <div class="gradient"></div>
                                         <a class="overlay" href="/rjlweb/GetInvolved/events"></a>
-                                        <img class='img-responsive ' src="/rjlweb/app/webroot/images/calSmall.png">
+                                        <img class='img-responsive ' src="/rjlweb/app/webroot/images/events.jpg">
                                         <div class='slideContent'>
-                                            <h4 class="slideHeader">Calendar of Events</h4>
+                                            <h4 class="slideHeader">Keep Up With Our Events</h4>
                                             <p class="slideMessage">Don't miss our next event!</p>
                                             <div class ="shareItems">
                                                 <ul class="soc shareThis shareHide">

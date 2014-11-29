@@ -1,4 +1,25 @@
 $(document).ready(function() {
+    li = $(".logo .logoImage");
+    lt = $(".logo .logoText");
+    ls = $(".logoShadow")
+    logoImage = "logoImageScroll";
+    logoText = "logoTextScroll";
+    logoShadow = "logoShadow";
+
+    $('.navbar').waypoint(function(direction){
+        if(direction=="down") {
+            $(this).addClass('navbar-fixed-top');
+            $(li).addClass(logoImage);
+            $(lt).addClass(logoText);
+            $(ls).removeClass(logoShadow);
+        } else {
+            $(this).removeClass('navbar-fixed-top')
+            $(li).removeClass(logoImage);
+            $(lt).removeClass(logoText);
+            $(ls).addClass(logoShadow);
+        }
+    });
+
     $('a.control_nextSlide').on('click', function() {
         var self = $('.slider section div.show');
         var firstSlide = $('.slider section div:first-child');
@@ -29,6 +50,26 @@ $(document).ready(function() {
             prevSlide.addClass('show');
         }
     });
+});
+
+
+$(window).load(function(){
+	var centerButton = $('a.control_nextSlide').outerHeight() / 2;
+    var sliderHeight = $(window).height() * .80;
+    var isMobile = 414;
+    var buttonHeight = sliderHeight / 2 + 85 - centerButton;
+	$('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
+	$('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
+	$('a.control_prevSlide').css("left", 0);
+	$('a.control_nextSlide').css("right", 0);
+});
+
+$(window).resize(function() {
+    var centerButton = $('a.control_nextSlide').outerHeight() / 2;
+    var sliderHeight = $(window).height() * .80;
+    var buttonHeight = sliderHeight / 2 + 85 - centerButton;
+    $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
+    $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
 });
 
 
@@ -72,21 +113,3 @@ $(document).on ({
     }
 
 }, '.sliderShare');
-
-$(window).load(function(){
-	var centerButton = $('a.control_nextSlide').outerHeight() / 2;
-    var sliderHeight = $(window).height() * .80;
-    var buttonHeight = sliderHeight / 2 + 85 - centerButton;
-	$('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
-	$('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
-	$('a.control_prevSlide').css("left", 0);
-	$('a.control_nextSlide').css("right", 0);
-});
-
-$(window).resize(function() {
-    var centerButton = $('a.control_nextSlide').outerHeight() / 2;
-    var sliderHeight = $(window).height() * .80;
-    var buttonHeight = sliderHeight / 2 + 85 - centerButton;
-    $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
-    $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
-});

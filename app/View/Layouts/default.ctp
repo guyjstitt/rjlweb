@@ -136,10 +136,11 @@
     echo $this->Html->script('bootstrap.min');
     echo $this->Html->script('share');
     echo $this->Html->script('mainSlider');
+    echo $this->Html->script('waypoints.min');
 ?>
 </body>
 </html>
-
+<!--
 <script type="text/javascript">
 
 
@@ -168,8 +169,8 @@ $(window).scroll(function() {
     lt.removeClass(logoText);
   }
 });
-
 </script>
+-->
 
 <!--
           <a href="http://rjlou.org">Home</a> | 
