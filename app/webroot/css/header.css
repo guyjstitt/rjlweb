@@ -442,6 +442,11 @@ a.control_nextSlide {
 	top:35px;
 }
 
+/* Hack for android mobile browser */
+.absolute {
+	position: absolute !important;
+}
+
 
 @media(max-width: 768px) {
 	.mainSlideContent {

@@ -6,12 +6,13 @@ $(document).ready(function() {
     var   mn = $(".navHeader");
     mns = "navbar-fixed-top";
     mn2 = "navHeader-absolute";
-    li = $(".logo .logoImage");
-    lt = $(".logo .logoText");
+    li = $(".logoImage");
+    lt = $(".logoText");
     ls = $(".logoShadow")
     logoImage = "logoImageScroll";
     logoText = "logoTextScroll";
     logoShadow = "logoShadow";
+    absolute = "absolute";
     hdr = $('.waypoint').position();
     
 
@@ -21,7 +22,9 @@ $(document).ready(function() {
             li.addClass(logoImage);
             lt.addClass(logoText);
             ls.removeClass(logoShadow);
+            lt.removeClass(absolute);
         } else {
+            lt.addClass(absolute);
             ls.addClass(logoShadow);
             mn.removeClass(mns);
             li.removeClass(logoImage);
