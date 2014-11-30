@@ -23,7 +23,10 @@ $this->start('head');
   <meta property="og:type" content="website"/>
   <meta property="og:url" content=<?php echo $url ?>/>
   <meta property="og:site_name" content="restorativejustivelouisville rjlou restorative justice louisville"/>
+    <?php
 
+    echo $this->Html->script('jquery-1.11.1.min');
+    ?>
 <?php 
 $this->end(); ?>
 <div class='mainContent'>

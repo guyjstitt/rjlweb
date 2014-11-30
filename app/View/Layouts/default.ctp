@@ -41,29 +41,30 @@
     <div class="shareBarHeader">
     </div>
   </div>
-  <a class="waypoint"></a>
-	<div  class="navbar navHeader navbar-absolute" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"></a>
+  <div class="waypoint">
+  	<div  class="navbar navHeader navbar-absolute" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li <?php if($this->params['controller'] == 'pages'){echo 'class="active"';}?>><a href="/rjlweb/">Home</a></li>
+              <li <?php if($this->params['controller'] == 'About'){echo 'class="active"';}?>><a href="/rjlweb/About/index" data-page-name = "about" data-url="/rjlweb/About/index">About Us</a></li>
+              <li <?php if($this->params['controller'] == 'Impact'){echo 'class="active"';}?>><a href="/rjlweb/Impact/index" data-page-name = "impact" data-url="/rjlweb/Impact/index">Our Impact</a></li>
+              <li <?php if($this->params['controller'] == 'GetInvolved'){echo 'class="active"';}?>><a href="/rjlweb/GetInvolved/index" data-page-name = "involved" data-url="/rjlweb/GetInvolved/index">Get Involved</a></li>
+              <li <?php if($this->params['controller'] == 'Resources'){echo 'class="active"';}?>><a href="/rjlweb/Resources/index" data-page-name = "resources" data-url="/rjlweb/Resources/index">Resources</a></li>
+              <li <?php if($this->params['controller'] == 'Contact'){echo 'class="active"';}?>><a href="/rjlweb/Contact/index" data-page-name = "contact" data-url="/rjlweb/Contact/index">Contact Us</a></li>
+              <li><a href="/rjl">Log in</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li <?php if($this->params['controller'] == 'pages'){echo 'class="active"';}?>><a href="/rjlweb/">Home</a></li>
-            <li <?php if($this->params['controller'] == 'About'){echo 'class="active"';}?>><a href="/rjlweb/About/index" data-page-name = "about" data-url="/rjlweb/About/index">About Us</a></li>
-            <li <?php if($this->params['controller'] == 'Impact'){echo 'class="active"';}?>><a href="/rjlweb/Impact/index" data-page-name = "impact" data-url="/rjlweb/Impact/index">Our Impact</a></li>
-            <li <?php if($this->params['controller'] == 'GetInvolved'){echo 'class="active"';}?>><a href="/rjlweb/GetInvolved/index" data-page-name = "involved" data-url="/rjlweb/GetInvolved/index">Get Involved</a></li>
-            <li <?php if($this->params['controller'] == 'Resources'){echo 'class="active"';}?>><a href="/rjlweb/Resources/index" data-page-name = "resources" data-url="/rjlweb/Resources/index">Resources</a></li>
-            <li <?php if($this->params['controller'] == 'Contact'){echo 'class="active"';}?>><a href="/rjlweb/Contact/index" data-page-name = "contact" data-url="/rjlweb/Contact/index">Contact Us</a></li>
-            <li><a href="/rjl">Log in</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
       </div>
     </div>
     <div class='anchor'></div>
@@ -137,48 +138,6 @@
     echo $this->Html->script('bootstrap.min');
     echo $this->Html->script('share');
     echo $this->Html->script('mainSlider');
-    echo $this->Html->script('waypoints.min');
 ?>
 </body>
 </html>
-<!--
-<script type="text/javascript">
-
-
-var  mn = $(".navHeader");
-    mns = "navbar-fixed-top";
-     mn2 = "navHeader-absolute";
-     li = $(".logo .logoImage");
-     lt = $(".logo .logoText");
-     ls = $(".logoShadow")
-     logoImage = "logoImageScroll";
-     logoText = "logoTextScroll";
-     logoShadow = "logoShadow";
-    hdr = $('.navHeader').position();
-    
-
-$(window).scroll(function() {
-  if( $(this).scrollTop() > hdr.top ) {
-    mn.addClass(mns);
-    li.addClass(logoImage);
-    lt.addClass(logoText);
-    ls.removeClass(logoShadow);
-  } else {
-    ls.addClass(logoShadow);
-    mn.removeClass(mns);
-    li.removeClass(logoImage);
-    lt.removeClass(logoText);
-  }
-});
-</script>
--->
-
-<!--
-          <a href="http://rjlou.org">Home</a> | 
-          <a href="http://rjlou.org/?page_id=102">About Us</a> |
-          <a href="http://rjlou.org/?page_id=103">Our Impact</a> |
-          <a href="http://rjlou.org/?page_id=16">Get Involved</a> |
-          <a href="http://rjlou.org/?page_id=18">Resources</a> |
-          <a href="http://rjlou.org/?page_id=20">Contact Us</a> |
-          <a href="http://rjlou.org/rjl/users/login">Log In</a> 
-          -->
