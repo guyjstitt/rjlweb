@@ -187,14 +187,6 @@ li.active a {
 
 @media (max-width: 450px) {
 
-  .jssorSlider {
-    display: none;
-  }
-
-  .mainContent {
-    margin-top: 80px;
-  }
-
   .logoText, .logoTextScroll {
     left: 0;
   }
@@ -462,6 +454,18 @@ a.control_nextSlide {
 	.mainSlideMessage {
 		font-size: 2em;
 	}
+
+	.waypoint {
+		top: 0;
+	}
+	.logoText {
+		top: -45px;
+	}
+
+	.slider {
+		margin-top: 50px;
+	}
+
 }
 
 @media(max-width: 375px) {
