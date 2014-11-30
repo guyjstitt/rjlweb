@@ -10,6 +10,10 @@
  
 <ifModule mod_deflate.c>
  # compress text, html, javascript, css, xml:
+ AddOutputFilterByType DEFLATE image/svg
+ AddOutputFilterByType DEFLATE image/jpeg
+ AddOutputFilterByType DEFLATE image/png
+ AddOutputFilterByType DEFLATE image/jpeg
  AddOutputFilterByType DEFLATE text/plain
  AddOutputFilterByType DEFLATE text/html
  AddOutputFilterByType DEFLATE text/xml
