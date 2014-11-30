@@ -30,7 +30,7 @@
 		echo $this->Html->css('bootstrap.min');
 		echo $this->Html->css('sticky.footer');
 		echo $this->Html->css('header');
-		echo $this->Html->css('body.min');
+		echo $this->Html->css('body');
     echo $this->Html->css('socialIcons');
 	?>
 </head>
