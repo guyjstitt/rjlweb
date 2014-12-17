@@ -1,6 +1,6 @@
 	
 <div class="row mainContainer page"> 
-	<div class = "col-md-8 contentContainer center">
+	<div id= "contentContainer" class = "col-md-8 center">
 		<div class="col-md-8">
 			<h1 class="headerMain">Our Impact</h1>
 			<p class="subHeader">As Kentucky’s corrections budget grows, spending in areas like education are adversely impacted.</p>

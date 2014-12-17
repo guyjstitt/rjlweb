@@ -16,7 +16,7 @@ $this->end(); ?>
 
 	
 <div class="row mainContainer page"> 
-	<div class = "col-md-8 contentContainer center">
+	<div id= "contentContainer" class = "col-md-8 center">
 		<div class="col-md-8 textContent">
 			<h1 class="headerMain">BECOME A FACILITATOR</h1>
 			<!-- Go to www.addthis.com/dashboard to generate a new set of buttons -->

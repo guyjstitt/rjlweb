@@ -1,6 +1,6 @@
 	
 <div class="row mainContainer page"> 
-	<div class = "col-md-8 contentContainer center">
+	<div id= "contentContainer" class = "col-md-8 center">
 		<div class="col-md-8">
 			<h1 class="headerMain">GET INVOLVED</h1>
 			<p class="subHeader">Restorative Justice Louisville is only able to make an impact because of the involvement and support of our community. Below are some simple ways to get involved: </p>

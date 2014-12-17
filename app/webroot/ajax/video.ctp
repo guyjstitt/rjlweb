@@ -1,6 +1,6 @@
 	
 <div class="row mainContainer page"> 
-	<div class = "col-md-8 contentContainer center">
+	<div id= "contentContainer" class = "col-md-8 center">
 		<div class="col-md-8">
 			<h1 class="headerMain">Our Video</h1>
 			<p class="subHeader">Learn more about RJL and hear from real victims who have been involved in our program</p>

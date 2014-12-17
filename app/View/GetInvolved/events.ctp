@@ -16,7 +16,7 @@ $this->end(); ?>
 
 	
 <div class="row mainContainer page"> 
-	<div class = "col-md-8 contentContainer center">
+	<div id= "contentContainer" class = "col-md-8 center">
 		<div class="col-md-8 textContent">
 			<h1 class="headerMain">Events</h1>
 			<p class="subHeader">Don't miss our next event!</p>

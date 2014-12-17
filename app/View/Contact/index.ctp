@@ -15,7 +15,7 @@ $this->start('head');
 $this->end(); ?>	
 
 <div class="row mainContainer page"> 
-	<div class = "col-md-8 contentContainer center">
+	<div id= "contentContainer" class = "col-md-8 center">
 		<div class="col-md-8">
 			<h1 class="headerMain">Contact Us</h1>
 			<p class="subHeader">Feel free to call or email us!</p>

@@ -1,6 +1,6 @@
 	
 <div class="row mainContainer page"> 
-	<div class = "col-md-8 contentContainer center">
+	<div id= "contentContainer" class = "col-md-8 center">
 		<div class="col-md-8">
 			<h1 class="headerMain">Resources</h1>
 			<p class="subHeader">Welcome to our Resource page! Below you find resources such as news, materials, and our annual report.</p>
