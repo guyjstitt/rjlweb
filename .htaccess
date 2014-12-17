@@ -1,3 +1,4 @@
+AddType text/x-component .htc
 <IfModule mod_rewrite.c>
    RewriteEngine on
    RewriteRule    ^$ app/webroot/    [L]

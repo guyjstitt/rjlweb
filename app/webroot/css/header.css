@@ -258,6 +258,8 @@ li.active a {
 	background-position: 0px 25%;
 	width: 100%;
 	background-size: cover;
+	-ms-behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
+	behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
 }
 
 .slider {	
@@ -268,7 +270,7 @@ li.active a {
 
 
 
-.slider section div.slide.show {
+.slider div div.slide.show {
 	visibility: visible !important;
 	display: block !important;
 }
@@ -285,6 +287,7 @@ li.active a {
 	width: 100%;
 	background-size: cover;
 	background-position: center;
+	-ms-behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
 }
 
 .slide2 {
@@ -299,6 +302,8 @@ li.active a {
 	width: 100%;
 	background-size: cover;
 	background-position: center;
+	-ms-behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
+	behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
 }
 
 .slide3 {
@@ -314,6 +319,8 @@ li.active a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	-ms-behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
+	behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
 }
 
 

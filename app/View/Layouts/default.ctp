@@ -139,5 +139,8 @@
     echo $this->Html->script('share');
     echo $this->Html->script('mainSlider');
 ?>
+<!--[if IE 8]>
+<script src="/rjlweb/app/webroot/js/respond.min.js"></script>
+<![endif]-->
 </body>
 </html>
