@@ -13,16 +13,18 @@
 $this->start('head'); 
 ?>
 
- <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-  <meta name="description" content="Restorative Justice Louisville - Bringing together the victim, offender and community to make things right. At RJL, we transform communities by ending crime."/>
-  <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="Restorative Justice Louisville Court system kentucky community rjl get involved events"/>
-  <meta property="og:title" content="Restorative Justice Louisville - Lousiville KY"/>
-  <meta name="title" content="Restorative Justice Louisville - Lousiville, Kentucky"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:url" content=<?php echo $url ?>/>
-  <meta property="og:site_name" content="restorativejustivelouisville rjlou restorative justice louisville"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta name="description" content="Restorative Justice Louisville - Bringing together the victim, offender and community to make things right. At RJL, we transform communities by ending crime."/>
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="Restorative Justice Louisville Court system kentucky community rjl get involved events"/>
+    <meta property="og:title" content="Restorative Justice Louisville - Lousiville KY"/>
+    <meta name="title" content="Restorative Justice Louisville - Lousiville, Kentucky"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content=<?php echo $url ?>/>
+    <meta property="og:site_name" content="restorativejustivelouisville rjlou restorative justice louisville"/>
+    <meta property="og:image" content="http://www.rjlou.org/app/webroot/images/handscropped.jpg"/>
+    <meta property="og:image:secure_url" content="https://www.rjlou.org/app/webroot/images/handscropped.jpg" />
     <?php
 
     echo $this->Html->script('jquery-1.11.1.min');
