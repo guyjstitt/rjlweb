@@ -15,7 +15,7 @@
                     </ul>
 				</div>
 			</div>
-			<img class = "pageImage" src="/rjlweb/app/webroot/images/handsbig.jpg" />
+			<img class = "pageImage" src="/app/webroot/images/handsbig.jpg" />
 			<h3 class="subHead">Benefits To Our Community</h3>
 			<ul>
 				<li>Make a Donation</li>

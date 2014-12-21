@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 		$.ajax({
 			type: 'POST',
-			url:"/rjlweb/GetInvolved/volunteer",
+			url:"/GetInvolved/volunteer",
 			data: formData,
 			dataType: 'json'
 		}).done(function(data) {
@@ -51,7 +51,7 @@ $(document).ready(function() {
 		}
 
 		function getSuccessForm() {
-			$('#contentContainer .col-md-8').load("/rjlweb/GetInvolved/volunteerSuccess");
+			$('#contentContainer .col-md-8').load("/GetInvolved/volunteerSuccess");
 		}
 	}
 });

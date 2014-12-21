@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'si';
-    src: url('/rjlweb/app/webroot/images/socicon.eot');
-    src: url('/rjlweb/app/webroot/images/socicon.eot?#iefix') format('embedded-opentype'),
-         url('/rjlweb/app/webroot/images/socicon.woff') format('woff'),
-         url('/rjlweb/app/webroot/images/socicon.ttf') format('truetype'),
-         url('/rjlweb/app/webroot/images/socicon.svg#icomoonregular') format('svg');
+    src: url('/app/webroot/images/socicon.eot');
+    src: url('/app/webroot/images/socicon.eot?#iefix') format('embedded-opentype'),
+         url('/app/webroot/images/socicon.woff') format('woff'),
+         url('/app/webroot/images/socicon.ttf') format('truetype'),
+         url('/app/webroot/images/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;
  
@@ -13,7 +13,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
         font-family:si;
-        src: url(/rjlweb/app/webroot/images/socicon.svg) format(svg);
+        src: url(/app/webroot/images/socicon.svg) format(svg);
     }
 }
 

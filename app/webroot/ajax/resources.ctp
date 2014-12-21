@@ -40,15 +40,15 @@
 			<div class="module">
 				<ul class="imageItems">
 					<li class="col-md-2">
-						<img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
+						<img class='img-responsive ' src="/app/webroot/images/smallVol.jpg" >
 						<p>Become a Facilitator<p>
 					</li>
 					<li class="col-md-2">
-						<img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
+						<img class='img-responsive'src="/app/webroot/images/donateKeyboard.jpg" >
 						<p>Donate to RJL<p>
 					</li>
 					<li class="col-md-2">
-						<img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
+						<img class='img-responsive'src="/app/webroot/images/calSmall.png" >
 						<p>Calendar of Events!<p>
 					</li>
 			</div>

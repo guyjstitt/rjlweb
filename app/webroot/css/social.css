@@ -68,7 +68,7 @@ background-position: -252px -84px;
 }
 
 .fbFollow {
-	background: url('/rjlweb/app/webroot/images.facebook.png');
+	background: url('/app/webroot/images.facebook.png');
 	height: 20px;
 	width: 100%;
 }

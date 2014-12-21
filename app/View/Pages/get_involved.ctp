@@ -26,7 +26,7 @@
 					</ul>
 				</div>
 			</div>
-			<img class = "pageImage" src="/rjlweb/app/webroot/images/handsbig.jpg" />
+			<img class = "pageImage" src="/app/webroot/images/handsbig.jpg" />
 			<h3 class="subHead">Why Restorative Justice Practices</h3>
 			<p class ="pageText">
 				Kentucky spends more than $19,000 per year to house an adult inmate, but only $7,000 to educate a child. And it costs even more to house a juvenile each year, at around $72,000 – making it cheaper to send a kid to college for four years than to juvenile detention for one year. That’s why restorative justice practices are so important to our community. They have been shown to reduce recidivism of offenders and increase victim satisfaction within the judicial process, building a healthy and strong Louisville for years to come.
@@ -74,8 +74,8 @@
              </div>
 	</div>
 	<div class ="col-md-4 footerPad"></div>
-	<script type="text/javascript" src="/rjlweb/app/webroot/js/ajax.js"></script>
+	<script type="text/javascript" src="/app/webroot/js/ajax.js"></script>
 </div>
 
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53f56303144fe2bd"></script>
-<script type="text/javascript" src="/rjlweb/app/webroot/js/ajax.js"></script>
+<script type="text/javascript" src="/app/webroot/js/ajax.js"></script>

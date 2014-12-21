@@ -18,7 +18,7 @@
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
                 top: 0px; left: 0px; width: 100%; height: 100%;">
             </div>
-            <div style="position: absolute; display: block; background: url(/rjlweb/app/webroot/images/loading.gif) no-repeat center center;
+            <div style="position: absolute; display: block; background: url(/app/webroot/images/loading.gif) no-repeat center center;
                 top: 0px; left: 0px; width: 100%; height: 100%;">
             </div>
         </div>
@@ -26,8 +26,8 @@
        
         <div u="slides" class="sliderImages">
             <div>
-                 <a class="overlay" href ='/rjlweb/GetInvolved/volunteer'></a>
-                <img u="image" src="/rjlweb/app/webroot/images/handsbig.jpg" />
+                 <a class="overlay" href ='/GetInvolved/volunteer'></a>
+                <img u="image" src="/app/webroot/images/handsbig.jpg" />
                 <div class="mainSlideContent">
                     <div class="sliderHeader">BECOME A VOLUNTEER
                     </div>
@@ -40,8 +40,8 @@
                  <div class="gradientCarousel"></div>
             </div>
             <div>
-                 <a class="overlay" href ='/rjlweb/About/index'></a>
-                <img u="image" src="/rjlweb/app/webroot/images/gavel.jpg" />
+                 <a class="overlay" href ='/About/index'></a>
+                <img u="image" src="/app/webroot/images/gavel.jpg" />
                  <div class="mainSlideContent">
                     <div class="sliderHeader">LEARN MORE ABOUT RJL
                     </div>
@@ -53,8 +53,8 @@
                 <div class="gradientCarousel"></div>
             </div>
             <div>
-                <a class="overlay" href ='/rjlweb/GetInvolved/index'></a>
-                <img href ='/rjlweb/GetInvolved/index' u="image" src="/rjlweb/app/webroot/images/louisville.jpg" />
+                <a class="overlay" href ='/GetInvolved/index'></a>
+                <img href ='/GetInvolved/index' u="image" src="/app/webroot/images/louisville.jpg" />
                  <div class="mainSlideContent"> 
                     <div class="sliderHeader">GET INVOLVED IN OUR COMMUNITY
                     </div>
@@ -78,7 +78,7 @@
                     height: 32px;
                     cursor: pointer;
                     vertical-align: middle;
-                    background-image: url(/rjlweb/app/webroot/images/share/share-icons.png);
+                    background-image: url(/app/webroot/images/share/share-icons.png);
                 }
 
                 .share-facebook {
@@ -168,7 +168,7 @@
             */
             .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av
             {
-                background: url(/rjlweb/app/webroot/images/b21.png) no-repeat;
+                background: url(/app/webroot/images/b21.png) no-repeat;
                 overflow:hidden;
                 cursor: pointer;
             }
@@ -200,7 +200,7 @@
             	position: absolute;
             	cursor: pointer;
             	display: block;
-                background: url(/rjlweb/app/webroot/images/a21.png) center center no-repeat;
+                background: url(/app/webroot/images/a21.png) center center no-repeat;
                 overflow: hidden;
             }
             .jssora21l { background-position: -3px -33px; }
@@ -240,7 +240,7 @@
                                         </div>
                                     </div>
                                      
-                                    <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
+                                    <img class='img-responsive ' src="/app/webroot/images/smallVol.jpg" >
                                 </div>
                             </div>
                               <div class="featureImage slide ">
@@ -251,7 +251,7 @@
                                     <div class="addthis_sharing_toolbox hide"></div>
                                 </div></div>
                                  
-                                    <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
+                                    <img class='img-responsive'src="/app/webroot/images/donateKeyboard.jpg" >
 
                                 </div>
                                
@@ -274,7 +274,7 @@
                                 <div class="addthis_sharing_toolbox hide"></div>
                             </div></div>
             
-                                <img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
+                                <img class='img-responsive'src="/app/webroot/images/calSmall.png" >
                             </div>
                         </div>
                     </div>

@@ -55,12 +55,12 @@
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li <?php if($this->params['controller'] == 'pages'){echo 'class="active"';}?>><a href="/rjlweb/">Home</a></li>
-              <li <?php if($this->params['controller'] == 'About'){echo 'class="active"';}?>><a href="/rjlweb/About/index" data-page-name = "about" data-url="/rjlweb/About/index">About Us</a></li>
-              <li <?php if($this->params['controller'] == 'Impact'){echo 'class="active"';}?>><a href="/rjlweb/Impact/index" data-page-name = "impact" data-url="/rjlweb/Impact/index">Our Impact</a></li>
-              <li <?php if($this->params['controller'] == 'GetInvolved'){echo 'class="active"';}?>><a href="/rjlweb/GetInvolved/index" data-page-name = "involved" data-url="/rjlweb/GetInvolved/index">Get Involved</a></li>
-              <li <?php if($this->params['controller'] == 'Resources'){echo 'class="active"';}?>><a href="/rjlweb/Resources/index" data-page-name = "resources" data-url="/rjlweb/Resources/index">Resources</a></li>
-              <li <?php if($this->params['controller'] == 'Contact'){echo 'class="active"';}?>><a href="/rjlweb/Contact/index" data-page-name = "contact" data-url="/rjlweb/Contact/index">Contact Us</a></li>
+              <li <?php if($this->params['controller'] == 'pages'){echo 'class="active"';}?>><a href="/">Home</a></li>
+              <li <?php if($this->params['controller'] == 'About'){echo 'class="active"';}?>><a href="/About/index" data-page-name = "about" data-url="/About/index">About Us</a></li>
+              <li <?php if($this->params['controller'] == 'Impact'){echo 'class="active"';}?>><a href="/Impact/index" data-page-name = "impact" data-url="/Impact/index">Our Impact</a></li>
+              <li <?php if($this->params['controller'] == 'GetInvolved'){echo 'class="active"';}?>><a href="/GetInvolved/index" data-page-name = "involved" data-url="/GetInvolved/index">Get Involved</a></li>
+              <li <?php if($this->params['controller'] == 'Resources'){echo 'class="active"';}?>><a href="/Resources/index" data-page-name = "resources" data-url="/Resources/index">Resources</a></li>
+              <li <?php if($this->params['controller'] == 'Contact'){echo 'class="active"';}?>><a href="/Contact/index" data-page-name = "contact" data-url="/Contact/index">Contact Us</a></li>
               <li><a href="/rjl">Log in</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -70,8 +70,8 @@
     <div class='anchor'></div>
     <div class="logo">
       <div class="logoShadow"></div>
-    	<img class="logoImage" src="/rjlweb/app/webroot/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
-      <img class="logoText" src="/rjlweb/app/webroot/images/rjl-text2.png" width="643" height="274" alt="RJ Louisville">
+    	<img class="logoImage" src="/app/webroot/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
+      <img class="logoText" src="/app/webroot/images/rjl-text2.png" width="643" height="274" alt="RJ Louisville">
     </div>
     <div class="mainContent">
     <?php echo $this->fetch('content'); ?>
@@ -83,7 +83,7 @@
             <div class="row mainFootContent"> 
                 <div class="col-xs-3 footContentFirst">
                   <div> 
-                    <img class="logoImageFooter" src="/rjlweb/app/webroot/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
+                    <img class="logoImageFooter" src="/app/webroot/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
                   </div>
                 </div>
                 <div class="col-xs-3 footContent">
@@ -104,7 +104,7 @@
                   <div>
                     <h3>Follow Us</h3>
                     <ul class="footLinks">
-                      <li><a class="fbFollow" target="_blank" href="https://www.facebook.com/rjlouisville"><img src="/rjlweb/app/webroot/images/fb-logo.png"></a></li>
+                      <li><a class="fbFollow" target="_blank" href="https://www.facebook.com/rjlouisville"><img src="/app/webroot/images/fb-logo.png"></a></li>
                     </ul>
                   </div> 
                 </div>
@@ -124,7 +124,7 @@
     echo $this->Html->script('contact');
 ?>
 <!--[if IE 8]>
-<script src="/rjlweb/app/webroot/js/respond.min.js"></script>
+<script src="/app/webroot/js/respond.min.js"></script>
 <![endif]-->
 </body>
 </html>

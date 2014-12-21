@@ -12,7 +12,7 @@
                                         </div>
                                     </div>
                                      
-                                    <img class='img-responsive ' src="/rjlweb/app/webroot/images/smallVol.jpg" >
+                                    <img class='img-responsive ' src="/app/webroot/images/smallVol.jpg" >
                                 </div>
                             </div>
                             <div class="featureImage slide ">
@@ -23,7 +23,7 @@
                                     <div class="addthis_sharing_toolbox hide"></div>
                                 </div></div>
                                  
-                                    <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg" >
+                                    <img class='img-responsive'src="/app/webroot/images/donateKeyboard.jpg" >
 
                                 </div>
                                
@@ -46,7 +46,7 @@
                                 <div class="addthis_sharing_toolbox hide"></div>
                             </div></div>
             
-                                <img class='img-responsive'src="/rjlweb/app/webroot/images/calSmall.png" >
+                                <img class='img-responsive'src="/app/webroot/images/calSmall.png" >
                             </div>
                         </div>
                     </div>

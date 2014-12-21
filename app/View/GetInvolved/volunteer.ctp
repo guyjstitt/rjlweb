@@ -50,7 +50,7 @@ $this->end(); ?>
 			</div>
 			
 			<div class="row">       
-				<form id="volForm" action="/rjlweb/GetInvolved/volunteer" method="post">
+				<form id="volForm" action="/GetInvolved/volunteer" method="post">
 					<div class="row">
 						<div class="col-sm-4">
 							<label for="inputFirstName">*First Name: </label>

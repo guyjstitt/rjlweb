@@ -6,7 +6,7 @@
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
                 top: 0px; left: 0px; width: 100%; height: 100%;">
             </div>
-            <div style="position: absolute; display: block; background: url(/rjlweb/app/webroot/images/loading.gif) no-repeat center center;
+            <div style="position: absolute; display: block; background: url(/app/webroot/images/loading.gif) no-repeat center center;
                 top: 0px; left: 0px; width: 100%; height: 100%;">
             </div>
         </div>
@@ -14,8 +14,8 @@
        
         <div u="slides" class="sliderImages">
             <div>
-                 <a class="overlay" href="/rjlweb/GetInvolved/volunteer" data-page-name = "volunteer"></a>
-                <img u="image" src="/rjlweb/app/webroot/images/handsnew.jpg" />
+                 <a class="overlay" href="/GetInvolved/volunteer" data-page-name = "volunteer"></a>
+                <img u="image" src="/app/webroot/images/handsnew.jpg" />
                 <div class="mainSlideContent">
                     <div class="sliderHeader">BECOME A VOLUNTEER
                     </div>
@@ -34,8 +34,8 @@
                  <div class="gradientCarousel"></div>
             </div>
             <div>
-                 <a class="overlay" href ='/rjlweb/About/index'></a>
-                <img u="image" src="/rjlweb/app/webroot/images/gavelnew.jpg" />
+                 <a class="overlay" href ='/About/index'></a>
+                <img u="image" src="/app/webroot/images/gavelnew.jpg" />
                  <div class="mainSlideContent">
                     <div class="sliderHeader">LEARN MORE ABOUT RJL
                     </div>
@@ -52,8 +52,8 @@
                 <div class="gradientCarousel"></div>
             </div>
             <div>
-                <a class="overlay" href ='/rjlweb/GetInvolved/index'></a>
-                <img href ='/rjlweb/GetInvolved/index' u="image" src="/rjlweb/app/webroot/images/louisvillenew.jpg" />
+                <a class="overlay" href ='/GetInvolved/index'></a>
+                <img href ='/GetInvolved/index' u="image" src="/app/webroot/images/louisvillenew.jpg" />
                  <div class="mainSlideContent"> 
                     <div class="sliderHeader">GET INVOLVED IN OUR COMMUNITY
                     </div>
@@ -82,7 +82,7 @@
                     height: 32px;
                     cursor: pointer;
                     vertical-align: middle;
-                    background-image: url(/rjlweb/app/webroot/images/share/share-icons.png);
+                    background-image: url(/app/webroot/images/share/share-icons.png);
                 }
 
                 .share-facebook {
@@ -172,7 +172,7 @@
             */
             .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av
             {
-                background: url(/rjlweb/app/webroot/images/b21.png) no-repeat;
+                background: url(/app/webroot/images/b21.png) no-repeat;
                 overflow:hidden;
                 cursor: pointer;
             }
@@ -204,7 +204,7 @@
                 position: absolute;
                 cursor: pointer;
                 display: block;
-                background: url(/rjlweb/app/webroot/images/a21.png) center center no-repeat;
+                background: url(/app/webroot/images/a21.png) center center no-repeat;
                 overflow: hidden;
             }
             .jssora21l { background-position: -3px -33px; }

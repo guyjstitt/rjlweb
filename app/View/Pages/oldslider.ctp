@@ -9,7 +9,7 @@
 		        </div>
 			</div>
 			<div class="slide gradient"><iframe src="//www.youtube.com/embed/X5TvP3dhPTo?rel=0" frameborder="0" width="500" height="360"></iframe></div>
-			<div class="slide gradient"><img src="/rjlweb/app/webroot/images/hands2.jpg">
+			<div class="slide gradient"><img src="/app/webroot/images/hands2.jpg">
 				<div class='slideContent'>
 					<h4 class="slideHeader">Join us and become a volunteer!</h4>
 					<p class="slideMessage">Fill out a short form and we'll contact you for additional information!</p>
@@ -18,7 +18,7 @@
 		        </div>
 			</div>
 
-			<div class="slide gradient"><img src="/rjlweb/app/webroot/images/donate.png">
+			<div class="slide gradient"><img src="/app/webroot/images/donate.png">
 				<div class='slideContent'>
 					<h4 class="slideHeader">Donate and help up grow!</h4>
 					<p class="slideMessage">Donating is easy and helps RJL reach our goals!</p>

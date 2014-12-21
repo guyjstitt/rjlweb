@@ -66,8 +66,8 @@ $this->end(); ?>
                                 <li class="col-6 slide">
                                     <div class="relative">
                                         <div class="gradient"></div>
-                                        <a class="overlay" href="/rjlweb/GetInvolved/facilitator"></a>
-                                        <img class='img-responsive ' src="/rjlweb/app/webroot/images/facilitatorNew.jpg" >
+                                        <a class="overlay" href="/GetInvolved/facilitator"></a>
+                                        <img class='img-responsive ' src="/app/webroot/images/facilitatorNew.jpg" >
                                         <div class='slideContent'>
                                             <h4 class="slideHeader">Become a Faciliator</h4>
                                             <p class="slideMessage">Get involved and make a difference in your community!</p>
@@ -86,7 +86,7 @@ $this->end(); ?>
                                     <div class="relative">
                                         <div class="gradient"></div>
                                         <a class="overlay" href="http://www.razoo.com/story/Restorative-Justice-Louisville"></a>
-                                        <img class='img-responsive'src="/rjlweb/app/webroot/images/donateKeyboard.jpg">
+                                        <img class='img-responsive'src="/app/webroot/images/donateKeyboard.jpg">
                                         <div class='slideContent'>
                                             <h4 class="slideHeader">Donate to RJL</h4>
                                             <p class="slideMessage">Donate online and help us reach our goals!</p>
@@ -106,8 +106,8 @@ $this->end(); ?>
                                 <li class="col-6 slide">
                                     <div class="relative">
                                         <div class="gradient"></div>
-                                        <a class="overlay" href="/rjlweb/GetInvolved/events"></a>
-                                        <img class='img-responsive ' src="/rjlweb/app/webroot/images/events.jpg">
+                                        <a class="overlay" href="/GetInvolved/events"></a>
+                                        <img class='img-responsive ' src="/app/webroot/images/events.jpg">
                                         <div class='slideContent'>
                                             <h4 class="slideHeader">Keep Up With Our Events</h4>
                                             <p class="slideMessage">Don't miss our next event!</p>
@@ -122,11 +122,11 @@ $this->end(); ?>
                                         </div>
                                     </div>   
                                 </li>
-                                <li class="col-6 slide" data-page-name="video" data-url="/rjlweb/GetInvolved/video">
+                                <li class="col-6 slide" data-page-name="video" data-url="/GetInvolved/video">
                                     <div class="relative">
                                         <div class="gradient"></div>
-                                        <a class="overlay" href="/rjlweb/GetInvolved/video/"></a>
-                                        <img class='img-responsive'src="/rjlweb/app/webroot/images/rjlvid.jpg">
+                                        <a class="overlay" href="/GetInvolved/video/"></a>
+                                        <img class='img-responsive'src="/app/webroot/images/rjlvid.jpg">
                                         <div class="playButton"></div>
                                         <div class='slideContent'>
                                             <h4 class="slideHeader">Watch Our Video</h4>

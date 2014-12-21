@@ -31,7 +31,7 @@ $this->end(); ?>
                     </ul>
 				</div>
 			</div>
-			<img class = "pageImage" src="/rjlweb/app/webroot/images/handsbig.jpg" />
+			<img class = "pageImage" src="/app/webroot/images/handsbig.jpg" />
 			<p class ="pageText">
 				The RJL pilot program began in the Louisville Metro Police Department 2nd Division and has expanded to the 1st and 4th Divisions. Modern restorative justice practices widely emerged in the 1980’s, but these practices actually represent ancient ways of implementing justice. To date, there are more than 1,000 restorative justice programs in North America with 30 states in the U.S. having developed restorative justice legislation.
 			</p>	

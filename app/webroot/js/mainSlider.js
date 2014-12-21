@@ -55,7 +55,7 @@ $(document).ready(function() {
         var slideThreeGet = isLoadedThree();
         var slideRig
         if(slideTwoGet == false) {
-            $.get("/rjlweb/app/webroot/ajax/slideTwo.ctp", function() {
+            $.get("/app/webroot/ajax/slideTwo.ctp", function() {
 
             }).done(function(response) {
                 self.append(response);
@@ -64,7 +64,7 @@ $(document).ready(function() {
                 initializeSocial();
             });
         } else if (slideTwoGet == true && slideThreeGet == false) {
-            $.get("/rjlweb/app/webroot/ajax/slideThree.ctp", function() {
+            $.get("/app/webroot/ajax/slideThree.ctp", function() {
 
             }).done(function(response) {
                 self.append(response);
@@ -82,7 +82,7 @@ $(document).ready(function() {
         var slideTwoGet = isLoadedTwo();
         var slideThreeGet = isLoadedThree();
         if(slideTwoGet == false && slideThreeGet == false) {
-            $.get("/rjlweb/app/webroot/ajax/allSlides.ctp", function() {
+            $.get("/app/webroot/ajax/allSlides.ctp", function() {
 
             }).done(function(response) {
                 self.append(response);
