@@ -88,16 +88,16 @@
                 </div>
                 <div class="col-xs-3 footContent">
                   <div>
-                    <a href=""><h3>About us</h3></a>
-                    <a href=""><h3>Get Involved</h3></a>
-                    <a href=""><h3>Our Impact</h3></a>
+                    <a href="/About/index"><h3>About us</h3></a>
+                    <a href="/GetInvolved/index"><h3>Get Involved</h3></a>
+                    <a href="/Impact/index"><h3>Our Impact</h3></a>
                   </div> 
                 </div>
                 <div class="col-xs-3 footContent">
                   <div>
-                    <a href=""><h3>Resources</h3></a>
-                    <a href=""><h3>Contact Us</h3></a>
-                    <a href=""><h3>Log In</h3></a>
+                    <a href="/Resources/index"><h3>Resources</h3></a>
+                    <a href="/Contact/index"><h3>Contact Us</h3></a>
+                    <a href="/rjl"><h3>Log In</h3></a>
                   </div> 
                 </div>
                 <div class="col-xs-3 footContentLast">

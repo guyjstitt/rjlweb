@@ -17,7 +17,7 @@ $this->end(); ?>
 <div class="row mainContainer page"> 
 	<div id= "contentContainer" class = "col-md-8 center">
 		<div class="col-md-8">
-			<h1 class="headerMain">Our Impact</h1>
+			<h1 class="headerMain">OUR IMPACT</h1>
 			<p class="subHeader">As Kentucky’s corrections budget grows, spending in areas like education are adversely impacted.</p>
 			<!-- Go to www.addthis.com/dashboard to generate a new set of buttons -->
 			<div class="shareBarHolder">	
