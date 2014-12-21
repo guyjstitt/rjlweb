@@ -1,6 +1,6 @@
 
 function detectMobile() {
-    if(window.innerWidth <= 768 && window.innerHeight <= 600) {
+    if(window.innerWidth <= 768) {
         return true;
     } else {
         return false;
