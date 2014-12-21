@@ -1,0 +1,28 @@
+form .row .col-sm-4, form .row .col-xs-12 {
+	margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], textarea   {
+	border-radius: 8px;
+}
+
+input[type=text], input[type=email]  {
+	height: 30px;
+	border: 1px solid rgb(169, 169, 169);
+}
+
+input[type=submit] {
+	padding:5px 15px; background:#ccc; border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	float: right; 
+}
+
+.error {
+	color: red;
+}
+
+#volForm {
+	padding-left: 15px;
+}

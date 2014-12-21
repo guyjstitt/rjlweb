@@ -1,0 +1,503 @@
+#debug-kit-toolbar {
+	z-index: 999999999999999999999999999999999999999999999999999999999999 !important;
+}
+#navHeader {
+
+}
+.navHeader{
+	background-color: #00c453;
+	z-index: 20;
+}
+
+.navbar {
+	position: relative;
+	width: 100%;
+	border: none !important;
+	border-radius: 0;
+}
+.navHeader-absolute {
+	position: absolute;
+}
+
+.navbar-fixed-top {
+	top:0;
+	position: fixed;
+}
+.shareBarHeader {
+	position: relative;
+	left: 65%;
+	top: 7px;
+	float: left;
+	width: 300px;
+}
+
+.fb-like {
+	margin-left: 0 !important;
+	top: -5px !important;
+}
+.twitter-follow {
+	float: left;
+}
+
+/*
+.logo img{
+	position: fixed;
+	top: 3px;
+	left: 0;
+	z-index: 99999999999999999999;
+	max-height: 120px;
+	height: auto;
+	max-width: 260px;
+}
+*/
+
+.mainBody {
+	float: left;
+	margin: 0 auto;
+}
+
+#slider {
+	margin: 115px 0 0 0;
+}
+
+.container {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	width: 900px;
+	position: relative;
+	float: right;
+}
+
+.navbar-header, .navbar-nav {
+	float: left;
+}
+
+.navbar-nav li a {
+	font-family: Proxima-Nova,Helvetica,Arial,sans-serif;
+}
+
+.navTop {
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	background-color: white;
+	top: 0;
+}
+
+.anchor {
+	position: absolute;
+	top: 35px;
+}
+
+.logoImage {
+	 position: absolute;
+	 top: 3px;
+	 left:  17px;
+	 z-index: 21;
+	 max-width: 85px;
+	 height: auto;
+}
+
+.logoText {
+	position: absolute;
+	top: -10px;
+	left: 81px;
+	z-index: 21;
+	max-width: 218px;
+	height: auto;
+}
+
+
+
+
+
+.nav li a, .sliderImages div a {
+	cursor: pointer;
+}
+
+.nav li a  {
+	font-size: 1.2em;
+
+	color:white;
+}
+
+.nav li a:hover  {
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: inset 6px 0 4px -6px #222 , inset -6px 0 4px -6px #222;
+}
+
+li.active {
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: inset 6px 0 4px -6px #222 , inset -6px 0 4px -6px #222;
+}
+
+li.active a {
+	color: white !important;
+}
+
+.logoShadow {
+	padding: 25px 19px;
+	position: absolute;
+	/* max-width: 85px; */
+	top: 36px;
+	left: 41px;
+	box-shadow: inset 6px 0 9px -5px rgba(0,0,0,0.7), inset -9px 0 6px -5px rgba(0,0,0,0.7),15px 0 14px -5px rgba(0,0,0,0.7), -18px 0 11px -3px rgba(0,0,0,0.7);
+	/* height: 52px; */
+	z-index: 20;
+}
+
+.navbar-collapse {
+	float: right;
+	padding: 0;
+}
+
+@media (max-width: 1050px) {
+	.container {
+		
+	}
+	.nav > li > a {
+		padding: 15px 8px;
+		font-size: .90em;
+	}
+	.logoImage {
+		display: none;
+	}
+	.logoShadow {
+		display: none;
+	}
+
+	.logoText {
+		left: 17px;
+	}
+
+
+}
+
+.logoImageScroll {
+	display: none;
+}
+
+.logoTextScroll {
+	left: 17px;
+	top: -45px;
+	position: fixed;
+}
+
+
+@media (max-width: 450px) {
+
+  .logoText, .logoTextScroll {
+    left: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+	.container {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.navbar-header {
+		position: relative;
+		right: 0;
+		float: none;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		width: 100%;
+	}
+
+	.navbar-toggle {
+		background-color: #D8D8D8;
+	}
+
+	.navbar-collapse {
+		float: left;
+		max-height: 370px !important; 
+		width: 100%;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.nav {
+		width: 100%;
+		margin: 7px 0 !important;
+	}
+
+	.icon-bar{
+		background-color: white !important;
+	}
+}
+
+.carousel-inner {
+}
+
+.carousel-inner .item {
+	top: 25%;
+	position: relative;
+	height: 800px;
+}
+
+.carousel-inner .item img {
+	top: 25%;
+	position: relative;
+	max-height: 800px;
+}
+
+.c1 {
+	position: relative;
+	height: 100%;
+	background: url("/rjlweb/app/webroot/images/handsbig.jpg");
+	background-repeat: no-repeat;
+	background-position: 0px 25%;
+	width: 100%;
+	background-size: cover;
+	-ms-behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
+	behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
+}
+
+.slider {	
+	height: 800px;
+	width: 100%;
+	margin-top: 85px;
+}
+
+
+
+.slider div div.slide.show {
+	visibility: visible !important;
+	display: block !important;
+}
+
+.slide1 {
+	display: none !important;
+	background: url("/rjlweb/app/webroot/images/handscropped.jpg");
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/handscropped.jpg") no-repeat;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(59%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))), url("/rjlweb/app/webroot/images/handscropped.jpg") no-repeat;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/handscropped.jpg") no-repeat;
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/handscropped.jpg") no-repeat;
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/handscropped.jpg") no-repeat;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/handscropped.jpg") no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	-ms-behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
+}
+
+.slide2 {
+	display: none !important;
+	background: url("/rjlweb/app/webroot/images/gavelnew_compress.jpg");
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/gavelnew_compress.jpg") no-repeat;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(59%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))), url("/rjlweb/app/webroot/images/gavelnew_compress.jpg") no-repeat;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/gavelnew_compress.jpg") no-repeat;
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/gavelnew_compress.jpg") no-repeat;
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/gavelnew_compress.jpg") no-repeat;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/gavelnew_compress.jpg") no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	-ms-behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
+	behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
+}
+
+.slide3 {
+	display: none !important;
+	background: url("/rjlweb/app/webroot/images/louisvillecompress.jpg");
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/louisvillecompress.jpg") no-repeat;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(59%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))), url("/rjlweb/app/webroot/images/louisvillecompress.jpg") no-repeat;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/louisvillecompress.jpg") no-repeat;
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/louisvillecompress.jpg") no-repeat;
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/louisvillecompress.jpg") no-repeat;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/rjlweb/app/webroot/images/louisvillecompress.jpg") no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	-ms-behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
+	behavior: url("/rjlweb/app/webroot/images/backgroundsize.min.htc");
+}
+
+
+/*
+a.control_prevSlide, a.control_nextSlide {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+*/
+a.control_prevSlide:hover, a.control_nextSlide:hover {
+  	opacity: 1;
+  	-webkit-transition: all 0.2s ease;
+}
+/*
+a.control_prevSlide {
+	background-position: -3px -33px;
+	left: -200px;
+  	border-radius: 0 2px 2px 0;
+  	z-index: 4;
+}*/
+
+a.control_prevSlide {
+	z-index: 4;
+	right: -200px;
+	width: 55px;
+	height: 55px;
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(/rjlweb/app/webroot/images/a13.png) center center no-repeat;
+	overflow: hidden;
+	background-position: -10px -33px;
+
+}
+
+a.control_nextSlide {
+	z-index: 4;
+	right: -200px;
+	width: 55px;
+	height: 55px;
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(/rjlweb/app/webroot/images/a13.png) center center no-repeat;
+	overflow: hidden;
+	background-position: -55px -33px;
+}
+/*
+a.control_nextSlide {
+  	right: -200px;
+  	border-radius: 2px 0 0 2px;
+  	z-index: 4;
+}
+*/
+#debug-kit-toolbar {
+	display: none;
+}
+.mainSlideContent {
+
+}
+.mainSlideWrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.mainSlideHeader {
+	text-shadow: 3px 3px 0px rgba(0,0,0,.4);
+	font-size: 4.5em;
+	color: white;
+}
+.mainSlideMessage {
+	text-shadow: 3px 3px 0px rgba(0,0,0,.4);
+	font-size: 2.5em;
+	color: white;
+}
+
+.mainSlideContent {
+	position: absolute;
+	bottom: 10%;
+	left: 7.5%;
+	max-width: 85%;
+	max-height: 100%;
+	padding-top: 10px; 	
+}
+
+.shareWrapper {
+	text-align: left;
+	z-index: 3;
+}
+
+.shareWrapper li a {
+	z-index: 3 !important;
+}
+
+.slideOverlay {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+
+.waypoint {
+	position: absolute;
+	width: 100%;
+	top:35px;
+}
+
+/* Hack for android mobile browser */
+.absolute {
+	position: absolute !important;
+}
+
+
+@media(max-width: 768px) {
+	.mainSlideContent {
+		left: 12.5%;
+		max-width: 75%;
+		bottom: 10px;
+	}
+
+	.mainSlideHeader {
+		font-size: 3em;
+	}
+
+	.mainSlideMessage {
+		font-size: 2em;
+	}
+
+	.navbar {
+		position: fixed;
+		z-index: 99999999999999999999999999;
+	}
+	.waypoint {
+		top: 0;
+	}
+	.logoText {
+		z-index: 99999999999999999999999999;
+		position: fixed;
+		top: -45px;
+	}
+
+	.slider {
+		margin-top: 50px;
+		min-height: 300px;
+	}
+
+	.slideContainer .slide {
+		min-height: 300px;
+	}
+
+}
+
+@media(max-width: 375px) {
+	.mainSlideContent {
+		left: 15%;
+		max-width: 70%;
+		bottom: 10px;
+	}
+
+	.mainSlideHeader {
+		font-size: 2.5em;
+	}
+
+	.mainSlideMessage {
+		font-size: 1.5em;
+	}
+}
