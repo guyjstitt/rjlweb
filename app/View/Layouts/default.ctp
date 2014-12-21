@@ -104,7 +104,7 @@
                   <div>
                     <h3>Follow Us</h3>
                     <ul class="footLinks">
-                      <li><a class="fbFollow" target="_blank" href="https://www.facebook.com/rjlouisville"><img src="/rjlweb/app/webroot/images/fb-logo.PNG"></a></li>
+                      <li><a class="fbFollow" target="_blank" href="https://www.facebook.com/rjlouisville"><img src="/rjlweb/app/webroot/images/fb-logo.png"></a></li>
                     </ul>
                   </div> 
                 </div>
