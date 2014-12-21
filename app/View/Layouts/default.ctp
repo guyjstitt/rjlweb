@@ -88,40 +88,23 @@
                 </div>
                 <div class="col-xs-3 footContent">
                   <div>
-                    <h3>About us</h3>
-                    <ul class="footLinks">
-                      <li><a></a></li>
-                    </ul>
-                    <h3>Get Involved</h3>
-                    <ul class="footLinks">
-                    </ul>
-                    <h3>Contact Us</h3>
-                    <ul class="footLinks">
-                      <li></li>
-                    </ul>
+                    <a href=""><h3>About us</h3></a>
+                    <a href=""><h3>Get Involved</h3></a>
+                    <a href=""><h3>Our Impact</h3></a>
                   </div> 
                 </div>
                 <div class="col-xs-3 footContent">
                   <div>
-                    <h3>Our Impact</h3>
-                    <ul class="footLinks">
-                      <li></li>
-                    </ul>
-                    <h3>Resources</h3>
-                    <ul class="footLinks">
-                      <li></li>
-                    </ul>
-                    <h3>Log In</h3>
-                    <ul class="footLinks">
-                      <li></li>
-                    </ul>
+                    <a href=""><h3>Resources</h3></a>
+                    <a href=""><h3>Contact Us</h3></a>
+                    <a href=""><h3>Log In</h3></a>
                   </div> 
                 </div>
                 <div class="col-xs-3 footContentLast">
                   <div>
                     <h3>Follow Us</h3>
                     <ul class="footLinks">
-                      <!--<li><a class="fbFollow"href="http://www.facebook.com"><img src="/rjlweb/app/webroot/images/facebook.PNG"></a></li>-->
+                      <li><a class="fbFollow" target="_blank" href="https://www.facebook.com/rjlouisville"><img src="/rjlweb/app/webroot/images/fb-logo.PNG"></a></li>
                     </ul>
                   </div> 
                 </div>
@@ -138,6 +121,7 @@
     echo $this->Html->script('bootstrap.min');
     echo $this->Html->script('share');
     echo $this->Html->script('mainSlider');
+    echo $this->Html->script('contact');
 ?>
 <!--[if IE 8]>
 <script src="/rjlweb/app/webroot/js/respond.min.js"></script>

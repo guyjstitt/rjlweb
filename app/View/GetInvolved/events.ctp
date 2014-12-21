@@ -42,5 +42,4 @@ $this->end(); ?>
   <div class ="col-md-4 footerPad"></div>
 </div>
 
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53f56303144fe2bd"></script>
 

@@ -51,7 +51,7 @@ $(document).ready(function() {
 		}
 
 		function getSuccessForm() {
-			$('.contentContainer .col-md-8').load("/rjlweb/GetInvolved/volunteerSuccess");
+			$('#contentContainer .col-md-8').load("/rjlweb/GetInvolved/volunteerSuccess");
 		}
 	}
 });

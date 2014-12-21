@@ -134,11 +134,13 @@ transform: perspective(50000px);
 }
 
 .fbFollow {
-    width: 100%;
+    width: 40%;
+    height: auto;
+    min-width: 30px;
 }
 
 .fbFollow img {
-    width: 100px;
+    width: 40px;
     height: auto;
 }
 

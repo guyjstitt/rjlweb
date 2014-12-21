@@ -30,7 +30,7 @@ $this->end(); ?>
                     </ul>
 				</div>
 			</div>
-			<img class = "pageImage" src="/rjlweb/app/webroot/images/handsbig.jpg" />
+			<!--<img class = "pageImage" src="/rjlweb/app/webroot/images/handsbig.jpg" />-->
 			<h3 class="subHead">Why Restorative Justice Practices</h3>
 			<p class ="pageText">
 				Kentucky spends more than $19,000 per year to house an adult inmate, but only $7,000 to educate a child. And it costs even more to house a juvenile each year, at around $72,000 – making it cheaper to send a kid to college for four years than to juvenile detention for one year. That’s why restorative justice practices are so important to our community. They have been shown to reduce recidivism of offenders and increase victim satisfaction within the judicial process, building a healthy and strong Louisville for years to come.
@@ -56,23 +56,7 @@ $this->end(); ?>
 				Jess vandalized a business causing more than $1,500 in damages. Keith Bruner, the owner of the vandalized business, did not ask Jess to pay him for the damages. Instead, Keith requested that Jess get a job and put $50 each month into a savings account until it reaches $1,500. When Jess turns 18, he will then be able to use the money to attend college. If he does not attend college the funds will return to Keith. Another part of their agreement requires that Jess give back to his community. Keith felt it was important for Jess to experience what is possible if he does not begin to think about his future and what he needs to do to have a chance at a good future – also to learn to care about others who have less.
 			</p>
 		</div>
-	<div class ="col-md-4 rail">
-                <h3 class='headerText'>Keep Up With Our Newsletters</h3>
-                <ul>
-                    <li class="list"><span>January</span><a>Restorative Justice Louisville On The Rise</a></li>
-                    <li class="list"><span> February</span><a>Keeping Crime Out of the Street</a></li>
-                    <li class="list"><span> March</span><a>Our Spring Newsletter</a></li>
-                </ul>
-                <h3 class='headerText'>Announcements</h3>
-                 <ul>
-                    <li><span>Facilitator Training</span><p>We are holding open sessions for volunteers to become Facilitators</p></li>
-                    <li><span>Volunteer Submission Form</span><p>Become a Volunteer for free in a few easy steps</p></li>
-                    <li><span>Our First Event</span><p>We are hosting our first event at Cross Country Golf Club</p></li>
-                    <li><span>Donation to RJL</span><p>Donate online and help us grow</p></li>
-                    <li><span>Watch Our Video</span><p>Learn about us through watching our video</p></li>
-                </ul>
-                <button class="donateButton"><span>Donate</span></button>
-             </div>
+	<?php echo $this->element('rail'); ?>
 	<div class ="col-md-4 footerPad"></div>
 </div>
 

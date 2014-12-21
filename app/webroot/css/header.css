@@ -462,15 +462,26 @@ a.control_nextSlide {
 		font-size: 2em;
 	}
 
+	.navbar {
+		position: fixed;
+		z-index: 99999999999999999999999999;
+	}
 	.waypoint {
 		top: 0;
 	}
 	.logoText {
+		z-index: 99999999999999999999999999;
+		position: fixed;
 		top: -45px;
 	}
 
 	.slider {
 		margin-top: 50px;
+		min-height: 300px;
+	}
+
+	.slideContainer .slide {
+		min-height: 300px;
 	}
 
 }

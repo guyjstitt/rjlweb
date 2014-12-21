@@ -1,41 +1,59 @@
 
+function detectMobile() {
+    if(window.innerWidth <= 768 && window.innerHeight <= 600) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
+function isMobile() {
+     var   mn = $(".navHeader");
+        mns = "navbar-fixed-top";
+        mn2 = "navHeader-absolute";
+        li = $(".logoImage");
+        lt = $(".logoText");
+        ls = $(".logoShadow")
+        logoImage = "logoImageScroll";
+        logoText = "logoTextScroll";
+        logoShadow = "logoShadow";
+        absolute = "absolute";
+        hdr = $('.waypoint').position();
+        
+    if(detectMobile() == false) {
+        $(window).scroll(function() {
+            if( $(this).scrollTop() > hdr.top ) {
+                mn.addClass(mns);
+                li.addClass(logoImage);
+                lt.addClass(logoText);
+                ls.removeClass(logoShadow);
+                lt.removeClass(absolute);
+            } else {
+                lt.addClass(absolute);
+                ls.addClass(logoShadow);
+                mn.removeClass(mns);
+                li.removeClass(logoImage);
+                lt.removeClass(logoText);
+          }
+        });
+    } else  {
+        $(window).scroll(function() {
+
+        });
+    }
+}
+
+$(window).resize(isMobile);
+
+$(document).ready(isMobile);
 
 $(document).ready(function() {
-
-    var   mn = $(".navHeader");
-    mns = "navbar-fixed-top";
-    mn2 = "navHeader-absolute";
-    li = $(".logoImage");
-    lt = $(".logoText");
-    ls = $(".logoShadow")
-    logoImage = "logoImageScroll";
-    logoText = "logoTextScroll";
-    logoShadow = "logoShadow";
-    absolute = "absolute";
-    hdr = $('.waypoint').position();
-    
-
-    $(window).scroll(function() {
-        if( $(this).scrollTop() > hdr.top ) {
-            mn.addClass(mns);
-            li.addClass(logoImage);
-            lt.addClass(logoText);
-            ls.removeClass(logoShadow);
-            lt.removeClass(absolute);
-        } else {
-            lt.addClass(absolute);
-            ls.addClass(logoShadow);
-            mn.removeClass(mns);
-            li.removeClass(logoImage);
-            lt.removeClass(logoText);
-      }
-    });
   
     $('a.control_nextSlide').on('click', function() {
         var self = $('.slider .slideContainer');
         var slideTwoGet = isLoadedTwo();
         var slideThreeGet = isLoadedThree();
+        var slideRig
         if(slideTwoGet == false) {
             $.get("/rjlweb/app/webroot/ajax/slideTwo.ctp", function() {
 
@@ -126,8 +144,13 @@ $(document).ready(function() {
     }
 
     function resizeHeight() {
-        var sliderHeight = $(window).height() * .80;
+        if(detectMobile() == true) {
+            var sliderHeight = $(window).height() * .60;
+            $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
+        } else {
+             var sliderHeight = $(window).height() * .80;
         $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
+        }
     }
 
     function initializeSocial() {
@@ -171,23 +194,60 @@ $(document).ready(function() {
 
 
 $(window).load(function(){
-    var sliderHeight = $(window).height() * .80;
-    var centerButton = $('a.control_nextSlide').outerHeight() / 2;
-    var isMobile = 414;
-    var buttonHeight = sliderHeight / 2 + 85 - centerButton;
-    $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
-    $('a.control_prevSlide').css("left", 0);
-    $('a.control_nextSlide').css("right", 0);
-	$('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
+
+    if(detectMobile() == true) {
+        var sliderHeight = $(window).height() * .60;
+        var minSliderHeight = 300;
+        $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
+        if(sliderHeight> minSliderHeight) {
+            var centerButton = $('a.control_nextSlide').outerHeight() / 2;
+            var buttonHeight = sliderHeight / 2 + 50 - centerButton;
+            $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
+            $('a.control_prevSlide').css("left", 0);
+            $('a.control_nextSlide').css("right", 0);
+        } else {
+            var centerButton = $('a.control_nextSlide').outerHeight() / 2;
+            var buttonHeight = minSliderHeight / 2 + 50 - centerButton;
+            $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
+            $('a.control_prevSlide').css("left", 0);
+            $('a.control_nextSlide').css("right", 0);
+        }
+    } else {
+        var sliderHeight = $(window).height() * .80;
+        var centerButton = $('a.control_nextSlide').outerHeight() / 2;
+        var buttonHeight = sliderHeight / 2 + 85 - centerButton;
+        $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
+        $('a.control_prevSlide').css("left", 0);
+        $('a.control_nextSlide').css("right", 0);
+        $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
+    }
 });
 
 
 $(window).resize(function() {
-    var centerButton = $('a.control_nextSlide').outerHeight() / 2;
-    var sliderHeight = $(window).height() * .80;
-    var buttonHeight = sliderHeight / 2 + 85 - centerButton;
-    $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
-    $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
+    var sliderHeight = $(window).height() * .60;
+    var minSliderHeight = 300;
+     if(detectMobile() == true) {
+        if(sliderHeight> minSliderHeight) {
+            var centerButton = $('a.control_nextSlide').outerHeight() / 2;
+            var sliderHeight = $(window).height() * .60;
+            var buttonHeight = sliderHeight / 2 + 50 - centerButton;
+            $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
+            $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
+        } else {
+            var centerButton = $('a.control_nextSlide').outerHeight() / 2;
+            var sliderHeight = $(window).height() * .60;
+            var buttonHeight = minSliderHeight / 2 + 50 - centerButton;
+            $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
+            $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
+        }
+    } else {
+        var centerButton = $('a.control_nextSlide').outerHeight() / 2;
+        var sliderHeight = $(window).height() * .80;
+        var buttonHeight = sliderHeight / 2 + 85 - centerButton;
+        $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
+        $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
+    }
 });
 
 
