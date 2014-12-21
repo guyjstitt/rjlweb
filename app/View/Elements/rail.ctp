@@ -15,5 +15,5 @@
 	 <ul>
 	    <li><span class="prefix">Annual Report 2013</span><a target="_blank" href="http://www.rjlou.org/wp-content/uploads/2013/03/RJL-2013-AR.pdf">This report contains comprehensive information about RJL's progress</a></li>
 	</ul>
-	<?php if($this->params['controller'] !== 'pages'){echo '<button class="donateButton"><span >Donate</span></button>';}?>
+	<?php if($this->params['controller'] !== 'pages'){echo '<a target="_blank" href="http://www.razoo.com/story/Restorative-Justice-Louisville"><button class="donateButton"><span >Donate</span></button></a>';}?>
 </div>
