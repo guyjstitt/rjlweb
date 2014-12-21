@@ -9,6 +9,7 @@
 	    <li><span class="prefix">Overview Brochure</span><a target="_blank" href="http://www.rjlou.org/wp-content/uploads/2013/03/RJL-Overview-Brochure.pdf">Learn more about us through browsing our brochure</a></li>
 	    <li><span class="prefix">Pledge Form</span><a target="_blank" href="http://www.rjlou.org/wp-content/uploads/2013/03/RJL2013_pledgeform.pdf">Fill out our brochure to get involved</a></li>
 	     <li><span class="prefix">Online Volunteer Form</span><a href="/GetInvolved/volunteer">Fill out our online volunteer form</a></li>
+	     <li><span class="prefix">Amazon Smile</span><a target="_blank" href="http://smile.amazon.com/ch/45-2868484">Amazon will donate 0.5% of the price of your eligible AmazonSmile purchases to RJL whenever you shop on AmazonSmile</a></li>
 	</ul>
 	<h3 class='headerText'>Reports</h3>
 	 <ul>
