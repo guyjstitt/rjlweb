@@ -62,7 +62,7 @@ $this->end(); ?>
                 <div class="divider center"><h1>Transforming Communities By Ending Crime</h1></div>
     			<div class="contentWrapper"> 
                     <div class="col-md-8">
-                        <h3 class="headerText">Get Involved with Our Organzation</h3>
+                        <h3 class="headerText">Get Involved with Our Organization</h3>
                         <div class="module">
                             <ul class="imageItems">
                                 <li class="col-6 slide">
