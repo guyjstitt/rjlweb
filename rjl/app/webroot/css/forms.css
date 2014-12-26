@@ -287,6 +287,10 @@ div.navactions a:active {
 	color: white;
 }
 
+.messageHead p {
+	margin: 0 0 0px;
+}
+
 .messageHead:hover {
 	cursor: hand;
 }
@@ -518,7 +522,9 @@ label.error {
 }
 
 .dataTables_wrapper{
-	box-shadow: 0 0 25px #6E6E6E;
+	box-shadow: 5px 5px 9px -4px #6E6E6E;
+	-moz-box-shadow: 5px 5px 9px -4px #6E6E6E;
+	-webkit-box-shadow: 5px 5px 9px -4px #6E6E6E;
 }
 
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
@@ -540,4 +546,32 @@ label.error {
 
 .ui-state-default {
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#636363), color-stop(.4,#616161),color-stop(.6,#737373)) !important;
+}
+
+.imageLogo {
+	position: relative;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+}
+
+.imageLogo img {
+	max-width: 100%;
+	height: auto;
+}
+
+.headerWrapper {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.messageContent {
+	box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4);
+	padding-top: 5px;
+}
+
+.headerFixed {
+
 }

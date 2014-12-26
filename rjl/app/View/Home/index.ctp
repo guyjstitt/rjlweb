@@ -68,8 +68,7 @@ $(document).ready( function () {
 
 </div>
 
-
-<div>
+<div class="table-responsive">
     <h2>Closed Cases</h2>
     <table id="closed" class="table">
         <thead>
