@@ -12,6 +12,9 @@ $(document).ready( function () {
     $('#home').dataTable({
 	"bJQueryUI": true
 	});
+    $('#closed').dataTable({
+    "bJQueryUI": true
+    });
 	 $('#potential').dataTable({
 	"bJQueryUI": true
 	});
@@ -41,30 +44,64 @@ $(document).ready( function () {
      </thead> 
 <tbody id="table">
 
-
-
     
  <?php
  foreach ($items as $case): ?>
-	<?php if ($cur_user['id']==$case['RjCase']['user_id']||$cur_user['role']=='admin'||!empty($case['User'][0]['id'])&&$cur_user['id']==($case['User'][0]['id'])||!empty($case['User'][1]['id'])&&$cur_user['id']==($case['User'][1]['id'])||!empty($case['User'][2]['id'])&&$cur_user['id']==($case['User'][2]['id'])||!empty($case['User'][3]['id'])&&$cur_user['id']==($case['User'][3]['id'])||!empty($case['User'][4]['id'])&&$cur_user['id']==($case['User'][4]['id'])||!empty($case['User'][5]['id'])&&$cur_user['id']==($case['User'][5]['id'])):?>
-	<tr>
-		<td><?php echo $case['RjCase']['caseId']; ?></td>
-		<td><?php echo $case['RjCase']['caseStatus']; ?></td>
-		<td><?php echo $case['OffenderJoin']['firstName']; ?></td>
-		<td><?php echo $case['OffenderJoin']['lastName']; ?></td>
-		<td><?php echo $case['VictimJoin']['firstName']; ?></td>
-		<td><?php echo $case['VictimJoin']['lastName']; ?></td>
-		<td class="actions">
-			<?php echo $this->Html->link(('View'), array('controller'=> 'RjCases', 'action' => 'view', $case['RjCase']['id'])); ?> 	<?php if ($cur_user['role']!='facilitator'): ?>|
-			<?php echo $this->Html->link(__('Edit'), array('controller'=> 'RjCases','action' => 'edit', $case['RjCase']['id'])); ?>
-			<?php endif; ?>
-		</td>
-	</tr>
-	<?php endif; ?>
-	<?php endforeach; ?>
+    	<?php if (($case['RjCase']['caseStatus'] != "Closed") && ($cur_user['id']==$case['RjCase']['user_id']||$cur_user['role']=='admin'||!empty($case['User'][0]['id'])&&$cur_user['id']==($case['User'][0]['id'])||!empty($case['User'][1]['id'])&&$cur_user['id']==($case['User'][1]['id'])||!empty($case['User'][2]['id'])&&$cur_user['id']==($case['User'][2]['id'])||!empty($case['User'][3]['id'])&&$cur_user['id']==($case['User'][3]['id'])||!empty($case['User'][4]['id'])&&$cur_user['id']==($case['User'][4]['id'])||!empty($case['User'][5]['id'])&&$cur_user['id']==($case['User'][5]['id']))):?>
+    	<tr>
+    		<td><?php echo $case['RjCase']['caseId']; ?></td>
+    		<td><?php echo $case['RjCase']['caseStatus']; ?></td>
+    		<td><?php echo $case['OffenderJoin']['firstName']; ?></td>
+    		<td><?php echo $case['OffenderJoin']['lastName']; ?></td>
+    		<td><?php echo $case['VictimJoin']['firstName']; ?></td>
+    		<td><?php echo $case['VictimJoin']['lastName']; ?></td>
+    		<td class="actions">
+    			<?php echo $this->Html->link(('View'), array('controller'=> 'RjCases', 'action' => 'view', $case['RjCase']['id'])); ?> 	<?php if ($cur_user['role']!='facilitator'): ?>|
+    			<?php echo $this->Html->link(__('Edit'), array('controller'=> 'RjCases','action' => 'edit', $case['RjCase']['id'])); ?>
+    			<?php endif; ?>
+    		</td>
+    	</tr>
+    	<?php endif; ?>
+<?php endforeach; ?>
 </tbody>
 </table>
 
+</div>
+
+
+<div>
+    <h2>Closed Cases</h2>
+    <table id="closed" class="table">
+        <thead>
+              <th>Case ID</th>
+                <th>Case Status</th>
+                <th>Offender First Name</th>
+                <th>Offender Last Name</th>
+                <th>Victim First Name</th>
+                <th>Victim Last Name</th>
+                <th>Actions</th> 
+         </thead> 
+        <tbody id="table">
+            <?php
+            foreach ($items as $case): ?>
+                <?php if (($case['RjCase']['caseStatus'] == "Closed") && ($cur_user['id']==$case['RjCase']['user_id']||$cur_user['role']=='admin'||!empty($case['User'][0]['id'])&&$cur_user['id']==($case['User'][0]['id'])||!empty($case['User'][1]['id'])&&$cur_user['id']==($case['User'][1]['id'])||!empty($case['User'][2]['id'])&&$cur_user['id']==($case['User'][2]['id'])||!empty($case['User'][3]['id'])&&$cur_user['id']==($case['User'][3]['id'])||!empty($case['User'][4]['id'])&&$cur_user['id']==($case['User'][4]['id'])||!empty($case['User'][5]['id'])&&$cur_user['id']==($case['User'][5]['id']))):?>
+                    <tr>
+                        <td><?php echo $case['RjCase']['caseId']; ?></td>
+                        <td><?php echo $case['RjCase']['caseStatus']; ?></td>
+                        <td><?php echo $case['OffenderJoin']['firstName']; ?></td>
+                        <td><?php echo $case['OffenderJoin']['lastName']; ?></td>
+                        <td><?php echo $case['VictimJoin']['firstName']; ?></td>
+                        <td><?php echo $case['VictimJoin']['lastName']; ?></td>
+                        <td class="actions">
+                            <?php echo $this->Html->link(('View'), array('controller'=> 'RjCases', 'action' => 'view', $case['RjCase']['id'])); ?>  <?php if ($cur_user['role']!='facilitator'): ?>|
+                            <?php echo $this->Html->link(__('Edit'), array('controller'=> 'RjCases','action' => 'edit', $case['RjCase']['id'])); ?>
+                            <?php endif; ?>
+                        </td>
+                    </tr>
+                <?php endif; ?>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
 </div>
 
 <?php if ($cur_user['role']!='facilitator' && $cur_user['role']!='casemanager'): ?>
