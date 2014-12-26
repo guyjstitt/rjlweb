@@ -390,7 +390,7 @@
 	<tr id="ofAdd"> </tr>
 	<tfoot>
 		<tr>
-		<td id="ofAdd"> <?php echo $this->Form->button('Add Offender(s)',array('type'=>'button','label'=>'Click Here to add another offender')); ?> </td>
+		<td id="ofAdd"> <?php echo $this->Form->button('Add Offender(s)',array('type'=>'button','label'=>'Click Here to add another offender','onclick'=>'addOffender()')); ?> </td>
 		<tr>
 	</tfoot>
 	</table>
@@ -471,7 +471,7 @@
 	<tr id="trAdd"> </tr>
 	<tfoot>
 		<tr>
-		<td id="trAdd"> <?php echo $this->Form->button('Add Victim(s)',array('type'=>'button','label'=>'Click Here to add another victim')); ?> </td>
+		<td id="trAdd"> <?php echo $this->Form->button('Add Victim(s)',array('type'=>'button','label'=>'Click Here to add another victim','onclick'=>'addPerson()')); ?> </td>
 		<tr>
 	</tfoot>
 	</table>
