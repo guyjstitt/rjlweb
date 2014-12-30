@@ -1,6 +1,13 @@
 (function(){
 	var app = angular.module('home', []);
 
+	app.directive('imageGallery',function() {
+		return {
+			restrict: 'E',
+			templateUrl: '/app/webroot/templates/image-gallery.html'
+		};
+	});
+
 	app.controller('RailController', ['$http', function($http){
 		var rail = this;
 

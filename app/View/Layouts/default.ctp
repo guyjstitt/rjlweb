@@ -118,7 +118,6 @@
     echo $this->Html->script('app.js');
     echo $this->Html->script('jquery-1.11.1.min');
     echo $this->Html->script('jquery-ui.min');
-    echo $this->Html->script('bootstrap.min');
     echo $this->Html->script('share');
     echo $this->Html->script('mainSlider');
     echo $this->Html->script('contact');
