@@ -114,7 +114,7 @@
   </div>
 </div>
 <?php
-    echo $this->Html->script('components/angular.js');
+    echo $this->Html->script('components/angular.min');
     echo $this->Html->script('app.js');
     echo $this->Html->script('jquery-1.11.1.min');
     echo $this->Html->script('jquery-ui.min');
