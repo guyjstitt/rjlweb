@@ -34,6 +34,7 @@ class AppController extends Controller {
 	
 	public $helpers = array('Js');
     public $components = array(
+    	'DebugKit.Toolbar',
         'Session',
         'Auth' => array(
             'loginRedirect' => array('controller' => 'home','action' => 'index'),

@@ -1,4 +1,6 @@
-
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {
+    display: none !important;
+} 
 html {
 	background-color: #D8D8D8;
 }

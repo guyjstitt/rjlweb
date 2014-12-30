@@ -16,7 +16,7 @@
 
 ?>
 <!DOCTYPE html>
-<html>
+<html ng-app="home">
 <head>
 	<?php echo $this->Html->charset(); ?>
   <?php echo $this->fetch('head') ?>
@@ -113,9 +113,9 @@
     </div>
   </div>
 </div>
-
 <?php
-
+    echo $this->Html->script('components/angular.js');
+    echo $this->Html->script('app.js');
     echo $this->Html->script('jquery-1.11.1.min');
     echo $this->Html->script('jquery-ui.min');
     echo $this->Html->script('bootstrap.min');

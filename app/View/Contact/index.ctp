@@ -45,13 +45,6 @@ $this->end(); ?>
 				    <li><a href="http://www.rjlou.org/wp-content/uploads/2013/03/RJL-Privacy-Notice.pdf">RJL Privacy Notice</a> </li>
 				<ul>
 			</div>
-
-
-
-
-<script type="text/javascript" src="/wp-includes/js/num.js"></script>
-
-
 		</div>
 		<?php echo $this->element('rail'); ?>
 	<div class ="col-md-4 footerPad"></div>
