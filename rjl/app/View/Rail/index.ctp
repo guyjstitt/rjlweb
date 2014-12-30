@@ -23,6 +23,7 @@
 		</table>
 	</div>
 </div>
+<div class="padding"></div>
 
 <script>
 $(document).ready( function () {

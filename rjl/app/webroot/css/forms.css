@@ -575,3 +575,7 @@ label.error {
 .headerFixed {
 
 }
+
+.padding {
+	padding: 10px;
+}

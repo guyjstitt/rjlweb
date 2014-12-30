@@ -105,12 +105,13 @@
 								<li><a href="/rjl/Facilitators/">View Documents</a></li>
 							</ul>
 						  </li>
-						 	<?php if ($cur_user['role']=='admin'): ?>
+						 <?php if ($cur_user['role']=='admin'): ?>
 							<li id="admin" <?php if($this->params['controller'] == 'Messages'){echo 'class="active"';}?> class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" >
 							  Admin <b class="caret greycaret"></b>
 							</a>
 							<ul class="dropdown-menu">
+								<li><a href="/rjl/Rail/">Rail Component</a></li>
 								<li><a href="/rjl/Messages/">View Announcements</a></li>
 								<li><a href="/rjl/Reasons/">View Case Close Reasons</a></li>
 								<li><a href="/rjl/Codes/">View Note Codes</a></li>
@@ -119,7 +120,7 @@
 								<li><a href="/rjl/Events/">View Events</a></li>
 								<li><a href="/rjl/Reports/">Reports</a></li>
 							</ul>
-						  </li>
+						  	</li>
 						<?php endif ?>
 						</ul>
 						</div>
