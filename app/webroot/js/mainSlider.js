@@ -159,6 +159,7 @@ $(document).ready(function(){
 
 $(window).resize(function(){
     var windowWidth = $(window).innerWidth();
+     $('.slideContainer ul.slideList').css('width', windowWidth * 3 + "px");
     $('.slideContainer ul.slideList').css('margin-left', "-" + $(window).innerWidth() + "px");
     $('.slideContainer ul.slideList li.slide').css('width', windowWidth);
 });
