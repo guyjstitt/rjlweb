@@ -51,9 +51,6 @@ $('.slideContainer ul.slideList').css('margin-left', "-" + $(window).innerWidth(
 function moveSlide() {
     $( "a.control_nextSlide").unbind( "click" );
     $( "a.control_prevSlide").unbind( "click" );
-    var windowWidth = $(window).innerWidth();
-    $('.slideContainer ul.slideList').css('width', windowWidth * 3 + "px");
-    $('.slideContainer ul.slideList li.slide').css('width', windowWidth + "px");
 
     var windowWidth = $(window).innerWidth();
     $('a.control_nextSlide').on('click', function() {
@@ -78,42 +75,49 @@ function moveSlide() {
 $(document).ready(moveSlide);
 $(window).resize(moveSlide);
 
+$(document).ready(function(){
+    var self = $('.slider .slideContainer ul.slideList');
+    var windowWidth = $(window).innerWidth();
+
+    $.get("/app/webroot/ajax/allSlides.ctp", function() {
+            }).done(function(response) {
+                self.append(response);
+                if(detectMobile() == true) {
+                    var sliderHeight = $(window).height() * .60;
+                    var minSliderHeight = 300;
+                    $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
+                    if(sliderHeight> minSliderHeight) {
+                        var centerButton = $('a.control_nextSlide').outerHeight() / 2;
+                        var buttonHeight = sliderHeight / 2 + 50 - centerButton;
+                        $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
+                        $('a.control_prevSlide').css("left", 0);
+                        $('a.control_nextSlide').css("right", 0);
+                    } else {
+                        var centerButton = $('a.control_nextSlide').outerHeight() / 2;
+                        var buttonHeight = minSliderHeight / 2 + 50 - centerButton;
+                        $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
+                        $('a.control_prevSlide').css("left", 0);
+                        $('a.control_nextSlide').css("right", 0);
+                    }
+                } else {
+                    var sliderHeight = $(window).height() * .80;
+                    var centerButton = $('a.control_nextSlide').outerHeight() / 2;
+                    var buttonHeight = sliderHeight / 2 + 85 - centerButton;
+                    $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
+                    $('a.control_prevSlide').css("left", 0);
+                    $('a.control_nextSlide').css("right", 0);
+                    $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
+                }
+                $('.slideContainer ul.slideList').css('width', windowWidth * 3 + "px");
+                $('.slideContainer ul.slideList li.slide').css('width', windowWidth + "px");
+            });
+});
+
 $(window).resize(function(){
     var windowWidth = $(window).innerWidth();
     $('.slideContainer ul.slideList').css('margin-left', "-" + $(window).innerWidth() + "px");
     $('.slideContainer ul.slideList li.slide').css('width', windowWidth);
 });
-
-$(window).load(function(){
-
-    if(detectMobile() == true) {
-        var sliderHeight = $(window).height() * .60;
-        var minSliderHeight = 300;
-        $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
-        if(sliderHeight> minSliderHeight) {
-            var centerButton = $('a.control_nextSlide').outerHeight() / 2;
-            var buttonHeight = sliderHeight / 2 + 50 - centerButton;
-            $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
-            $('a.control_prevSlide').css("left", 0);
-            $('a.control_nextSlide').css("right", 0);
-        } else {
-            var centerButton = $('a.control_nextSlide').outerHeight() / 2;
-            var buttonHeight = minSliderHeight / 2 + 50 - centerButton;
-            $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
-            $('a.control_prevSlide').css("left", 0);
-            $('a.control_nextSlide').css("right", 0);
-        }
-    } else {
-        var sliderHeight = $(window).height() * .80;
-        var centerButton = $('a.control_nextSlide').outerHeight() / 2;
-        var buttonHeight = sliderHeight / 2 + 85 - centerButton;
-        $('a.control_prevSlide, a.control_nextSlide').css('top', buttonHeight);
-        $('a.control_prevSlide').css("left", 0);
-        $('a.control_nextSlide').css("right", 0);
-        $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
-    }
-});
-
 
 $(window).resize(function() {
     var sliderHeight = $(window).height() * .60;
