@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.contentWrapper image-gallery, ul.shareThis li, ul.slideList').on('click','a',function(event) {
+    $('.contentWrapper image-gallery, ul.shareThis li, ul.slideList').on('click','ul.shareThis a',function(event) {
         event.preventDefault();
         (function() {
             // link selector and pop-up window size
