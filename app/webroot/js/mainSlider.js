@@ -117,8 +117,6 @@ function handleEnd(event) {
 }
 
 $(document).ready(function(){
-    //initialize touch events
-    startup();
     var self = $('.slider .slideContainer ul.slideList');
     var windowWidth = $(window).innerWidth();
 
@@ -154,6 +152,9 @@ $(document).ready(function(){
                 $('.slideContainer ul.slideList').css('width', windowWidth * 3 + "px");
                 $('.slideContainer ul.slideList li.slide').css('width', windowWidth + "px");
             });
+
+    //initialize touch events
+    startup();
 });
 
 $(window).resize(function(){
