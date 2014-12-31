@@ -53,7 +53,7 @@ function moveSlide() {
     $( "a.control_prevSlide").unbind( "click" );
 
     var windowWidth = $(window).innerWidth();
-    $('a.control_nextSlide').on('click', function() {
+    $('a.control_nextSlide').on('click', function(event) {
         $('.slideContainer ul.slideList').animate({
             left: "-=" + windowWidth
         }, 1000, function(){
@@ -62,7 +62,7 @@ function moveSlide() {
         });
     });
 
-    $('a.control_prevSlide').on('click', function() {
+    $('a.control_prevSlide').on('click', function(event) {
     $('.slideContainer ul.slideList').animate({
             left: "+=" + windowWidth
         }, 1000, function(){
@@ -75,7 +75,50 @@ function moveSlide() {
 $(document).ready(moveSlide);
 $(window).resize(moveSlide);
 
+var swipeStart;
+var swipeEnd;
+
+function startup() {
+  var el = document.querySelector('.slider');
+  el.addEventListener("touchstart", handleStart, false);
+  el.addEventListener("touchend", handleEnd, false);
+  console.log("initialized.");
+}
+
+function handleSwipe() {
+    var windowWidth = $(window).innerWidth();
+    console.log('swipe start is ' + swipeStart);
+    console.log('swipe end is ' + swipeEnd);
+    if((swipeEnd - swipeStart) > 50) {
+        $('.slideContainer ul.slideList').animate({
+            left: "+=" + windowWidth
+        }, 1000, function(){
+            $('.slideContainer ul.slideList li.slide:last-child').prependTo('.slideContainer ul.slideList');
+            $('.slideContainer ul.slideList').css('left', '');
+        });
+    } else if((swipeStart - swipeEnd) > 50){
+         $('.slideContainer ul.slideList').animate({
+            left: "-=" + windowWidth
+        }, 1000, function(){
+            $('.slideContainer ul.slideList li.slide:first-child').appendTo('.slideContainer ul.slideList');
+            $('.slideContainer ul.slideList').css('left', '');
+        });
+    }
+};
+
+
+function handleStart(event) {
+    swipeStart = event.changedTouches[0].clientX;
+}
+
+function handleEnd(event) {
+    swipeEnd = event.changedTouches[0].clientX;
+    handleSwipe();
+}
+
 $(document).ready(function(){
+    //initialize touch events
+    startup();
     var self = $('.slider .slideContainer ul.slideList');
     var windowWidth = $(window).innerWidth();
 
