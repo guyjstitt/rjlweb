@@ -1,6 +1,5 @@
-
 function detectMobile() {
-    if(window.innerWidth <= 768) {
+    if($(window).innerWidth() <= 768) {
         return true;
     } else {
         return false;
@@ -47,151 +46,43 @@ $(window).resize(isMobile);
 
 $(document).ready(isMobile);
 
-$(document).ready(function() {
-  
+$('.slideContainer ul.slideList').css('margin-left', "-" + $(window).innerWidth() + "px");
+
+function moveSlide() {
+    $( "a.control_nextSlide").unbind( "click" );
+    $( "a.control_prevSlide").unbind( "click" );
+    var windowWidth = $(window).innerWidth();
+    $('.slideContainer ul.slideList').css('width', windowWidth * 3 + "px");
+    $('.slideContainer ul.slideList li.slide').css('width', windowWidth + "px");
+
+    var windowWidth = $(window).innerWidth();
     $('a.control_nextSlide').on('click', function() {
-        var self = $('.slider .slideContainer');
-        var slideTwoGet = isLoadedTwo();
-        var slideThreeGet = isLoadedThree();
-        var slideRig
-        if(slideTwoGet == false) {
-            $.get("/app/webroot/ajax/slideTwo.ctp", function() {
-
-            }).done(function(response) {
-                self.append(response);
-                resizeHeight();
-                fadeNextSlide();
-                initializeSocial();
-            });
-        } else if (slideTwoGet == true && slideThreeGet == false) {
-            $.get("/app/webroot/ajax/slideThree.ctp", function() {
-
-            }).done(function(response) {
-                self.append(response);
-                resizeHeight();
-                fadeNextSlide();
-                initializeSocial();
-            });
-        } else {
-            fadeNextSlide();
-        }
+        $('.slideContainer ul.slideList').animate({
+            left: "-=" + windowWidth
+        }, 1000, function(){
+            $('.slideContainer ul.slideList li.slide:first-child').appendTo('.slideContainer ul.slideList');
+            $('.slideContainer ul.slideList').css('left', '');
+        });
     });
 
     $('a.control_prevSlide').on('click', function() {
-        var self = $('.slider .slideContainer');
-        var slideTwoGet = isLoadedTwo();
-        var slideThreeGet = isLoadedThree();
-        if(slideTwoGet == false && slideThreeGet == false) {
-            $.get("/app/webroot/ajax/allSlides.ctp", function() {
-
-            }).done(function(response) {
-                self.append(response);
-                resizeHeight();
-                fadePrevSlide();
-                initializeSocial();
-            });
-        } else {
-            fadePrevSlide();
-        }
+    $('.slideContainer ul.slideList').animate({
+            left: "+=" + windowWidth
+        }, 1000, function(){
+            $('.slideContainer ul.slideList li.slide:last-child').prependTo('.slideContainer ul.slideList');
+            $('.slideContainer ul.slideList').css('left', '');
+        });
     });
+}
 
-    function fadeNextSlide() {
-        var self = $('.slider div div.show');
-        var firstSlide = $('.slider div div:first-child');
-        var nextSlide = $('.slider div div.show').next();
+$(document).ready(moveSlide);
+$(window).resize(moveSlide);
 
-        if(nextSlide.length == 0) {
-            self.removeClass('show');
-            firstSlide.fadeIn('slow');
-            firstSlide.addClass('show');
-        } else {
-            self.removeClass('show');
-            nextSlide.fadeIn('slow');
-            nextSlide.addClass('show');
-        }
-    }
-
-    function fadePrevSlide() {
-        var self = $('.slider div div.show');
-        var lastSlide = $('.slider div div:last-child');
-        var prevSlide = $('.slider div div.show').prev();
-        if(prevSlide.length == 0) {
-            self.removeClass('show');
-            lastSlide.fadeIn('slow');
-            lastSlide.addClass('show');
-        } else {
-            self.removeClass('show');
-            prevSlide.fadeIn('slow');
-            prevSlide.addClass('show');
-        }
-
-    }
-
-    function isLoadedTwo() {
-        if($('.slide2').length !== 0) {
-           return true; 
-        } else {
-            return false;
-       }
-    }
-
-    function isLoadedThree() {
-        if($('.slide3').length !== 0) {
-           return true; 
-        } else {
-            return false;
-       }
-    }
-
-    function resizeHeight() {
-        if(detectMobile() == true) {
-            var sliderHeight = $(window).height() * .60;
-            $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
-        } else {
-             var sliderHeight = $(window).height() * .80;
-        $('.slider, .slide1, .slide2, .slide3').css('height', sliderHeight);
-        }
-    }
-
-    function initializeSocial() {
-        var Config = {
-            Link: "ul.shareThis li a",
-            Width: 500,
-            Height: 500
-        };
-     
-        // add handler links
-        var slink = document.querySelectorAll(Config.Link);
-        for (var a = 0; a < slink.length; a++) {
-            slink[a].onclick = PopupHandler;
-        }
-     
-        // create popup
-        function PopupHandler(e) {
-     
-            e = (e ? e : window.event);
-            var t = (e.target ? e.target : e.srcElement);
-     
-            // popup position
-            var
-                px = Math.floor(((screen.availWidth || 1024) - Config.Width) / 2),
-                py = Math.floor(((screen.availHeight || 700) - Config.Height) / 2);
-     
-            // open popup
-            var popup = window.open(t.href, "social", 
-                "width="+Config.Width+",height="+Config.Height+
-                ",left="+px+",top="+py+
-                ",location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");
-            if (popup) {
-                popup.focus();
-                if (e.preventDefault) e.preventDefault();
-                e.returnValue = false;
-            }
-            return !!popup;
-        }
-    }
+$(window).resize(function(){
+    var windowWidth = $(window).innerWidth();
+    $('.slideContainer ul.slideList').css('margin-left', "-" + $(window).innerWidth() + "px");
+    $('.slideContainer ul.slideList li.slide').css('width', windowWidth);
 });
-
 
 $(window).load(function(){
 
