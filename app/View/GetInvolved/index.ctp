@@ -36,9 +36,9 @@ $this->end(); ?>
 				<li>Give Local Louisville</li>
 				<li>Like us on Facebook</li>
 				<li>Become a Volunteer</li>
-				<li>Become a Facilitiator</li>
+				<li>Become a Facilitator</li>
 				<li>Join our Mailing List</li>
-				<li>Raise Awareness in You Community</li>
+				<li>Raise Awareness in Your Community</li>
 				<li>And Many Others</li>
 			</ul>
 			<h3 class="subHead">Learn More</h3>

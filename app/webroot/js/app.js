@@ -13,8 +13,9 @@
 
 		rail.item = [];
 		if(!(sessionStorage.getItem('railObject'))){
-			$http({url:'/Rail/index/',cache: true,method: 'GET'}).success(function(data){
-				rail.items = data;
+			$http({url: 'http://' + window.location.host + window.location.pathname + 'Rail/index/',cache: true,method: 'GET'}).success(function(data){
+				rail.items = JSON.parse(data);
+				console.log(rail.items);
 				var jsonData = JSON.stringify(data);
 				sessionStorage.setItem('railObject', jsonData);
 			});
