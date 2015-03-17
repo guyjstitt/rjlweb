@@ -70,8 +70,8 @@
     <div class='anchor'></div>
     <div class="logo">
       <div class="logoShadow"></div>
-    	<img class="logoImage" src="app/webroot/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
-      <img class="logoText" src="app/webroot/images/rjl-text2.png" width="643" height="274" alt="RJ Louisville">
+    	<img class="logoImage" src="/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
+      <img class="logoText" src="/images/rjl-text2.png" width="643" height="274" alt="RJ Louisville">
     </div>
     <div class="mainContent">
     <?php echo $this->fetch('content'); ?>
@@ -83,7 +83,7 @@
             <div class="row mainFootContent"> 
                 <div class="col-xs-3 footContentFirst">
                   <div> 
-                    <img class="logoImageFooter" src="app/webroot/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
+                    <img class="logoImageFooter" src="/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
                   </div>
                 </div>
                 <div class="col-xs-3 footContent">
@@ -104,7 +104,7 @@
                   <div>
                     <h3>Follow Us</h3>
                     <ul class="footLinks">
-                      <li><a class="fbFollow" target="_blank" href="https://www.facebook.com/rjlouisville"><img src="app/webroot/images/fb-logo.png"></a></li>
+                      <li><a class="fbFollow" target="_blank" href="https://www.facebook.com/rjlouisville"><img src="/images/fb-logo.png"></a></li>
                     </ul>
                   </div> 
                 </div>
@@ -124,7 +124,7 @@
     echo $this->Html->script('contact');
 ?>
 <!--[if IE 8]>
-<script src="app/webroot/js/respond.min.js"></script>
+<script src="/js/respond.min.js"></script>
 <![endif]-->
 </body>
 </html>
