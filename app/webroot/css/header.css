@@ -253,13 +253,13 @@ li.active a {
 .c1 {
 	position: relative;
 	height: 100%;
-	background: url("/app/webroot/images/handsbig.jpg");
+	background: url("../images/handsbig.jpg");
 	background-repeat: no-repeat;
 	background-position: 0px 25%;
 	width: 100%;
 	background-size: cover;
-	-ms-behavior: url("/app/webroot/images/backgroundsize.min.htc");
-	behavior: url("/app/webroot/images/backgroundsize.min.htc");
+	-ms-behavior: url("../images/backgroundsize.min.htc");
+	behavior: url("../images/backgroundsize.min.htc");
 }
 
 .slider {	
@@ -291,48 +291,48 @@ li.active a {
 }
 
 .slide1 {
-background: url("/app/webroot/images/louisvillecompress.jpg");
-	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, rgba(0,0,0,0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(59%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
-	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
-	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
-	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
-	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+background: url("../images/louisvillecompress.jpg");
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, rgba(0,0,0,0.65) 100%), url("../images/louisvillecompress.jpg") no-repeat;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(59%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))), url("../images/louisvillecompress.jpg") no-repeat;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("../images/louisvillecompress.jpg") no-repeat;
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("../images/louisvillecompress.jpg") no-repeat;
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("../images/louisvillecompress.jpg") no-repeat;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("../images/louisvillecompress.jpg") no-repeat;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
-	-ms-behavior: url("/app/webroot/images/backgroundsize.min.htc");
+	-ms-behavior: url("../images/backgroundsize.min.htc");
 }
 
 .slide2 {
-	background: url("/app/webroot/images/handscropped.jpg");
-	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, rgba(0,0,0,0.65) 100%), url("/app/webroot/images/handscropped.jpg") no-repeat;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(59%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))), url("/app/webroot/images/handscropped.jpg") no-repeat;
-	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/app/webroot/images/handscropped.jpg") no-repeat;
-	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/app/webroot/images/handscropped.jpg") no-repeat;
-	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/app/webroot/images/handscropped.jpg") no-repeat;
-	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/app/webroot/images/handscropped.jpg") no-repeat;
+	background: url("../images/handscropped.jpg");
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, rgba(0,0,0,0.65) 100%), url("../images/handscropped.jpg") no-repeat;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(59%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))), url("../images/handscropped.jpg") no-repeat;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("../images/handscropped.jpg") no-repeat;
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("../images/handscropped.jpg") no-repeat;
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("../images/handscropped.jpg") no-repeat;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("../images/handscropped.jpg") no-repeat;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
-	-ms-behavior: url("/app/webroot/images/backgroundsize.min.htc");
-	behavior: url("/app/webroot/images/backgroundsize.min.htc");
+	-ms-behavior: url("../images/backgroundsize.min.htc");
+	behavior: url("../images/backgroundsize.min.htc");
 }
 
 .slide3 {
-	background: url("/app/webroot/images/gavelnew_compress.jpg");
-	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, rgba(0,0,0,0.65) 100%), url("/app/webroot/images/gavelnew_compress.jpg") no-repeat;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(59%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))), url("/app/webroot/images/gavelnew_compress.jpg") no-repeat;
-	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/app/webroot/images/gavelnew_compress.jpg") no-repeat;
-	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/app/webroot/images/gavelnew_compress.jpg") no-repeat;
-	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/app/webroot/images/gavelnew_compress.jpg") no-repeat;
-	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("/app/webroot/images/gavelnew_compress.jpg") no-repeat;
+	background: url("../images/gavelnew_compress.jpg");
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, rgba(0,0,0,0.65) 100%), url("../images/gavelnew_compress.jpg") no-repeat;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(59%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))), url("../images/gavelnew_compress.jpg") no-repeat;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("../images/gavelnew_compress.jpg") no-repeat;
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("../images/gavelnew_compress.jpg") no-repeat;
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("../images/gavelnew_compress.jpg") no-repeat;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0.65) 100%), url("../images/gavelnew_compress.jpg") no-repeat;
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	-ms-behavior: url("/app/webroot/images/backgroundsize.min.htc");
-	behavior: url("/app/webroot/images/backgroundsize.min.htc");
+	-ms-behavior: url("../images/backgroundsize.min.htc");
+	behavior: url("../images/backgroundsize.min.htc");
 }
 
 
@@ -374,7 +374,7 @@ a.control_prevSlide {
 	position: absolute;
 	cursor: pointer;
 	display: block;
-	background: url(/app/webroot/images/a13.png) center center no-repeat;
+	background: url(../images/a13.png) center center no-repeat;
 	overflow: hidden;
 	background-position: -10px -33px;
 
@@ -388,7 +388,7 @@ a.control_nextSlide {
 	position: absolute;
 	cursor: pointer;
 	display: block;
-	background: url(/app/webroot/images/a13.png) center center no-repeat;
+	background: url(../images/a13.png) center center no-repeat;
 	overflow: hidden;
 	background-position: -55px -33px;
 }

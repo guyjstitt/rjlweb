@@ -4,7 +4,7 @@
 	app.directive('imageGallery',function() {
 		return {
 			restrict: 'E',
-			templateUrl: '/app/webroot/templates/image-gallery.html'
+			templateUrl: 'app/webroot/templates/image-gallery.html'
 		};
 	});
 

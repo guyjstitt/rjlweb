@@ -120,7 +120,7 @@ $(document).ready(function(){
     var self = $('.slider .slideContainer ul.slideList');
     var windowWidth = $(window).innerWidth();
 
-    $.get("/app/webroot/ajax/allSlides.ctp", function() {
+    $.get("app/webroot/ajax/allSlides.ctp", function() {
             }).done(function(response) {
                 self.append(response);
                 if(detectMobile() == true) {
