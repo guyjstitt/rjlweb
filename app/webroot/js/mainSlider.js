@@ -80,8 +80,8 @@ var swipeEnd;
 
 function startup() {
   var el = document.querySelector('.slider');
-  el.addEventListener("touchstart", handleStart, false);
-  el.addEventListener("touchend", handleEnd, false);
+  //el.addEventListener("touchstart", handleStart, false);
+  //el.addEventListener("touchend", handleEnd, false);
   console.log("initialized.");
 }
 
