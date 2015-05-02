@@ -104,7 +104,7 @@
                   <div>
                     <h3>Follow Us</h3>
                     <ul class="footLinks">
-                      <li><a class="fbFollow" target="_blank" href="https://www.facebook.com/rjlouisville"><img src="/images/fb-logo.png"></a></li>
+                      <li><a class="fbFollow" target="_blank" href="https://www.facebook.com/rjlouisville"><img class="lazy" src="/images/fb-logo.png"></a></li>
                     </ul>
                   </div> 
                 </div>
@@ -119,10 +119,14 @@
     echo $this->Html->script('jquery-1.11.1.min');
     echo $this->Html->script('jquery-ui.min');
     echo $this->Html->script('bootstrap.min');
+    echo $this->Html->script('lazy-load/jquery.lazyload.min');
     echo $this->Html->script('share');
     echo $this->Html->script('mainSlider');
     echo $this->Html->script('contact');
+    echo $this->Html->script('popover');
 ?>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <!--[if IE 8]>
 <script src="/js/respond.min.js"></script>
 <![endif]-->
