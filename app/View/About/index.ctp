@@ -46,10 +46,10 @@ $this->end(); ?>
 			</p>
 		</div>
 		<?php echo $this->element('rail'); ?>
-		<div class="col-md-12" ng-controller="BoardController">
+		<div class="col-md-12" ng-controller="BoardController" ng-cloak>
 			<div class="row">
 				<h2 class="text-center subHead">Board of Directors</h2>
-				<div ng-repeat="member in members" class="col-md-3 memberContainer"><div class="memberImageContainer"><img class="memberImage" style="background: url(images/board/{{member.imageName}}.jpg); background-size: cover;" data-container="body" data-toggle="popover" data-placement="bottom" data-content="{{member.bio}}"></div><h5 class="text-center">{{member.name}}</h5></div>
+				<div ng-repeat="member in members" class="col-md-3 memberContainer"><div class="memberImageContainer"><img class="memberImage" style="background: url(/images/board/{{member.imageName}}.jpg); background-size: cover;" data-container="body" data-toggle="popover" data-placement="bottom" data-content="{{member.bio}}"></div><h5 class="text-center">{{member.name}}</h5></div>
 			</div>
 		</div>
 	<div class ="col-md-4 footerPad"></div>
