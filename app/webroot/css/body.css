@@ -1,11 +1,16 @@
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {
     display: none !important;
 } 
+
 html {
 	background-color: #D8D8D8;
 }
 body {
 	overflow-x: hidden;
+}
+
+.error {
+	color: red;
 }
 
 
@@ -1023,8 +1028,4 @@ textarea {
 
 .memberImage {
 	max-width: 100%;
-}
-
-#content {
-	min-height: 100vh;
 }

@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 		$.ajax({
 			type: 'POST',
-			url:"/GetInvolved/volunteer",
+			url:"/get-involved/volunteer",
 			data: formData,
 			dataType: 'json'
 		}).done(function(data) {

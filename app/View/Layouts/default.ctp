@@ -32,10 +32,12 @@
 		echo $this->Html->css('header');
 		echo $this->Html->css('body');
     echo $this->Html->css('socialIcons');
+    echo $this->Html->css('jquery-ui.min.css');
+    echo $this->Html->css('jquery-ui.theme.min.css');
 	?>
   <base href="/"></base>
 </head>
-<body>
+<body ng-controller="MainController">
 
 <div class= "wrapper">
   <div class="navTop">
@@ -62,7 +64,7 @@
               <li <?php if($this->params['controller'] == 'GetInvolved'){echo 'class="active"';}?>><a href="/get-involved/" data-page-name = "involved" data-url="/GetInvolved/index">Get Involved</a></li>
               <li <?php if($this->params['controller'] == 'Resources'){echo 'class="active"';}?>><a href="/resources/" data-page-name = "resources" data-url="/Resources/index">Resources</a></li>
               <li <?php if($this->params['controller'] == 'Contact'){echo 'class="active"';}?>><a href="/contact-us/" data-page-name = "contact" data-url="/Contact/index">Contact Us</a></li>
-              <li><a href="/rjl">Log in</a></li>
+              <li><a href="http://rjlou.org/rjl">Log in</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -74,9 +76,8 @@
     	<img class="logoImage" src="<?php CORE_PATH ?>images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
       <img class="logoText" src="<?php CORE_PATH ?>images/rjl-text2.png" width="643" height="274" alt="RJ Louisville">
     </div>
-    <div ng-view class="mainContent" id="content">
-    <!-- <?php echo $this->fetch('content'); ?> -->
-    <!-- Begin page content -->
+    <div ng-view class="mainContent" id="content" style="min-height:100vh;">
+    
     </div>
     <div class="footer">
       <div class="foot-container">
@@ -89,16 +90,16 @@
                 </div>
                 <div class="col-xs-3 footContent">
                   <div>
-                    <a href="/About/index"><h3>About us</h3></a>
-                    <a href="/GetInvolved/index"><h3>Get Involved</h3></a>
-                    <a href="/Impact/index"><h3>Our Impact</h3></a>
+                    <a href="/about-us/"><h3>About us</h3></a>
+                    <a href="/get-involved/"><h3>Get Involved</h3></a>
+                    <a href="/our-impact/"><h3>Our Impact</h3></a>
                   </div> 
                 </div>
                 <div class="col-xs-3 footContent">
                   <div>
-                    <a href="/Resources/index"><h3>Resources</h3></a>
-                    <a href="/Contact/index"><h3>Contact Us</h3></a>
-                    <a href="/rjl"><h3>Log In</h3></a>
+                    <a href="/resources/"><h3>Resources</h3></a>
+                    <a href="/contact-us/"><h3>Contact Us</h3></a>
+                    <a href="http://rjlou.org/rjl"><h3>Log In</h3></a>
                   </div> 
                 </div>
                 <div class="col-xs-3 footContentLast">
@@ -117,15 +118,13 @@
 <?php
     echo $this->Html->script('https://code.angularjs.org/1.3.9/angular.js');
     echo $this->Html->script('https://code.angularjs.org/1.3.9/angular-route.js');
-    echo $this->Html->script('app.js');
     echo $this->Html->script('http://code.jquery.com/jquery-latest.js');
     echo $this->Html->script('jquery-ui.min');
+    echo $this->Html->script('jquery.validate.min.js');
     echo $this->Html->script('bootstrap.min');
     echo $this->Html->script('jquery.lazy');
-    echo $this->Html->script('share');
-    echo $this->Html->script('mainSlider');
-    echo $this->Html->script('contact');
     echo $this->Html->script('popover');
+    echo $this->Html->script('app.js');
 ?>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

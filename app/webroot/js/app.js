@@ -15,6 +15,9 @@
 		}).when('/get-involved/', {
 			controller: 'XhrController',
 			templateUrl: '/templates/partial.html'
+		}).when('/get-involved/:slug', {
+			controller: 'XhrController',
+			templateUrl: '/templates/partial.html'
 		}).when('/resources/', {
 			controller: 'XhrController',
 			templateUrl: '/templates/partial.html'
@@ -22,7 +25,7 @@
 			controller: 'XhrController',
 			templateUrl: '/templates/partial.html'
 		})
-	})
+	});
 
 
 
@@ -33,7 +36,35 @@
 		};
 	});
 
-	app.controller('HomeController', [ '$http','$sce','$scope', function($http, $sce, $scope) {
+	app.directive('boardMembers' , function($compile) {
+		return {
+			restrict: 'E',
+			templateUrl: '/templates/board-members.html'
+		};
+	});
+
+	app.directive('rail', function() {
+		return {
+			restrict: 'E',
+			templateUrl: '/templates/rail.html'
+		};
+	});
+
+	app.controller('MainController', [ '$http','$sce','$scope', function($http, $sce, $scope) {
+		$('body').on('click','a:not(.soc-twitter,.soc-facebook,.soc-google,.soc-linkedin)', function(){
+			$(window).scrollTop(0);
+		});
+		$('body').on('click','#num', function() {
+			var showNum = $('<span>(502)-574-6869</span>');
+			$('#showNum').last().append(showNum);
+			$('#num').remove();
+		});
+	 
+	 	$('body').on('click','#emailB', function() {
+			var showNum = $('<a href="mailto:libbymills@rjlou.org">libbymills@rjlou.org</a>');
+			$('#showEmail').last().append(showNum);
+			$('#emailB').remove();
+		});
 
 		function detectMobile() {
 		    if($(window).innerWidth() <= 768) {
@@ -82,6 +113,64 @@
 		$(window).resize(isMobile);
 
 		$(document).ready(isMobile);
+
+		$(document).ready(function() {
+		    $('body').on('click','.soc-twitter,.soc-facebook,.soc-google,.soc-linkedin',function(event) {
+		        event.preventDefault();
+		        (function() {
+		            // link selector and pop-up window size
+		            var Config = {
+		                Link: "ul.shareThis li a",
+		                Width: 500,
+		                Height: 500
+		            };
+		         
+		            // add handler links
+		            var slink = document.querySelectorAll(Config.Link);
+		            for (var a = 0; a < slink.length; a++) {
+		                slink[a].onclick = PopupHandler;
+		            }
+		         
+		            // create popup
+		            function PopupHandler(e) {
+		         
+		                e = (e ? e : window.event);
+		                var t = (e.target ? e.target : e.srcElement);
+		         
+		                // popup position
+		                var
+		                    px = Math.floor(((screen.availWidth || 1024) - Config.Width) / 2),
+		                    py = Math.floor(((screen.availHeight || 700) - Config.Height) / 2);
+		         
+		                // open popup
+		                var popup = window.open(t.href, "social", 
+		                    "width="+Config.Width+",height="+Config.Height+
+		                    ",left="+px+",top="+py+
+		                    ",location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");
+		                if (popup) { 
+		                    popup.focus();
+		                    if (e.preventDefault) e.preventDefault();
+		                    e.returnValue = false;
+		                }
+		                return !!popup;
+		            }
+		     
+		        }());
+		        this.click();
+		    });
+		});
+
+	}]);
+
+	app.controller('HomeController', [ '$http','$sce','$scope', function($http, $sce, $scope) {
+
+		function detectMobile() {
+		    if($(window).innerWidth() <= 768) {
+		        return true;
+		    } else {
+		        return false;
+		    }
+		}
 
 		$('.slideContainer ul.slideList').css('margin-left', "-" + $(window).innerWidth() + "px");
 
@@ -305,6 +394,61 @@
 			var dynamic = $compile($('#partial'));
 			dynamic($scope);
 		});
+	}]);
+
+	app.controller('VolunteerController',['$scope', function($scope) {
+	    $( "#inputDateOfBirth" ).datepicker({
+			dateFormat: 'yy-mm-dd',
+			changeMonth: true,
+			changeYear: true,
+			constrainInput: false,
+			yearRange: "-90:+0"
+		});
+		
+		$("#volForm").validate({
+			submitHandler: function() {
+				event.preventDefault();
+				var formData = $('#volForm').serialize();
+				submitform(formData);
+			},
+			rules: {
+				inputFirstName: { required: true, letterswithbasicpunc: true },
+				inputLastName: { required: true, letterswithbasicpunc: true },
+				inputDateOfBirth: {
+				  required: true,
+				  date: true
+				},
+				inputPriPhone: { required:true, phoneUS: true },
+				inputSkills: {  required: true }
+
+			}
+		});
+
+		function submitform(formData) {
+			console.log(formData);
+
+			$.ajax({
+				type: 'POST',
+				url:"/api/get-involved/volunteer",
+				data: formData,
+				dataType: 'json'
+			}).done(function(data) {
+				console.log(data);
+				validateData(data);
+			});
+
+			function validateData(data) {
+				if (data.success == true ) {
+					getSuccessForm();
+				} else {
+					alert('An error occured when processing your information.')
+				}
+			}
+
+			function getSuccessForm() {
+				$('#contentContainer .col-md-8').load("/api/get-involved/volunteer-success");
+			}
+		}
 	}]);
 
 	app.controller('AboutController',['$scope','$location', '$sce','$http','$compile', function($scope, $location, $sce, $http, $compile) {

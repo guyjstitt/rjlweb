@@ -28,19 +28,8 @@
 				Participation in restorative justice programs is voluntary for victims, as well as offenders. The offender must be willing to accept responsibility for their actions and the harm caused. The victim and their support group must be willing to meet with the offender and their support group to discuss how the offense impacted them and what needs to be done to repair the harm. This facilitated process is centered on making things right for all parties involved while enabling creative solutions not used within the traditional justice system.
 			</p>
 		</div>
-		<div class="col-md-12" ng-cloak>
-			<div class="row">
-				<h2 class="text-center subHead">Board of Directors</h2>
-				<div ng-repeat="member in members track by $index" class="col-md-3 memberContainer">
-					<div class="memberImageContainer">
-						<div class="memberImage lazy" data-src="{{trustResource(member.imageUrl)}}" style="background-size: cover;" data-container="body" data-toggle="popover" data-placement="bottom" data-content="{{member.bio}}"></div>
-						<div ng-if="$last" ng-init="$last ? lazyLoadImages() : null">
-						</div>
-					</div>
-					<h5 class="text-center">{{member.name}}</h5>
-				</div>
-			</div>
-		</div>
+		<rail></rail>
+		<board-members></board-members>
 	<div class ="col-md-4 footerPad"></div>
 </div>
 

@@ -46,6 +46,6 @@ $this->end(); ?>
 				<ul>
 			</div>
 		</div>
-		<?php echo $this->element('rail'); ?>
+		<rail></rail>
 	<div class ="col-md-4 footerPad"></div>
 </div>

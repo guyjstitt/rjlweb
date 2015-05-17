@@ -29,10 +29,15 @@
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
-	Router::connect('/api/home/', array('controller' => 'pages', 'action' => 'index'));
+	Router::connect('/', array('controller' => 'pages', 'action' => 'index'));
 	Router::connect('/api/about-us/', array('controller' => 'about', 'action' => 'index'));
 	Router::connect('/api/our-impact/', array('controller' => 'impact', 'action' => 'index'));
 	Router::connect('/api/get-involved/', array('controller' => 'GetInvolved', 'action' => 'index'));
+	Router::connect('/api/get-involved/events', array('controller' => 'GetInvolved', 'action' => 'events'));
+	Router::connect('/api/get-involved/video', array('controller' => 'GetInvolved', 'action' => 'video'));
+	Router::connect('/api/get-involved/volunteer', array('controller' => 'GetInvolved', 'action' => 'volunteer'));
+	Router::connect('/api/get-involved/volunteer-success', array('controller' => 'GetInvolved', 'action' => 'volunteerSuccess'));
+	Router::connect('/api/get-involved/facilitator', array('controller' => 'GetInvolved', 'action' => 'facilitator'));
 	Router::connect('/api/resources/', array('controller' => 'resources', 'action' => 'index'));
 	Router::connect('/api/contact-us/', array('controller' => 'contact', 'action' => 'index'));
 	Router::connect('/api/rail/', array('controller' => 'rail', 'action' => 'index'));

@@ -1,5 +1,5 @@
 <li class="slide slide2">
-    <a class="slideOverlay" href="About/index"></a>
+    <a class="slideOverlay" href="/about-us/"></a>
      <div class="mainSlideWrapper">
          <div class='mainSlideContent'>
             <h1 class="mainSlideHeader">Learn more about RJL</h1>
@@ -16,7 +16,7 @@
     </div>
 </li>
 <li class="slide slide3">
-    <a class="slideOverlay" href="GetInvolved/index"></a>
+    <a class="slideOverlay" href="/get-involved/"></a>
      <div class="mainSlideWrapper">
          <div class='mainSlideContent'>
             <h1 class="mainSlideHeader">Get Involved in the Community</h1>

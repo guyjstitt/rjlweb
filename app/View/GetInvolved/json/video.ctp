@@ -41,7 +41,7 @@ $this->end(); ?>
       </div>
       <p class="mainVideoDek">Watch Restorative Justice Louisville's conference at Rotary Club of Louisville</p>
 		</div>
-		<?php echo $this->element('rail'); ?>
+		<rail></rail>
 	<div class ="col-md-4 footerPad"></div>
 </div>
 

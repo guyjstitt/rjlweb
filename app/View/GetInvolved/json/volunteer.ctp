@@ -1,23 +1,9 @@
-<?php
-$this->start('head'); 
-?>
- <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-  <meta name="description" content="Restorative Justice Louisville - Bringing together the victim, offender and community to make things right. At RJL, we transform communities by ending crime."/>
-  <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="Restorative Justice Louisville Court system kentucky community rjl get involved events"/>
-  <meta property="og:title" content="Restorative Justice Louisville - Lousiville KY"/>
-  <meta name="title" content="Restorative Justice Louisville - Lousiville, Kentucky"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:url" content="http://rjlou.org/GetInvolved/volunteer"/>
-  <meta property="og:site_name" content="restorativejustivelouisville rjlou restorative justice louisville"/>
-  <?php
+ <?php
     echo $this->Html->css('jquery-ui.min');
     echo $this->Html->css('jquery-ui.structure.min');
     echo $this->Html->css('jquery-ui.theme.min');
     echo $this->Html->css('bootstrap-theme.min');
     echo $this->Html->css('volunteerForm');
-
     echo $this->Html->script('jquery-1.11.1.min');
     echo $this->Html->script('jquery-ui.min');
     echo $this->Html->script('lib/jquery.form');
@@ -26,13 +12,8 @@ $this->start('head');
     echo $this->Html->script('lib/jquery.validate.min');
     echo $this->Html->script('lib/additional-methods.min');
     echo $this->Html->script('lib/require');
-    echo $this->Html->script('volunteer-submission');
    ?>
-
-<?php 
-$this->end(); ?>	
-
-<div class="row mainContainer page"> 
+<div class="row mainContainer page" ng-controller="VolunteerController"> 
 	<div id= "contentContainer" class = "col-md-8 center">
 		<div class="col-md-8">
 			<h1 class="headerMain">Volunteer</h1>
@@ -50,7 +31,7 @@ $this->end(); ?>
 			</div>
 			
 			<div class="row">       
-				<form id="volForm" action="/GetInvolved/volunteer" method="post">
+				<form id="volForm" action="/get-involved/volunteer" method="post">
 					<div class="row">
 						<div class="col-sm-4">
 							<label for="inputFirstName">*First Name: </label>
@@ -103,7 +84,7 @@ $this->end(); ?>
 				</form>
 			</div> 
 		</div>
-		<?php echo $this->element('rail'); ?>
+		<rail></rail>
 	<div class ="col-md-4 footerPad"></div>
 </div>
 

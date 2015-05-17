@@ -48,9 +48,6 @@ class PagesController extends AppController {
 	
 
 	public function index() {
-		$this->autorender = false;
-		$this->layout = false;
-		$this->render('/Pages/index');
 		$url = "http://rjlou.org/";
 		$this->set('url', $url);
 	}

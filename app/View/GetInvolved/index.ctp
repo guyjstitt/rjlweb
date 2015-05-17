@@ -46,6 +46,6 @@ $this->end(); ?>
 				Follow these links or contact RJL at info@rjlou.org to learn more about how you and your community can support the restorative justice movement in Louisville.
 			</p>
 		</div>
-		<?php echo $this->element('rail'); ?>
+		<rail></rail>
 	<div class ="col-md-4 footerPad"></div>
 </div>

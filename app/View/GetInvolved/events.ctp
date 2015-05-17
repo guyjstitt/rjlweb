@@ -36,7 +36,7 @@ $this->end(); ?>
 				Currently no events have been planned.
 			</p>
 		</div>
-		<?php echo $this->element('rail'); ?>
+		<rail></rail>
 	<div class ="col-md-4 footerPad"></div>
   <div class ="col-md-4 footerPad"></div>
   <div class ="col-md-4 footerPad"></div>

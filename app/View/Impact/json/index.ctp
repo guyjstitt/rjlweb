@@ -56,7 +56,7 @@ $this->end(); ?>
 				Jess vandalized a business causing more than $1,500 in damages. Keith Bruner, the owner of the vandalized business, did not ask Jess to pay him for the damages. Instead, Keith requested that Jess get a job and put $50 each month into a savings account until it reaches $1,500. When Jess turns 18, he will then be able to use the money to attend college. If he does not attend college the funds will return to Keith. Another part of their agreement requires that Jess give back to his community. Keith felt it was important for Jess to experience what is possible if he does not begin to think about his future and what he needs to do to have a chance at a good future – also to learn to care about others who have less.
 			</p>
 		</div>
-	<?php echo $this->element('rail'); ?>
+	<rail></rail>
 	<div class ="col-md-4 footerPad"></div>
 </div>
 

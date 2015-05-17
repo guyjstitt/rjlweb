@@ -41,6 +41,16 @@ class GetInvolvedController extends AppController {
 	}
 
 	public function volunteer() {
+		$this->layout=false;
+		$this->autoRender =false;
+		$this->view = 'volunteer';
+		$response = $this->render();
+
+		$jsonResponse = array(
+        	'template' => $response->body()
+	    );
+
+	    $response->body(json_encode($jsonResponse));
 
 		function connectDB() {
 			/* 
@@ -50,17 +60,17 @@ class GetInvolvedController extends AppController {
 
 			 // Database Variables (edit with your own server information)
 			 // live db
-			 $server = 'mysql.rjlou.org';
-			 $user = 'rjlcms';
-			 $pass = '#cmsRjsystem1';
-			 $db = 'rjldb';
+			 // $server = 'mysql.rjlou.org';
+			 // $user = 'rjlcms';
+			 // $pass = '#cmsRjsystem1';
+			 // $db = 'rjldb';
 			 
-			 /*
+			 
 			 $server = 'localhost';
 			 $user = 'root';
 			 $pass = 'linux1234';
 			 $db = 'rjldb';
-			 */
+			 
 			 // Connect to Database
 			 $connection = mysql_connect($server, $user, $pass) 
 			 or die ("Could not connect to server ... \n" . mysql_error ());
@@ -68,7 +78,7 @@ class GetInvolvedController extends AppController {
 			 or die ("Could not connect to database ... \n" . mysql_error ());
 		}
 
-		if($this->request->is('ajax')) {
+		if($this->request->is('ajax') && $this->request->is('post')) {
 			connectDB();
 
 			$data = array();
@@ -99,19 +109,45 @@ class GetInvolvedController extends AppController {
 
 	public function volunteerSuccess() {
 		$this->layout = null;
-
 	}
 
 	public function video() {
+		$this->layout=false;
+		$this->autoRender =false;
+		$this->view = 'video';
+		$response = $this->render();
 
+		$jsonResponse = array(
+        	'template' => $response->body()
+	    );
+
+	    $response->body(json_encode($jsonResponse));
 	}
 
 	public function events() {
+		$this->layout=false;
+		$this->autoRender =false;
+		$this->view = 'events';
+		$response = $this->render();
 
+		$jsonResponse = array(
+        	'template' => $response->body()
+	    );
+
+	    $response->body(json_encode($jsonResponse));
 	}
 
 	public function facilitator() {
+		$this->layout=false;
+		$this->autoRender =false;
+		$this->view = 'facilitator';
+		$response = $this->render();
 
+		$jsonResponse = array(
+        	'template' => $response->body()
+	    );
+
+	    $response->body(json_encode($jsonResponse));
 	}
 }
 
