@@ -1,21 +1,4 @@
-<?php
-$this->start('head'); 
-?>
- <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-  <meta name="description" content="Restorative Justice Louisville - Bringing together the victim, offender and community to make things right. At RJL, we transform communities by ending crime."/>
-  <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="Restorative Justice Louisville Court system kentucky community rjl get involved events"/>
-  <meta property="og:title" content="Restorative Justice Louisville - Lousiville KY"/>
-  <meta name="title" content="Restorative Justice Louisville - Lousiville, Kentucky"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:url" content="http://rjlou.org/About/index"/>
-  <meta property="og:site_name" content="restorativejustivelouisville rjlou restorative justice louisville"/>
-<?php 
-$this->end(); ?>	
-
-	
-<div class="row mainContainer page"> 
+<div id="about" class="row mainContainer page"> 
 	<div id="contentContainer"class = "col-md-8 center">
 		<div class="col-md-8 textContent">
 			<h1 class="headerMain">LEARN MORE ABOUT RJL</h1>
@@ -45,8 +28,7 @@ $this->end(); ?>
 				Participation in restorative justice programs is voluntary for victims, as well as offenders. The offender must be willing to accept responsibility for their actions and the harm caused. The victim and their support group must be willing to meet with the offender and their support group to discuss how the offense impacted them and what needs to be done to repair the harm. This facilitated process is centered on making things right for all parties involved while enabling creative solutions not used within the traditional justice system.
 			</p>
 		</div>
-	
-		<div class="col-md-12" ng-controller="BoardController" ng-cloak>
+		<div class="col-md-12" ng-cloak>
 			<div class="row">
 				<h2 class="text-center subHead">Board of Directors</h2>
 				<div ng-repeat="member in members track by $index" class="col-md-3 memberContainer">

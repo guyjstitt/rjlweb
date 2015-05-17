@@ -17,6 +17,7 @@ class ImpactController extends AppController {
  * @var array
  */
 	public $uses = array();
+	public $components = array('RequestHandler');
 
 /**
  * Displays a view
@@ -27,7 +28,16 @@ class ImpactController extends AppController {
  *	or MissingViewException in debug mode.
  */
 	public function index() {
-		
+		$this->layout=false;
+		$this->autoRender =false;
+		$this->view = 'index';
+		$response = $this->render();
+
+		$jsonResponse = array(
+        	'template' => $response->body()
+	    );
+
+	    $response->body(json_encode($jsonResponse));
 	}
 
 }

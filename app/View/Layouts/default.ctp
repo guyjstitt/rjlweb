@@ -33,6 +33,7 @@
 		echo $this->Html->css('body');
     echo $this->Html->css('socialIcons');
 	?>
+  <base href="/"></base>
 </head>
 <body>
 
@@ -56,11 +57,11 @@
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
               <li <?php if($this->params['controller'] == 'pages'){echo 'class="active"';}?>><a href="/">Home</a></li>
-              <li <?php if($this->params['controller'] == 'About'){echo 'class="active"';}?>><a href="/About/index" data-page-name = "about" data-url="/About/index">About Us</a></li>
-              <li <?php if($this->params['controller'] == 'Impact'){echo 'class="active"';}?>><a href="/Impact/index" data-page-name = "impact" data-url="/Impact/index">Our Impact</a></li>
-              <li <?php if($this->params['controller'] == 'GetInvolved'){echo 'class="active"';}?>><a href="/GetInvolved/index" data-page-name = "involved" data-url="/GetInvolved/index">Get Involved</a></li>
-              <li <?php if($this->params['controller'] == 'Resources'){echo 'class="active"';}?>><a href="/Resources/index" data-page-name = "resources" data-url="/Resources/index">Resources</a></li>
-              <li <?php if($this->params['controller'] == 'Contact'){echo 'class="active"';}?>><a href="/Contact/index" data-page-name = "contact" data-url="/Contact/index">Contact Us</a></li>
+              <li <?php if($this->params['controller'] == 'About'){echo 'class="active"';}?>><a href="/about-us/" data-page-name = "about" data-url="/About/index">About Us</a></li>
+              <li <?php if($this->params['controller'] == 'Impact'){echo 'class="active"';}?>><a href="/our-impact/" data-page-name = "impact" data-url="/Impact/index">Our Impact</a></li>
+              <li <?php if($this->params['controller'] == 'GetInvolved'){echo 'class="active"';}?>><a href="/get-involved/" data-page-name = "involved" data-url="/GetInvolved/index">Get Involved</a></li>
+              <li <?php if($this->params['controller'] == 'Resources'){echo 'class="active"';}?>><a href="/resources/" data-page-name = "resources" data-url="/Resources/index">Resources</a></li>
+              <li <?php if($this->params['controller'] == 'Contact'){echo 'class="active"';}?>><a href="/contact-us/" data-page-name = "contact" data-url="/Contact/index">Contact Us</a></li>
               <li><a href="/rjl">Log in</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -70,11 +71,11 @@
     <div class='anchor'></div>
     <div class="logo">
       <div class="logoShadow"></div>
-    	<img class="logoImage" src="/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
-      <img class="logoText" src="/images/rjl-text2.png" width="643" height="274" alt="RJ Louisville">
+    	<img class="logoImage" src="<?php CORE_PATH ?>images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
+      <img class="logoText" src="<?php CORE_PATH ?>images/rjl-text2.png" width="643" height="274" alt="RJ Louisville">
     </div>
-    <div class="mainContent">
-    <?php echo $this->fetch('content'); ?>
+    <div ng-view class="mainContent" id="content">
+    <!-- <?php echo $this->fetch('content'); ?> -->
     <!-- Begin page content -->
     </div>
     <div class="footer">
@@ -83,7 +84,7 @@
             <div class="row mainFootContent"> 
                 <div class="col-xs-3 footContentFirst">
                   <div> 
-                    <img class="logoImageFooter" src="/images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
+                    <img class="logoImageFooter" src="<?php CORE_PATH ?>images/RJL-logo-highres.png" width="643" height="274" alt="RJ Louisville">
                   </div>
                 </div>
                 <div class="col-xs-3 footContent">
@@ -104,7 +105,7 @@
                   <div>
                     <h3>Follow Us</h3>
                     <ul class="footLinks">
-                      <li><a class="fbFollow" target="_blank" href="https://www.facebook.com/rjlouisville"><img class="lazy" src="/images/fb-logo.png"></a></li>
+                      <li><a class="fbFollow" target="_blank" href="https://www.facebook.com/rjlouisville"><img class="lazy" src="<?php CORE_PATH ?>images/fb-logo.png"></a></li>
                     </ul>
                   </div> 
                 </div>
@@ -114,12 +115,13 @@
   </div>
 </div>
 <?php
-    echo $this->Html->script('components/angular.js');
+    echo $this->Html->script('https://code.angularjs.org/1.3.9/angular.js');
+    echo $this->Html->script('https://code.angularjs.org/1.3.9/angular-route.js');
     echo $this->Html->script('app.js');
-    echo $this->Html->script('jquery-1.11.1.min');
+    echo $this->Html->script('http://code.jquery.com/jquery-latest.js');
     echo $this->Html->script('jquery-ui.min');
     echo $this->Html->script('bootstrap.min');
-    echo $this->Html->script('lazy-load/jquery.lazyload.min');
+    echo $this->Html->script('jquery.lazy');
     echo $this->Html->script('share');
     echo $this->Html->script('mainSlider');
     echo $this->Html->script('contact');

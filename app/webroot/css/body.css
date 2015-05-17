@@ -1016,11 +1016,15 @@ textarea {
 	min-width: 195px;
 	margin-bottom: 20px;
 }
-.memberImageContainer img {
+.memberImageContainer div.lazy {
 	width: 100%;
 	height: 300px;
 }
 
 .memberImage {
 	max-width: 100%;
+}
+
+#content {
+	min-height: 100vh;
 }
