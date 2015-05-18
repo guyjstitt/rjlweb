@@ -38,7 +38,6 @@
   <base href="/"></base>
 </head>
 <body ng-controller="MainController">
-
 <div class= "wrapper">
   <div class="navTop">
     <div class="shareBarHeader">
@@ -58,12 +57,12 @@
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li <?php if($this->params['controller'] == 'pages'){echo 'class="active"';}?>><a href="/">Home</a></li>
-              <li <?php if($this->params['controller'] == 'About'){echo 'class="active"';}?>><a href="/about-us/" data-page-name = "about" data-url="/About/index">About Us</a></li>
-              <li <?php if($this->params['controller'] == 'Impact'){echo 'class="active"';}?>><a href="/our-impact/" data-page-name = "impact" data-url="/Impact/index">Our Impact</a></li>
-              <li <?php if($this->params['controller'] == 'GetInvolved'){echo 'class="active"';}?>><a href="/get-involved/" data-page-name = "involved" data-url="/GetInvolved/index">Get Involved</a></li>
-              <li <?php if($this->params['controller'] == 'Resources'){echo 'class="active"';}?>><a href="/resources/" data-page-name = "resources" data-url="/Resources/index">Resources</a></li>
-              <li <?php if($this->params['controller'] == 'Contact'){echo 'class="active"';}?>><a href="/contact-us/" data-page-name = "contact" data-url="/Contact/index">Contact Us</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about-us/" data-page-name = "about" data-url="/About/index">About Us</a></li>
+              <li><a href="/our-impact/" data-page-name = "impact" data-url="/Impact/index">Our Impact</a></li>
+              <li><a href="/get-involved/" data-page-name = "involved" data-url="/GetInvolved/index">Get Involved</a></li>
+              <li><a href="/resources/" data-page-name = "resources" data-url="/Resources/index">Resources</a></li>
+              <li><a href="/contact-us/" data-page-name = "contact" data-url="/Contact/index">Contact Us</a></li>
               <li><a href="http://rjlou.org/rjl">Log in</a></li>
             </ul>
           </div><!--/.nav-collapse -->

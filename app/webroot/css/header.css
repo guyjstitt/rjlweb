@@ -127,6 +127,11 @@
 	box-shadow: inset 6px 0 4px -6px #222 , inset -6px 0 4px -6px #222;
 }
 
+.nav li a.active  {
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: inset 6px 0 4px -6px #222 , inset -6px 0 4px -6px #222;
+}
+
 li.active {
 	background-color: rgba(0,0,0,0.2);
 	box-shadow: inset 6px 0 4px -6px #222 , inset -6px 0 4px -6px #222;

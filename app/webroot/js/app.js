@@ -51,9 +51,18 @@
 	});
 
 	app.controller('MainController', [ '$http','$sce','$scope', function($http, $sce, $scope) {
+		$scope.fullPathName = window.location.pathname;
+		$scope.pathArray = $scope.fullPathName.split('/');
+		$scope.pathArray[1] == "" ? $('.navbar-nav').find('[href="/"]').addClass('active') : $('.navbar-nav').find('[href='+'"/' +$scope.pathArray[1]+'/"'+']').addClass('active');
 		$('body').on('click','a:not(.soc-twitter,.soc-facebook,.soc-google,.soc-linkedin)', function(){
+			var $nav = $('.navbar-nav');
+			var $href = $(this).attr('href');
+			var hrefArray = $href.split('/');
+			$nav.find('a').removeClass('active');
+			$href == "/" ?  $nav.find('[href="/"]').addClass('active') : $nav.find('[href='+'"/' + hrefArray[1] +'/"'+']').addClass('active');
 			$(window).scrollTop(0);
 		});
+
 		$('body').on('click','#num', function() {
 			var showNum = $('<span>(502)-574-6869</span>');
 			$('#showNum').last().append(showNum);
