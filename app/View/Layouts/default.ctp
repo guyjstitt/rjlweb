@@ -76,7 +76,7 @@
               <li><a href="/get-involved/" data-page-name = "involved" data-url="/GetInvolved/index">Get Involved</a></li>
               <li><a href="/resources/" data-page-name = "resources" data-url="/Resources/index">Resources</a></li>
               <li><a href="/contact-us/" data-page-name = "contact" data-url="/Contact/index">Contact Us</a></li>
-              <li><a href="http://rjlou.org/rjl">Log in</a></li>
+              <li><a target="_blank" href="http://rjlou.org/rjl">Log in</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -111,7 +111,7 @@
                   <div>
                     <a href="/resources/"><h3>Resources</h3></a>
                     <a href="/contact-us/"><h3>Contact Us</h3></a>
-                    <a href="http://rjlou.org/rjl"><h3>Log In</h3></a>
+                    <a target="_blank" href="http://rjlou.org/rjl"><h3>Log In</h3></a>
                   </div> 
                 </div>
                 <div class="col-xs-3 footContentLast">
