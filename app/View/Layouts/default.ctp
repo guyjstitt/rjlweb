@@ -25,7 +25,7 @@
 	</title>
   <link rel="icon" 
       type="image/png" 
-      href="<?php CORE_PATH ?>images/RJL-logo-highres.png"
+      href="<?php CORE_PATH ?>images/RJL-logo-highres.png">
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif' rel='stylesheet' type='text/css'>
 	<?php
 		echo $this->fetch('meta');
