@@ -26,7 +26,6 @@ body {
 }
 .divider h1 {
 	text-transform: uppercase;
-	font-family: serif;
 	font-weight: bold;
 	color: #6E6E6E;
 	font-size: 41px;
@@ -56,9 +55,7 @@ body {
 
 .headerText{
 	border-bottom: 2px solid #eee;
-	
 	padding: 5px 0 5px 0;
-	font-family: Proxima-Nova,Helvetica,Arial,sans-serif;
 	color: #00c453;
 	font-size: 14pt;
 	text-transform: uppercase;
@@ -93,7 +90,6 @@ body {
 }
 
 .rail ul li a {
-	color: green;
 }
 .rail ul li a:before{
 	content: " ";
@@ -531,12 +527,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .subHeader{
 	font-size: 16pt;
-	font-family: serif;
 }
 
 .pageText {
 	font-size: 12pt;
-	font-family: sans-serif;
 }
 
 facebook {
@@ -723,7 +717,6 @@ ul.social {
 }
 
 .headerMain {
-	font-family: Jubliat;
 	font-weight: 900;
 	font-size: 45px;
 	color: #00c453;
@@ -861,7 +854,10 @@ textarea {
 .nav li a, .sliderImages div a {
 	cursor: pointer;
 }
-
+.module {
+	display: table;
+	margin-bottom: 20px;
+}
 .module ul {
 	list-style: none;
 	padding-left: 0;
@@ -877,12 +873,6 @@ textarea {
 	padding-right: 5px;
 }
 
-.module {
-	border-top: 1px solid #eee;
-}
-
-
-
 .imageModule ul {
 	list-style: none;
 	float: left;
@@ -890,9 +880,10 @@ textarea {
 
 .col-6 {
 	width: 50%;
-	padding-left: 10px;
-	margin-bottom: 10px
+	padding: 5px;
+	box-sizing: border-box;
 }
+
 
 .img-responsive {
 	width: 100%;
@@ -1028,4 +1019,18 @@ textarea {
 
 .memberImage {
 	max-width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Droid Serif', serif;
+}
+a, p, span {
+	color: black;
+	font-family: 'Droid Sans', sans-serif; 
+}
+
+a:hover {
+	text-decoration: none;
+	transition: color 0.2s ease;
+	color: #00c453;
 }

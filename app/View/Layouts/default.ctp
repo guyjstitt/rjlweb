@@ -23,8 +23,11 @@
 	<title>
 		RJL
 	</title>
+  <link rel="icon" 
+      type="image/png" 
+      href="<?php CORE_PATH ?>images/RJL-logo-highres.png"
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif' rel='stylesheet' type='text/css'>
 	<?php
-		echo $this->Html->meta('icon');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->Html->css('bootstrap.min');
