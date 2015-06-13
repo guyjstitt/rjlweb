@@ -1034,3 +1034,9 @@ a:hover {
 	transition: color 0.2s ease;
 	color: #00c453;
 }
+
+@media (max-width: 992px) {
+	.boardMembers {
+		display: none;
+	}
+}
