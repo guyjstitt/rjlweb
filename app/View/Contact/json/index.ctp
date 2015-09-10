@@ -33,7 +33,7 @@ $this->end(); ?>
 			<div class="pageContent">
 				<h3 class = "subHead">Address</h3>
 					<p>
-						821 South Second Street
+						812 South Second Street
 						Louisville, KY
 					</p>
 					<span id="showNum">Call: <button id = "num">Show Number</button></span>
