@@ -1,8 +1,8 @@
 <?php
-$this->start('head'); 
+$this->start('head');
 ?>
  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="description" content="Restorative Justice Louisville - Bringing together the victim, offender and community to make things right. At RJL, we transform communities by ending crime."/>
   <meta name="robots" content="index, follow" />
   <meta name="keywords" content="Restorative Justice Louisville Court system kentucky community rjl get involved events"/>
@@ -11,17 +11,17 @@ $this->start('head');
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="http://rjlou.org/Resources/index"/>
   <meta property="og:site_name" content="restorativejustivelouisville rjlou restorative justice louisville"/>
-<?php 
-$this->end(); ?>	
+<?php
+$this->end(); ?>
 
-<div class="row mainContainer page"> 
+<div class="row mainContainer page">
 	<div id= "contentContainer" class = "col-md-8 center">
 		<div class="col-md-8">
 			<h1 class="headerMain">Resources</h1>
 			<p class="subHeader">Welcome to our Resource page! Below you find resources such as news, materials, and our annual report.</p>
 			<!-- Go to www.addthis.com/dashboard to generate a new set of buttons -->
-			<div class="shareBarHolder">	
-				<div class="shareBar">	
+			<div class="shareBarHolder">
+				<div class="shareBar">
 					<ul class="soc shareThis">
                         <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
                         <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
@@ -49,8 +49,8 @@ $this->end(); ?>
 						<li><a href="/wp-content/uploads/2013/03/RJL2013_pledgeform.pdf">Pledge form</a></li>
 					</ul>
 				<h3 class="subHead">Reports</h3>
-				<ul> 
-	       			<li><a href="/wp-content/uploads/2013/03/RJL-2013-AR.pdf">Annual Report 2013</a></li>
+				<ul>
+					<li><a target="_blank" ng-href="/files/2105-AR.pdf">Annual Report 2015</a></li>
 				</ul>
 			</div>
 		</div>

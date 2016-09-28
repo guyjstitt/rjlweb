@@ -42,7 +42,7 @@ $this->end(); ?>
 					<span id="showEmail"><button id = "emailB" >Show Email</button></span>
 				<h3 class ="subHead">Privacy Policy</h3>
 				<ul>
-				    <li><a href="http://www.rjlou.org/wp-content/uploads/2013/03/RJL-Privacy-Notice.pdf">RJL Privacy Notice</a> </li>
+				    <li><a target="_blank" ng-href="/files/RJL-Privacy-Notice.pdf">RJL Privacy Notice</a> </li>
 				<ul>
 			</div>
 		</div>
