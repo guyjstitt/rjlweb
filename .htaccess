@@ -1,6 +1,8 @@
 AddType text/x-component .htc
 <IfModule mod_rewrite.c>
+   Options +FollowSymLinks
    RewriteEngine on
    RewriteRule    ^$ app/webroot/    [L]
    RewriteRule    (.*) app/webroot/$1 [L]
+   RewriteRule ^rjl.*$ http://rjcase.spalding.edu [R=301,L]	
 </IfModule>
