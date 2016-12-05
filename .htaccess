@@ -3,4 +3,5 @@ AddType text/x-component .htc
    RewriteEngine on
    RewriteRule    ^$ app/webroot/    [L]
    RewriteRule    (.*) app/webroot/$1 [L]
+   RewriteRule    ^rjl/(.*)$ rjcase.spalding.edu [R=301,L]
 </IfModule>
