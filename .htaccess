@@ -3,7 +3,3 @@ AddType text/x-component .htc
    RewriteRule    ^$ app/webroot/    [L]
    RewriteRule    (.*) app/webroot/$1 [L]
 </IfModule>
-
-Options +FollowSymLinks
-RewriteEngine on
-Redirect       301 /rjl http://rjcase.spalding.edu
