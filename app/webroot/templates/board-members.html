@@ -1,14 +1,18 @@
 <div class="col-md-12 boardMembers" ng-cloak>
 	<div class="row">
 		<h2 class="text-center subHead">Board of Directors</h2>
-		<div ng-repeat="member in members track by $index" class="col-md-3 memberContainer">
-			<div class="memberImageContainer">
-				<div class="memberImage lazy" data-src="{{trustResource(member.imageUrl)}}" style="background-size: cover;" data-container="body" data-toggle="popover" data-placement="{{($index + 1 )% 4 == 0 && $index !== 0 ? 'left' : 'right'}}" data-content="{{member.bio}}"></div>
-				<div ng-if="$last" ng-init="$last ? lazyLoadImages() : null">
-				</div>
-			</div>
-			<h4 class="text-center">{{member.name}}</h4>
-			<h5 class="text-center">{{member.job}}</h5>
+		<div ng-repeat="member in members track by $index">
+            <div ng-if="$index % 4 == 0" class="clearfix"></div>
+            <div class="col-md-3 memberContainer">
+                <div class="memberImageContainer">
+                    <div class="memberImage lazy" data-src="{{trustResource(member.imageUrl)}}" style="background-size: cover; background-position: center;" data-container="body" data-toggle="popover" data-placement="{{($index + 1 )% 4 == 0 && $index !== 0 ? 'left' : 'right'}}" data-content="{{member.bio}}"></div>
+                    <div ng-if="$last" ng-init="$last ? lazyLoadImages() : null">
+                    </div>
+                </div>
+                <h4 class="text-center">{{member.name}}</h4>
+                <h5 ng-if="member.title != ''" class="text-center">{{member.title}}</h5>
+                <h5 class="text-center">{{member.job}}</h5>
+            </div>
 		</div>
 	</div>
 </div>
