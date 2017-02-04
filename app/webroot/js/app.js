@@ -492,33 +492,68 @@
 			}
 
 			$scope.members = [
+                {
+                    "name": "Judge Dee McDonald",
+                    "title": "",
+                    "job": "Jefferson County Family Court",
+                    "imageUrl": "/images/board/mcdonald.jpg",
+                    "bio": "Judge Deana “Dee” McDonald was elected to the Jefferson County Circuit Court, Family Division Eight (8), in November 2014.  Prior to that Judge McDonald served as a District Court judge handling all juvenile delinquency cases within Jefferson County. Following graduation from Western Kentucky University she began her career as a social worker for the present Cabinet for Health and Family Services.  While holding that job she returned to school and graduated from the Louisville Brandeis School of Law, Night Division in 1994. She worked as a Prosecutor in the Domestic Violence, Juvenile and Child Support Divisions of the Jefferson County Attorney’s Office, under three different County Attorneys.  She also spent four years with the Cabinet for Health and Family Services as an attorney in Louisville handling Termination of Parental Rights cases and Dependency, Abuse, Neglect cases in Family Court.  Judge McDonald’s entire career has focused on the delivery of services to and for Jefferson County’s children and the families in which they live.  Her career provided a perfect path to her present position as a Family Court Judge."
+                },
+                {
+                    "name": 'Neville Blakemore',
+                    "title": '',
+                    "job": 'Chairman, Great Northern Building Products, LLC, Louisville, KY',
+                    "imageUrl": '/images/board/neville.jpg',
+                    "bio": "Great Northern is a holding company specializing in niche products for the construction industry.  Previously, Neville started his own consulting company, was the Director of Marketing for an120 attorney law firm in Boston, taught high school history, and worked as a political organizer for a Presidential campaign.  Additionally, Neville serves on the  Louisville Urban League Board, JCTC Foundation Board, Regional Airport Coalition, Rotary Club, Kentucky College of Art & Design Board, Community Foundation of Louisville, Spalding University Board, Local Investment For Transformation, Speed Museum Board of Governors,  Actors Theatre of Louisville Board, and YMCA Safe Place Services Advisory Board.  Neville is married to Jessica Bird, a #1 New York Times bestselling author, and they have a daughter."
+                },
+                {
+                    "name": 'Robert Givens',
+                    "title": '',
+                    "job": 'President, RPG Consulting LLC',
+                    "imageUrl": '/images/board/givens.jpg',
+                    "bio": "Rob served in the United States Air Force for over 27 years culminating in the rank of Brigadier General.  He led and managed the world's largest aerospace group guiding large, diverse organizations facing complex challenges.  Rob has served as Inspector General, Air Combat Command; Director of Combined Air Operations Center; and Special Assistant for the Chairman of the Joint Chiefs of Staff.  Rob has served on the Board of Directors for Unbridled Eve and the Neighborhood House.  His commitment to bringing his knowledge and skills to help address the issues facing children and families today brought him to work in our community and to Restorative Justice Louisville."
+                },
+                {
+                    "name": 'Steven Jenkins',
+                    "title": '',
+                    "job": 'Owner, Consulting Dimensions, LLC, Louisville, KY',
+                    "imageUrl": '/images/board/jenkins.jpg',
+                    "bio": "As the owner of Consulting Dimensions, Steven works with small business and non-profit organizations in the development of services that assists and strengthens the programs they offer.  Additionally, Steven provides non-profit board development, strategic visioning, and business planning.  Additionally, Steven is a Youth Worker with YMCA Safe Place Services.  Steven provides intake for youth who need services and shelter, and assists with the supervision of youth in a shelter environment.  He provides life skills and activities that strengthen family and community relations.  Previously, Steven worked as a Church Administrator, Chief Executive Officer for the Greater Stark County Urban League in Ohio, and an Administrative Officer for a marketing company.    "
+                },
+                {
+                    "name": 'Jill Leedom',
+                    "title": '',
+                    "job": 'Social Intelligence Specialist, Marketing, Yum! Brands – KFC, Louisville, KY',
+                    "imageUrl": '/images/board/leedom.jpg',
+                    "bio": "At KFC, Jill is focused on leading the Coop, KFC’s digital center of excellence, to help drive the organization’s social listening and insights.  Jill joined Yum! in 2012 as an intern on the Technology and Innovation Architecture/Global Systems teams and in 2015 she accepted a position in Yum! Brands’ Social Hive, which helps oversee KFC, Pizza Hut, and Taco Bell globally on social media.  Jill recently graduated from the University of Louisville in May 2015, majoring in Marketing and minoring in CIS.  Prior to RJL, she has volunteered with the Boys and Girls Club, the Special Olympics, and Habitat for Humanity."
+                },
+                {
+                    "name": 'Sean O’Leary',
+                    "title": '',
+                    "job": 'CEO & Founder, Edj Analytics',
+                    "imageUrl": '/images/board/sean.jpg',
+                    "bio": "Sean is an entrepreneurial leader committed to developing products, geographic markets, and employee growth. Before co-founding Edj Analytics, Sean was the co-founder and former CEO of Genscape, Inc. – a Louisville, Kentucky headquartered organization monitoring real-time power plant output through a proprietary network. O’Leary has been recognized as an Ernst & Young Entrepreneur of the Year honoring entrepreneurial excellence in vision, innovation, courage, and leadership in building and growing successful businesses. In 2010, Genscape was also recognized as the Best Place to Work among small and medium businesses in Kentucky under his leadership. Sean is a member of the Bluegrass Chapter of the Young Presidents Organization (YPO), the University of Louisville College of Business Board of Advisors, and serves on the Board of Trustees for Louisville Collegiate School. O’Leary holds a BBA degree in Finance and Economics from the University of Michigan and is a graduate of the University of Louisville’s first MBA in Entrepreneurship class. He and his wife, Anne, along with their son and two daughters currently reside in Louisville, Kentucky."
+                },
+                {
+                    "name": 'Sharika Hazley',
+                    "title": '',
+                    'job': 'Senior Operations Manager, Healthcare Recoveries, Healthcare Corporation of America (HCA)- Louisville, KY',
+                    'imageUrl': '/images/board/sharika.jpeg',
+                    'bio': "A long-time Louisville native, Sharika has been with HCA for over 17 years with several promotions and varied experience in Healthcare Recoveries.  Sharika recently earned her certification in Revenue Cycles through the Healthcare Financial Management Association (HFMA).  Sharika is a University of Louisville graduate with a B.S. in Justice Administration.  Her daughter is also a University of Louisville graduate.  Sharika feels passionately about uplifting people through empowerment and community involvement. She enjoys new ideas, reading, walking, and creative writing. Restorative Justice Louisville is Sharika’s first experience with a non-profit Board."
+                },
 				{
 					"name": "Angela McCormick Bisig",
 					"title": '',
-					"job": 'Judge, Jefferson Circuit Court, Louisville, KY',
+					"job": 'Chair, Jefferson County Circuit Court',
 					"imageUrl": '/images/board/angela.jpg',
 					"bio": "Judge Bisig has presided over criminal felony cases and civil cases since being elected as Circuit Court judge in 2012.  Previously she served as District Court Judge for 10 years, reviewing civil and criminal dockets.  During her tenure Judge Bisig established a pilot project to review domestic violence cases. Judge Bisig also served as a prosecutor for 7 years, specializing in the prosecution of domestic violence and sex offense cases. Judge Bisig is a member of the Board of the World Affairs Council of Kentucky and Southern Indiana; the American Red Cross; the University of Louisville Overseers; and Sister Cities of Louisville.  She also is a member of the Chief Justice’s Racial Fairness Task Force, and the Disproportionate Minority Confinement Committee of the Jefferson Juvenile Court."
 				},
 				{
-					"name": "Khalilah V. Collins",
-					"title": '',
-					"job": 'Project Manager, Center for Women and Families, Louisville, KY',
-					"imageUrl":'/images/board/collins.jpg',
-					"bio": "At the Center, Khalilah leads the PACT In Action project working to prevent Teen Dating Violence in the 40210 neighborhoods.  In addition to Khalilah’s role at the Center, she serves as an Adjunct Professor at both the Kent School of Social Work-University of Louisville and Jefferson Community & Technical College.  In addition to RJL, Khalilah has served on several community organization and non-profit boards in the past.  Khalilah is a member of the National Association of Social Workers, the Social Welfare Action Alliance, and the National Organizers Alliance. "
-				},
-				{
 					"name": "Susan H. Duncan",
-					"title": '',
+					"title": 'Non-Voting Emeritus Member',
 					"job": 'Interim Dean, Brandeis School of Law at the University of Louisville, Louisville, Kentucky',
 					"imageUrl":'/images/board/susan.jpg',
 					"bio": "Prior to Susan’s appointment as Interim Dean, she served as a professor at the University of Louisville, Spalding University and the Cecil C. Humphreys School of Law at the University of Memphis.  In addition to serving in key law school positions for almost 20 years Susan has authored, edited or reviewed over 36 law journals or publications. Susan has served in key positions for the Legal Writing Institute; the AALS Section on Legal Research, Writing and Analysis; the Kentucky Bar Association; and the Louisville Bar Association. Susan was the Co-Chair of Citizens of Louisville Organized and United Together (CLOUT) Healthcare Research Planning Committee (2007-2008) that addressed children’s healthcare issues. She has also served extensively with St. Agnes Catholic Church and School. "
-				}, 
-				{
-					"name": "Alecia Dimar",
-					"title": '',
-					"job": 'Associate Manager, Public Affairs/Corporate Social Responsibility, Yum! Brands, Louisville, KY',
-					"imageUrl":'/images/board/alecia.jpg',
-					"bio": "At Yum! Alecia is focused on leading social responsibility and sustainability efforts that drive the organization’s vision of being a company with a huge heart.  Alecia joined the Yum! family in 2011, where she was part of the Global System Communications team for two years before being selected for the inaugural Public Affairs development program, which subsequently led to her current role.  Prior to Yum! Alecia worked for Lions Club International Foundation in Illinois driving strategic communication and programming to elevate the organization’s philanthropic efforts.  Alecia served on Ignite Louisville in 2013 and was introduced to RJL.  She also volunteers with Boys & Girls Club, My Dog Eats First and Special Olympics. "
 				},
 				{
 					"name": "Benjamin J. Lewis",
@@ -529,7 +564,7 @@
 				},
 				{
 					"name": "Steve Mershon",
-					"title": '',
+					"title": 'Non-Voting Emeritus Member',
 					"job": 'Retired, Chief Judge of Jefferson Circuit Court, Louisville, KY',
 					"imageUrl":'/images/board/steve.jpg',
 					"bio": "Judge Mershon has 25 years of judicial experience and, now retired, continues to mediate many different types of disputes working with the court system.  In 2004, Judge Mershon was elected Chief Judge of the Jefferson Circuit Term; prior to that he had served a general court docket which included several high profile and death penalty cases.  In his early years on the bench, he was a volunteer for Kentucky's First Family Court, presiding over cases dealing with divorce, child custody, and abuse. Judge Mershon has served the community as a member of the Board of the YWCA Spouse Abuse Center, the Home of the Innocents, the New Directions Housing Corporation, Day Spring, and MB Care.  He was the founding president of the Board of Children First and former treasurer of the Louisville Chapter of the Lawyers Alliance for Nuclear Arms Control."
@@ -549,15 +584,8 @@
 					"bio": "At DMLO, Doug is the Co-Chair of the Construction, Manufacturing and Distribution Niches.  Doug has over twenty-five years of experience practicing public accounting in Louisville. He works with clients of all sizes and stages, which includes construction, manufacturing & distribution, equine & horse racing, country club industries, and non-profits. As well as being licensed to practice as a CPA, Doug is approved by the Kentucky Department of Insurance Financial Standards & Examination Division to perform captive insurance audits for closely held businesses. Professional memberships include the American Institute and Kentucky Society of Certified Public Accountants.  Doug is also a member of the Construction Financial Management Association and the Kentucky Captive Association. Doug serves as Treasurer for Fern Creek Christian Church and is on the Board of Harbor House of Louisville. He volunteers with Eastern High School Marching Band and Fern Creek Babe Ruth League."
 				},
 				{
-					"name": "John M. Mulder",
-					"title": '',
-					"job": 'Minister for Stewardship, Second Presbyterian Church, Louisville, KY',
-					"imageUrl":'/images/board/johnMulder.jpg',
-					"bio": "John is an award-winning writer, teacher and Presbyterian minister.  He was President and Professor of Historical Theology at Louisville Presbyterian Theological Seminary from 1981-2002.  He also taught American church history at Princeton Theological Seminary from 1974-1981.  John served as Vice President for Development and Communications at The Healing Place, Kentucky’s largest alcohol recovery center, from 2004-2008. John is the author or editor of more than 25 books and more than 100 essays on American history and religion in American culture.  During his tenure at the seminary and The Healing Place, John led successful multi-million dollar fund-raising campaigns. John has served on the Boards of Leadership Louisville and the Louisville Chamber of Commerce.  In 1987, John was instrumental in bringing the Presbyterian Headquarters to Louisville."
-				}, 
-				{
 					"name": "Mike O’Connell",
-					"title": '',
+					"title": 'Non-Voting Ex-Officio Member',
 					"job": 'Jefferson County Attorney, Louisville, KY',
 					"imageUrl":'/images/board/mikeOConnell.jpg',
 					"bio": 'Prior to his appointment as Jefferson County Attorney in August 2008, Mike O’Connell has devoted his 33-year career to legal and public service. From 1980 through 1990, Mike presided as district judge in Division 6 of Jefferson District Court and as Jefferson Circuit Court Judge in Division 14. Mike was appointed as Jefferson County Attorney by Mayor Jerry Abramson in August 2008. He has been elected twice to full terms as County Attorney, the latest in November 2014. As Jefferson County Attorney, Mike has been instrumental in the creation of the Restorative Justice Program and the Veterans Treatment Court. Mike is a Louisville native and graduate of Xavier University and the University of Notre Dame Law School. He serves as Chair of the Advisory Board for The Little Sisters of the Poor, President of Kentucky Children’s Home Corporation, and was elected to three terms on the Kentucky Bar Association Board of Governors.'
@@ -568,14 +596,7 @@
 					"job": 'Attorney, Middleton Reutlinger, Louisville, Kentucky',
 					"imageUrl":'/images/board/brantleyShumaker.jpg',
 					"bio": "Brantley practices in the Intellectual Property Practice Group at Middleton Reutlinger.  Previously, Brantley practiced intellectual property prosecution, litigation, and counseling at two law firms in Portland, Oregon, mostly in the areas of software, hardware and telecommunications.  While in Oregon Brantley served as a member of a Conflicts and Ethics Committee of one law firm and as vice chair of the Oregon State Bar Pro Bono Committee.  From 2009-2011 Brantley was an Adjunct Professor at the University of Oregon teaching The Licensing of Intellectual Property.  Brantley is the current chair of the Louisville Bar Association Intellectual Property Law Committee. Brantley grew up in Louisville and is an Eagle Scout. "
-				}, 
-				{
-					"name": "Michelle Tupper Butler",
-					"title": '',
-					"job": 'Of Counsel, Dinsmore & Shohl, LLP, Louisville, KY',
-					"imageUrl":'/images/board/michelleButler.jpg',
-					"bio": "Over the last 9 years Michelle has served in a Litigation role, defending claims in complex civil and criminal cases in federal and state courts.  Prior to Dinsmore & Shohl, she served at Dickstein & Shapiro, LLP in Washington D.C.   In 2006 Michelle served as a Law Clerk for the United States District Court of Columbia, Washington, D.C. While in Washington, Michelle was a Board and Founding Member of the D.C. Lawyers for Youth.  This non-profit organization advocated for D.C. youth and provided oversight for projects to improve the juvenile justice system.   As a student, Michelle also served in the Georgetown Juvenile Justice Clinic, representing indigent juveniles. "
-				}, 
+				},
 				{
 					"name": "Daniel Waddell",
 					"title": '',
@@ -585,7 +606,7 @@
 				},
 				{
 					"name": "Thomas M. Williams",
-					"title": '',
+					"title": 'Non-Voting Emeritus Member',
 					"job": 'Member, Stoll Keenon Ogden Law Firm, Louisville, KY',
 					"imageUrl":'/images/board/thomasWilliams.jpg',
 					"bio": "In his legal practice, Tom focused in management-side labor and employment law.  He has served as President of the Louisville Bar Association and Board Chair of Leadership Louisville being recognized by that organization as one of Louisville’s “Connectors”.  Tom was instrumental in having a marker dedicated to Martin Luther King’s “I Have a Dream” speech at the Lincoln Memorial.  He advanced a similar resolution naming Thomas Merton Square in Louisville. Tom served on the Steering Committee for the recent visit of His Holiness the Dalai Lama to Louisville.  He now serves as co-host of the Partnership for a Compassionate Louisville.  For that work, he received the Jack Olive International Heart of Compassion award from the Charter for Compassion International organization."
@@ -593,14 +614,14 @@
 				{
 					"name": "Price Foster",
 					"title": '',
-					"job": 'Professor Emeritus, Justice Administration, University of Louisville, Louisville, KY',
+					"job": 'Professor Emeritus (Retired)',
 					"imageUrl":'/images/board/price.jpg',
 					"bio": "Dr. Foster has been a Professor of Justice Administration at the University of Louisville  (UL) since 1981.  Prior to coming to UL, Dr. Foster was with the U.S. Dept. of Justice as Director of the Office of Criminal Justice Education and Training. Dr. Foster was a charter member and served ten years on the National Advisory Committee for State and Local Training of the Law Enforcement Training Center, U.S. Department of Treasury. He has served on several other national boards, including ten years on the Board of Directors of the National Criminal Justice Association.  Locally, Dr. Foster has served on the Board of Directors for Leadership Louisville, Metro United Way, the Presbyterian Community Center and Goodwill Industries of Kentucky. Dr. Foster also chaired the Public Safety Transition Committee and the Transition Committee for Corrections for Louisville’s Mayors.  Additionally, Dr. Foster is the current Board Chair of the Florida State University College Alumni and Friends of Criminology. Dr. Foster regularly teaches courses on criminal justice, and Restorative Justice has been a part of every course he has taught for over 20 years."
 				},
 				{
 					"name": "David James",
 					"title": '',
-					"job": 'Commander of Operations, University of Louisville, Louisville, Kentucky',
+					"job": 'Councilman Louisville Metro Council',
 					"imageUrl":'/images/board/david.jpg',
 					"bio": "In addition to serving the University, David James has served as Louisville Metro Council’s Sixth District’s Councilman since 2010.  As Councilman, David represents the neighborhoods of Old Louisville, California, and Russell.  Prior to David’s service at the University of Louisville, he worked for the Louisville Police Department as a detective, undercover officer, S.W.A.T. team member, and Public Information Officer. David continues to serve on the Louisville Fraternal Order of Police Board of Trustees. He has also served as Commissioner of the Kentucky Bureau of Investigation, the investigative arm of the Kentucky Attorney General’s Office. The Councilman has been actively involved in many different community organizations including Citizens Advocacy, Elder Serve Board of Directors, Special Olympics of Kentucky, Perverted Justice Board of Directors and the Fraternal Order of Police. "
 				},
