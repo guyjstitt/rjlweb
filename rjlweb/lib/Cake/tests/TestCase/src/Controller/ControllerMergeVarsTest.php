@@ -17,6 +17,8 @@
  * @since         CakePHP(tm) v 1.2.3
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Test\TestCase\Controller;
+
 
 App::uses('Controller', 'Controller');
 

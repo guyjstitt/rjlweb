@@ -8,6 +8,8 @@
  * @package       app.Controller
  * @since         CakePHP(tm) v 0.2.9
  */
+namespace rjlweb\lib\Cake\bin\Templates\skel\Controller;
+
 
 App::uses('AppController', 'Controller');
 

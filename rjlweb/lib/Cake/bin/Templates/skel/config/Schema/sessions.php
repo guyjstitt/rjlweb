@@ -8,6 +8,8 @@
  * @package       app.Config.Schema
  * @since         CakePHP(tm) v 0.2.9
  */
+namespace rjlweb\lib\Cake\bin\Templates\skel\config\Schema;
+
 
 /**
  * Using the Schema command line utility

@@ -17,6 +17,8 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  * @package Cake.TestSuite
  */
+namespace rjlweb\lib\Cake\TestSuite;
+
 
 /**
  * TestLoader for CakePHP Test suite.

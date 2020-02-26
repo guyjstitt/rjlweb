@@ -12,7 +12,9 @@
  *
  * @writtenby		jaredhoyt
  * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
- */ 
+ */ namespace rjl\app\Controller\Component;
+
+
 class WizardComponent extends Component {
 	
 /**

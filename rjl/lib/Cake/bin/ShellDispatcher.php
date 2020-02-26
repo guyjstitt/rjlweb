@@ -14,6 +14,8 @@
  * @since         CakePHP(tm) v 2.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjl\lib\Cake\bin;
+
 
 /**
  * Shell dispatcher handles dispatching cli commands.

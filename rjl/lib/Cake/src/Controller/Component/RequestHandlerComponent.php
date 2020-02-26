@@ -19,6 +19,8 @@
  * @since         CakePHP(tm) v 0.10.4.1076
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjl\lib\Cake\Controller\Component;
+
 
 App::uses('Component', 'Controller');
 App::uses('Xml', 'Utility');

@@ -13,6 +13,8 @@
  * @since         CakePHP(tm) v 1.2.0.4525
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjl\lib\Cake\Model\Behavior;
+
 
 App::uses('ModelBehavior', 'Model');
 App::uses('I18n', 'I18n');

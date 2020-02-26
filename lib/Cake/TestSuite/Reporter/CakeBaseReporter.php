@@ -14,6 +14,8 @@
  * @since         CakePHP(tm) v 1.3
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace lib\Cake\TestSuite\Reporter;
+
 
 if (!defined('__PHPUNIT_PHAR__')) {
 	require_once 'PHPUnit/TextUI/ResultPrinter.php';

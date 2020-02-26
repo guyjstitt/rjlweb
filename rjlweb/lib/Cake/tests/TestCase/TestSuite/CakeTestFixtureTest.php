@@ -15,6 +15,8 @@
  * @since         CakePHP(tm) v 1.2.0.4667
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Test\TestCase\TestSuite;
+
 
 App::uses('DboSource', 'Model/Datasource');
 App::uses('Model', 'Model');

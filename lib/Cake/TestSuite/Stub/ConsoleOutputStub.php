@@ -12,6 +12,8 @@
  * @since         2.8
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace lib\Cake\TestSuite\Stub;
+
 App::uses("ConsoleOutput", "Console");
 
 /**

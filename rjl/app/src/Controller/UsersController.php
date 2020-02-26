@@ -5,6 +5,8 @@
  *
  * @author dp
  */
+namespace rjl\app\Controller;
+
 class UsersController extends AppController {
 
 	public function beforeFilter() {

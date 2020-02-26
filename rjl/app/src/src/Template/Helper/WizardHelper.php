@@ -13,7 +13,9 @@
  * @writtenby		jaredhoyt
  * @lastmodified	Date: March 11, 2009
  * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
- */ 
+ */ namespace rjl\app\Template\Helper;
+
+
 class WizardHelper extends AppHelper {
 	public $helpers = array('Session','Html','Form');
 	public $output = null;

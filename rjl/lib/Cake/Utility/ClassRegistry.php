@@ -13,6 +13,8 @@
  * @since         CakePHP(tm) v 0.9.2
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjl\lib\Cake\Utility;
+
 
 /**
  * Included libraries.

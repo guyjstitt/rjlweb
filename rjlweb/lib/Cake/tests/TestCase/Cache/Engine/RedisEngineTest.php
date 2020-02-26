@@ -15,6 +15,8 @@
  * @since         CakePHP(tm) v 2.2
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Test\TestCase\Cache\Engine;
+
 
 App::uses('Cache', 'Cache');
 App::uses('RedisEngine', 'Cache/Engine');

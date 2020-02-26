@@ -20,6 +20,8 @@
  * @lastmodified  $Date$
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Test\Fixture;
+
 /**
  * Class TranslateWithPrefixFixture
  *

@@ -1,4 +1,6 @@
 <?php
+namespace rjl\app\Model;
+
 class Event extends AppModel {
     var $name = 'Event';
 	

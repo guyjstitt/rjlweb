@@ -15,6 +15,8 @@
  * @since         CakePHP(tm) v 1.2.0.6001
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Core;
+
 
 App::uses('Inflector', 'Utility');
 App::uses('CakePlugin', 'Core');

@@ -1,4 +1,6 @@
 <?php
+namespace rjl\app\Controller;
+
 class EventsController extends AppController {
     var $name = 'Events';
  

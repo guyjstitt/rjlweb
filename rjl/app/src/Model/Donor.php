@@ -1,4 +1,6 @@
 <?php
+namespace rjl\app\Model;
+
 class Donor extends AppModel {
     var $name = 'Donor';
 	

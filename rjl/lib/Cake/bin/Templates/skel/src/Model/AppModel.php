@@ -9,6 +9,8 @@
  * @package       app.Model
  * @since         CakePHP(tm) v 0.2.9
  */
+namespace rjl\lib\Cake\bin\Templates\skel\Model;
+
 
 App::uses('Model', 'Model');
 

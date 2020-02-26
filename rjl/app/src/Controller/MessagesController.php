@@ -1,4 +1,6 @@
 <?php
+namespace rjl\app\Controller;
+
 class MessagesController extends AppController{
   public function index() 
         {

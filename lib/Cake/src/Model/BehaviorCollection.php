@@ -17,6 +17,8 @@
  * @since         CakePHP(tm) v 1.2.0.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace lib\Cake\Model;
+
 
 App::uses('ObjectCollection', 'Utility');
 App::uses('CakeEventListener', 'Event');

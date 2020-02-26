@@ -1,4 +1,6 @@
 <?php
+namespace rjl\app\Controller;
+
 class OffendersController extends AppController {
     public $components = array('Session','RequestHandler');
     

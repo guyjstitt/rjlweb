@@ -1,5 +1,7 @@
 <?php
 
+namespace rjl\app\Controller;
+
 class DashboardController extends AppController {
     //put your code here
 	

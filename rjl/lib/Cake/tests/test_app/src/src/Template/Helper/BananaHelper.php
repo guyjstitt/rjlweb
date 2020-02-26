@@ -1,5 +1,7 @@
 <?php
 
+namespace rjl\lib\Cake\Test\test_app\Template\Helper;
+
 App::uses('Helper', 'View');
 
 class BananaHelper extends Helper {

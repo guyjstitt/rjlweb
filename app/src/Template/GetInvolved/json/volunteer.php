@@ -1,5 +1,7 @@
 <?php
 
+namespace app\Template\GetInvolved\json;
+
 include('connect-db.php');
 
 $fname = ($_POST['inputFirstName']);

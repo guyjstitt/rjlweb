@@ -12,6 +12,8 @@
  * @since         CakePHP(tm) v 1.2.0.5432
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Test\TestCase\Utility;
+
 
 App::uses('Security', 'Utility');
 

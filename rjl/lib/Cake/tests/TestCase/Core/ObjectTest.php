@@ -15,6 +15,8 @@
  * @since         CakePHP(tm) v 1.2.0.5432
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjl\lib\Cake\Test\TestCase\Core;
+
 
 App::uses('Object', 'Core');
 App::uses('Router', 'Routing');

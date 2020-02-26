@@ -14,6 +14,8 @@
  * @since         CakePHP(tm) v2.1
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjl\lib\Cake\Template;
+
 
 /**
  * ViewBlock implements the concept of Blocks or Slots in the View layer.

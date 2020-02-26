@@ -1,5 +1,7 @@
 <?php
 
+namespace rjl\app\Controller;
+
 class TestsController extends AppController {
 	
 	public $helpers = array('Js');

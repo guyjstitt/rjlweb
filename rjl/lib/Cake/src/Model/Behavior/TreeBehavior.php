@@ -17,6 +17,8 @@
  * @since         CakePHP v 1.2.0.4487
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjl\lib\Cake\Model\Behavior;
+
 
 App::uses('ModelBehavior', 'Model');
 

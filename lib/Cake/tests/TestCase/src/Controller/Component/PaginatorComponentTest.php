@@ -17,6 +17,8 @@
  * @since         CakePHP(tm) v 2.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace lib\Cake\Test\TestCase\Controller\Component;
+
 
 App::uses('Controller', 'Controller');
 App::uses('PaginatorComponent', 'Controller/Component');

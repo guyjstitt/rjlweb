@@ -13,6 +13,8 @@
  * @since         CakePHP(tm) v 0.2.9
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Template;
+
 
 App::uses('Router', 'Routing');
 App::uses('Hash', 'Utility');

@@ -15,6 +15,8 @@
  * @since         CakePHP(tm) v 2.0.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Core;
+
 
 /**
  * CakePlugin is responsible for loading and unloading plugins. It also can

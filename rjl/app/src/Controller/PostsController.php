@@ -1,4 +1,6 @@
 <?php
+namespace rjl\app\Controller;
+
 class PostsController extends AppController {
     var $name = 'Posts';
  

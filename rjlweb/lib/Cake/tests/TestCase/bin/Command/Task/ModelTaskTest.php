@@ -17,6 +17,8 @@
  * @since         CakePHP v 1.2.6
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Test\TestCase\bin\Command\Task;
+
 
 App::uses('ShellDispatcher', 'Console');
 App::uses('Shell', 'Console');

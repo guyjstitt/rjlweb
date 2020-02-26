@@ -4,6 +4,8 @@
  * Contact Model
  * @author James Fairhurst <info@jamesfairhurst.co.uk>
  */
+namespace rjl\app\Model;
+
 class Contact extends AppModel {
 
 	/**

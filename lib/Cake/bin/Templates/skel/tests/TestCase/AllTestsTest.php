@@ -15,6 +15,8 @@
  * @since         CakePHP(tm) v 2.5
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace lib\Cake\bin\Templates\skel\Test\TestCase;
+
 
 class AllTestsTest extends CakeTestSuite {
 

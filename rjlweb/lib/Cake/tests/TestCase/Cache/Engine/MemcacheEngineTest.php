@@ -15,6 +15,8 @@
  * @since         CakePHP(tm) v 1.2.0.5434
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Test\TestCase\Cache\Engine;
+
 
 App::uses('Cache', 'Cache');
 App::uses('MemcacheEngine', 'Cache/Engine');

@@ -17,6 +17,8 @@
  * @since         Cake v 0.10.0.1076
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace lib\Cake\Template;
+
 
 App::uses('View', 'View');
 

@@ -1,5 +1,7 @@
 <?php
 
+namespace rjl\app\Controller;
+
 class UploadsController extends AppController {
 
 public function index() {

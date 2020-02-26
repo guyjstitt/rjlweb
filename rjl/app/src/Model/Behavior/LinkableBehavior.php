@@ -1,4 +1,6 @@
 <?php
+namespace rjl\app\Model\Behavior;
+
 App::uses('ModelBehavior', 'Model');
 
 /**

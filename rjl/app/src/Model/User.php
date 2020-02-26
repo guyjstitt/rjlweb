@@ -1,4 +1,6 @@
 <?php
+namespace rjl\app\Model;
+
 class User extends AppModel {
 	public $hasOne = array('Person');
 	//public $hasOne = 'Person';

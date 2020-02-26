@@ -14,6 +14,8 @@
  * @since         CakePHP(tm) v 1.3
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\TestSuite\Reporter;
+
 
 App::uses('CakeBaseReporter', 'TestSuite/Reporter');
 App::uses('TextCoverageReport', 'TestSuite/Coverage');

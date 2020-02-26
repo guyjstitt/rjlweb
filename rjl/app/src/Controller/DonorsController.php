@@ -1,4 +1,6 @@
 <?php
+namespace rjl\app\Controller;
+
 class DonorsController extends AppController {
     var $name = 'Donors';
  

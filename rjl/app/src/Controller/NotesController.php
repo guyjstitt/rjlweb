@@ -5,6 +5,8 @@
  *
  * @author dp
  */
+namespace rjl\app\Controller;
+
 class NotesController extends AppController {
     //var $components = array('RequestHandler');
     //var $layout = 'ajax';  // uses the ajax layout

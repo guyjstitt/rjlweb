@@ -15,6 +15,8 @@
  * @since         CakePHP(tm) v .0.10.0.1233
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Utility;
+
 
 App::uses('String', 'Utility');
 

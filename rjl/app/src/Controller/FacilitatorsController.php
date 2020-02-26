@@ -4,6 +4,8 @@
  * Facilitator Controller
  * @author James Fairhurst <info@jamesfairhurst.co.uk>
  */
+namespace rjl\app\Controller;
+
 class FacilitatorsController extends AppController {
 
 	/**

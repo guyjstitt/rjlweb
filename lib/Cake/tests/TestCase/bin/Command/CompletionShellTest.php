@@ -17,6 +17,8 @@
  * @since         CakePHP v 2.5
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace lib\Cake\Test\TestCase\bin\Command;
+
 
 App::uses('CompletionShell', 'Console/Command');
 App::uses('ConsoleOutput', 'Console');

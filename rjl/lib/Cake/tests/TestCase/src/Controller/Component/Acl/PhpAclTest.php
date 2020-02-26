@@ -15,6 +15,8 @@
  * @since         CakePHP(tm) v 2.1
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjl\lib\Cake\Test\TestCase\Controller\Component\Acl;
+
 
 App::uses('AclComponent', 'Controller/Component');
 App::uses('PhpAcl', 'Controller/Component/Acl');

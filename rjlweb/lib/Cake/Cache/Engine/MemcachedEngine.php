@@ -12,6 +12,8 @@
  * @since         CakePHP(tm) v 2.5.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Cache\Engine;
+
 
 /**
  * Memcached storage engine for cache. Memcached has some limitations in the amount of

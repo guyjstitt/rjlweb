@@ -1,5 +1,7 @@
 <?php
 
+namespace rjl\lib\Cake\Test\test_app\Controller;
+
 App::uses('CakeErrorController', 'Controller');
 
 class TestAppsErrorController extends CakeErrorController {

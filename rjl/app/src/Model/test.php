@@ -1,5 +1,7 @@
 <?php
 
+namespace rjl\app\Model;
+
 class Test extends AppModel {
 	public $validate = array(
 		'name'=>array(

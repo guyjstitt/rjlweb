@@ -14,6 +14,8 @@
  * @since         CakePHP(tm) v 1.2
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace lib\Cake\bin\Command\Task;
+
 
 App::uses('AppShell', 'Console/Command');
 

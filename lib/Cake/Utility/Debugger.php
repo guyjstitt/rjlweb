@@ -17,6 +17,8 @@
  * @since         CakePHP(tm) v 1.2.4560
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace lib\Cake\Utility;
+
 
 App::uses('CakeLog', 'Log');
 App::uses('CakeText', 'Utility');

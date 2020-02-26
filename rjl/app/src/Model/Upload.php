@@ -1,4 +1,6 @@
 <?php
+namespace rjl\app\Model;
+
 class Upload extends AppModel {
 	public $name = 'Upload';
 	/**

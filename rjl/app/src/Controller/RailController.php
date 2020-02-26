@@ -1,5 +1,7 @@
 <?php
 
+namespace rjl\app\Controller;
+
 App::uses('AppController', 'Controller');
 
 /**

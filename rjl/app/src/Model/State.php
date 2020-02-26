@@ -1,4 +1,6 @@
 <?php
+namespace rjl\app\Model;
+
 App::uses('AppModel', 'Model');
 /**
  * State Model

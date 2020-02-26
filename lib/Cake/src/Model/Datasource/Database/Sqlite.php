@@ -15,6 +15,8 @@
  * @since         CakePHP(tm) v 0.9.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace lib\Cake\Model\Datasource\Database;
+
 
 App::uses('DboSource', 'Model/Datasource');
 App::uses('CakeText', 'Utility');

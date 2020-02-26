@@ -1,5 +1,7 @@
 <?php
 
+namespace rjl\lib\Cake\Test\test_app\Error;
+
 class TestAppsExceptionRenderer extends ExceptionRenderer {
 
 	protected function _getController($exception) {

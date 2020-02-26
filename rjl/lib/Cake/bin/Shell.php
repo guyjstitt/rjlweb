@@ -14,6 +14,8 @@
  * @since         CakePHP(tm) v 1.2.0.5012
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjl\lib\Cake\bin;
+
 
 App::uses('TaskCollection', 'Console');
 App::uses('ConsoleOutput', 'Console');

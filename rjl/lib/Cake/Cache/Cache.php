@@ -13,6 +13,8 @@
  * @since         CakePHP(tm) v 1.2.0.4933
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjl\lib\Cake\Cache;
+
 
 App::uses('Inflector', 'Utility');
 App::uses('CacheEngine', 'Cache');

@@ -4,6 +4,8 @@
  * Contact Controller
  * @author James Fairhurst <info@jamesfairhurst.co.uk>
  */
+namespace rjl\app\Controller;
+
 class ContactController extends AppController {
 
 	/**

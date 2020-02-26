@@ -13,6 +13,8 @@
  * @since		  CakePHP(tm) v 2.1
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace rjlweb\lib\Cake\Event;
+
 
 App::uses('CakeEventListener', 'Event');
 

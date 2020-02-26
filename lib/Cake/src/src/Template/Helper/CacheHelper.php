@@ -13,6 +13,8 @@
  * @since         CakePHP(tm) v 1.0.0.2277
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+namespace lib\Cake\Template\Helper;
+
 
 App::uses('AppHelper', 'View/Helper');
 
